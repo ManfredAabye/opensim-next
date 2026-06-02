@@ -1,6 +1,6 @@
 # opensim-next
 
-Fork/Basis: OpenSimulator mit .NET-10- und NUnit3-Migrationsarbeiten.
+Fork/Base: OpenSimulator with .NET-10 and NUnit3 migration work.
 
 Welcome to OpenSimulator (OpenSim for short)!
 
