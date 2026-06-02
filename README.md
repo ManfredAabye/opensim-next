@@ -99,14 +99,14 @@ one you set up using the "create user" command.
 ## Bug reports
 
 In the very likely event of bugs biting you (err, your OpenSim) we
-encourage you to see whether the problem has already been reported on
-the [OpenSim mantis system](http://opensimulator.org/mantis/main_page.php).
+encourage you to see whether the problem has already been reported here and not in OpenSim Mantis.
 
 If your bug has already been reported, you might want to add to the
 bug description and supply additional information.
 
-If your bug has not been reported yet, file a bug report ("opening a
-mantis"). Useful information to include:
+If your bug has not been reported yet, file a bug report. 
+
+Useful information to include:
 
 * description of what went wrong
 * stack trace
@@ -117,6 +117,6 @@ mantis"). Useful information to include:
 
 More extensive information on building, running, and configuring
 OpenSim, as well as how to report bugs, and participate in the OpenSim
-project can always be found at <http://opensimulator.org>.
+original project can always be found at <http://opensimulator.org>.
 
 Thanks for trying OpenSim, we hope it is a pleasant experience.
