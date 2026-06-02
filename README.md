@@ -2,6 +2,8 @@
 
 Fork/Base: OpenSimulator with .NET-10 and NUnit3 migration work.
 
+🚧 This is a feasibility test and not a finished OpenSimulator. 🚧
+
 Welcome to OpenSimulator (OpenSim for short)!
 
 <img src="https://raw.githubusercontent.com/ManfredAabye/opensim-next/refs/heads/main/OS-Logo.png" alt="Project Badge" width="450">
