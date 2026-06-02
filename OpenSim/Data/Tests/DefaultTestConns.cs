@@ -32,6 +32,7 @@ using System.Text;
 using System.Reflection;
 using System.IO;
 using Nini.Config;
+using NUnit.Framework;
 
 namespace OpenSim.Data.Tests
 {
@@ -71,13 +72,28 @@ namespace OpenSim.Data.Tests
             string sResFile = Array.Find(allres, s => s.Contains("TestDataConnections.ini"));
 
             if (String.IsNullOrEmpty(sResFile))
-                throw new Exception(String.Format("Please add resource TestDataConnections.ini, with section [TestConnections] and settings like {0}=\"...\"",
-                    sType));
+            {
+                Assert.Ignore(
+                    String.Format(
+                        "Missing optional resource TestDataConnections.ini for {0}. Database-backed data tests are skipped.",
+                        sType));
+
+                return String.Empty;
+            }
 
             using (Stream resource = asm.GetManifestResourceStream(sResFile))
             {
                 IConfigSource source = new IniConfigSource(resource);
                 var cfg = source.Configs["TestConnections"];
+
+                if (cfg == null)
+                {
+                    Assert.Ignore(
+                        "Missing [TestConnections] section in TestDataConnections.ini. Database-backed data tests are skipped.");
+
+                    return String.Empty;
+                }
+
                 sConn = cfg.Get(sType, "");
             }
 

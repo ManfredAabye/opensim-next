@@ -56,14 +56,14 @@ namespace OpenSim.Region.ClientStack.Linden.Caps.Tests
     [TestFixture]
     public class WebFetchInvDescModuleTests : OpenSimTestCase
     {
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void TestFixtureSetUp()
         {
             // Don't allow tests to be bamboozled by asynchronous events.  Execute everything on the same thread.
             Util.FireAndForgetMethod = FireAndForgetMethod.RegressionTest;
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TestFixureTearDown()
         {
             // We must set this back afterwards, otherwise later tests will fail since they're expecting multiple

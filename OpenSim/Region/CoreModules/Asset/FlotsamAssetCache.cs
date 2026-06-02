@@ -190,6 +190,21 @@ namespace OpenSim.Region.CoreModules.Asset
                     if(m_MemoryCacheEnabled)
                         m_MemoryCache = new ExpiringCacheOS<string, AssetBase>((int)m_MemoryExpiration * 500);
 
+                    if (m_FileCacheEnabled)
+                    {
+                        try
+                        {
+                            using MemoryStream probeStream = new();
+                            BinaryFormatter probeFormatter = new();
+                            probeFormatter.Serialize(probeStream, new byte[] { 1 });
+                        }
+                        catch (Exception e) when (e is NotSupportedException || e is PlatformNotSupportedException)
+                        {
+                            m_FileCacheEnabled = false;
+                            m_log.Warn("[FLOTSAM ASSET CACHE]: File cache disabled because BinaryFormatter is not supported on this runtime.");
+                        }
+                    }
+
                     m_log.Info($"[FLOTSAM ASSET CACHE]: Cache Directory {m_CacheDirectory}");
 
                     if (m_CacheDirectoryTiers < 1)

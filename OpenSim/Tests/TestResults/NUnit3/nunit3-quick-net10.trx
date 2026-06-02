@@ -1,0 +1,1425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="df70d61a-6bd9-4ba6-9054-b51033c6d4fc" name="zainh@MHPC-WORKSTATIO 2026-06-02 10:48:03" runUser="MHPC-WORKSTATIO\zainh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-02T10:48:03.4032418+02:00" queuing="2026-06-02T10:48:03.4032422+02:00" start="2026-06-02T10:47:12.6586290+02:00" finish="2026-06-02T10:48:06.2977637+02:00" />
+  <TestSettings name="default" id="4263f13b-c58e-47cf-830f-da9889f2151f">
+    <Deployment runDeploymentRoot="zainh_MHPC-WORKSTATIO_2026-06-02_10_48_03" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="608e08ba-3a41-4a70-8015-640a702230b7" testId="3fd170c8-bbaf-480c-81b8-b43411be4886" testName="T022_EstateSettingsGroupList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001480" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214557+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="608e08ba-3a41-4a70-8015-640a702230b7">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7f8cf8c-ad31-4ec1-85cf-e4ddfefbb00f" testId="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6" testName="TestRegionSettingsDeserialize" computerName="MHPC-WORKSTATIO" duration="00:00:00.0051800" startTime="2026-06-02T10:48:03.4427142+02:00" endTime="2026-06-02T10:48:03.4478933+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7f8cf8c-ad31-4ec1-85cf-e4ddfefbb00f">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestRegionSettingsDeserialize &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54512a41-b092-4273-babd-24c7bb5211ff" testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" testName="T302_FetchTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001290" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215937+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54512a41-b092-4273-babd-24c7bb5211ff">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ac467a87-7422-4945-b1b9-9f60f24c1b5e" testId="852239b7-624d-305c-e63e-8b4841d18200" testName="T020_CheckForWeirdCreatorID" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002690" startTime="2026-06-02T10:48:03.4210213+02:00" endTime="2026-06-02T10:48:03.4212900+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac467a87-7422-4945-b1b9-9f60f24c1b5e">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a9b0b94-5363-4b78-88d6-2a8538c128fb" testId="f05779d8-2ba9-ad62-c34e-74faea653ec4" testName="T301_CreateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002610" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420265+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a9b0b94-5363-4b78-88d6-2a8538c128fb">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b049093-815f-4bab-90ff-4c5b33576184" testId="abe572dc-9cba-04e8-323e-9a72536da491" testName="ShouldFailToCompareListsThatAreDifferent" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001230" startTime="2026-06-02T10:48:03.4098688+02:00" endTime="2026-06-02T10:48:03.4099917+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b049093-815f-4bab-90ff-4c5b33576184" />
+    <UnitTestResult executionId="8e224b9f-df82-48e7-aaa5-a65a46238654" testId="f8ba269a-c7a7-db85-4521-7a458ca43493" testName="ExpireItemManually" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003370" startTime="2026-06-02T10:48:03.4845396+02:00" endTime="2026-06-02T10:48:03.4848761+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e224b9f-df82-48e7-aaa5-a65a46238654" />
+    <UnitTestResult executionId="14df6f27-d8a9-43db-ac31-ddceb1124228" testId="6bd8cea5-da22-039f-b159-7758adaaece5" testName="T022_EstateSettingsBanList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002330" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3414030+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14df6f27-d8a9-43db-ac31-ddceb1124228">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0fc33707-66ac-4da1-b3c3-23c3f5453f77" testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" testName="T101_UpdateRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001260" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fc33707-66ac-4da1-b3c3-23c3f5453f77">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15c0a66b-0f1e-414e-a906-38134a284c3f" testId="767a14f4-3be3-6c93-205f-d04e030d60ed" testName="T011_FolderCreate" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003040" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417283+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15c0a66b-0f1e-414e-a906-38134a284c3f">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c33f5385-385d-42b6-b561-305eeeb45678" testId="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c" testName="T015_LargeSceneObjects" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002540" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420195+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c33f5385-385d-42b6-b561-305eeeb45678">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5cecedac-8254-4282-ac2d-d76bd719bcf2" testId="03c0d539-4d8b-825c-c0c6-8a13a8d4696d" testName="TestRetreive" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001580" startTime="2026-06-02T10:48:03.4850634+02:00" endTime="2026-06-02T10:48:03.4852216+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cecedac-8254-4282-ac2d-d76bd719bcf2" />
+    <UnitTestResult executionId="c3b84e28-37d7-4d65-b43a-c0fd652ff6e3" testId="6db48d17-20b0-c78a-2049-391c705fef5f" testName="ShouldFailToCompareListsThatAreDifferentLengths" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001460" startTime="2026-06-02T10:48:03.4100003+02:00" endTime="2026-06-02T10:48:03.4101463+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3b84e28-37d7-4d65-b43a-c0fd652ff6e3" />
+    <UnitTestResult executionId="207befd5-b576-4e36-a6df-0d3469c695be" testId="548cba8c-1666-f71b-87c0-cb437d1387e9" testName="AgentPositionTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0017070" startTime="2026-06-02T10:48:03.4862337+02:00" endTime="2026-06-02T10:48:03.4879400+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="207befd5-b576-4e36-a6df-0d3469c695be" />
+    <UnitTestResult executionId="567f576d-9615-427e-94de-e03158eb5089" testId="81f29b60-b376-7ecb-3127-952594448024" testName="T052_RemoveObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002570" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420230+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="567f576d-9615-427e-94de-e03158eb5089">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2fd50ce9-ecaa-45a5-8394-9976b403fa5f" testId="b08d191f-efe5-e296-c548-602238003849" testName="T020_EstateSettingsManagerList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001460" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214532+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fd50ce9-ecaa-45a5-8394-9976b403fa5f">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05506852-90e2-47d5-a893-a6c711c181f7" testId="f6e201dd-1996-9312-6851-498ac8e9d3ef" testName="T020_PrimInventoryEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002550" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420205+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05506852-90e2-47d5-a893-a6c711c181f7">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d7ac920-01b3-4be4-8c40-2d6e119584d0" testId="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747" testName="T300_NoTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002599" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420256+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d7ac920-01b3-4be4-8c40-2d6e119584d0">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8650a954-b698-4e83-8138-762c8136846c" testId="47c83c91-df22-d221-1e71-68386c74c54e" testName="AnimationOSDTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0007910" startTime="2026-06-02T10:48:03.4793308+02:00" endTime="2026-06-02T10:48:03.4801220+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8650a954-b698-4e83-8138-762c8136846c" />
+    <UnitTestResult executionId="86ccd1a4-c791-4713-b5cb-38ff0e14a8fe" testId="098181c7-a000-6052-cfff-e9cd8f00af0e" testName="T013_DatabasePersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001190" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215839+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86ccd1a4-c791-4713-b5cb-38ff0e14a8fe">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f68390a-0b68-4af2-8c55-7b011c504046" testId="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c" testName="Test1000SmallPrimeNumbers" computerName="MHPC-WORKSTATIO" duration="00:00:00.0013780" startTime="2026-06-02T10:48:03.4918683+02:00" endTime="2026-06-02T10:48:03.4932466+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f68390a-0b68-4af2-8c55-7b011c504046" />
+    <UnitTestResult executionId="b344183d-ed5a-4091-894a-1ba95ef46aad" testId="32189929-1bd3-69f1-c05e-251604dca7db" testName="TestLandDataDeserializeWithAccessLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0009450" startTime="2026-06-02T10:48:03.4416375+02:00" endTime="2026-06-02T10:48:03.4425820+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b344183d-ed5a-4091-894a-1ba95ef46aad">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestLandDataDeserializeWithAccessLists &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98fa2c64-8089-4c4f-9225-2a6267f595f0" testId="6d877b38-ff89-3c2e-d6bf-4f524738cc6c" testName="T400_EmptyLand" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002640" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420292+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98fa2c64-8089-4c4f-9225-2a6267f595f0">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f47ceaa6-31d9-4e24-8735-712779f8e765" testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" testName="T025_PrimInventoryPersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001230" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215885+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f47ceaa6-31d9-4e24-8735-712779f8e765">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b48117c0-a66e-4995-875c-537fb0eae82e" testId="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72" testName="T013_FolderHierarchy" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003060" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417302+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b48117c0-a66e-4995-875c-537fb0eae82e">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8659c9f-a8c2-411f-b1df-9c53f2485b98" testId="f1d0ec42-910f-55fa-6320-f7209b19e16c" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002260" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3413952+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8659c9f-a8c2-411f-b1df-9c53f2485b98">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c7f82bb-06cf-4222-a526-66cd3007b39d" testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" testName="T011_ObjectNames" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001170" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215822+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c7f82bb-06cf-4222-a526-66cd3007b39d">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a347df4c-6456-414a-b9ea-4f8f12ac9004" testId="042a96c9-9623-86b4-8531-0dc5a074627e" testName="T102_CompareItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003120" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417364+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a347df4c-6456-414a-b9ea-4f8f12ac9004">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cad06882-1fd5-45f2-a543-c6221bc9b8f2" testId="90c3e869-401f-5da0-e507-48801c4a1b07" testName="DontScramble" computerName="MHPC-WORKSTATIO" duration="00:00:00.0055430" startTime="2026-06-02T10:48:03.4138647+02:00" endTime="2026-06-02T10:48:03.4194078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cad06882-1fd5-45f2-a543-c6221bc9b8f2" />
+    <UnitTestResult executionId="721b5da1-e376-4184-8aa4-fbb2a7fc7c9f" testId="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3" testName="AssetShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0655370" startTime="2026-06-02T10:48:03.3421206+02:00" endTime="2026-06-02T10:48:03.4076575+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="721b5da1-e376-4184-8aa4-fbb2a7fc7c9f" />
+    <UnitTestResult executionId="d799ffef-34e1-408b-a244-b1b8d81852b3" testId="e57c63cb-639c-5bf4-0581-f13c0be293a1" testName="IntShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002540" startTime="2026-06-02T10:48:03.4092649+02:00" endTime="2026-06-02T10:48:03.4095187+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d799ffef-34e1-408b-a244-b1b8d81852b3" />
+    <UnitTestResult executionId="8820408d-74f7-47b2-a756-58e12ac11fab" testId="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d" testName="T013_DatabasePersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002520" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420174+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8820408d-74f7-47b2-a756-58e12ac11fab">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14f86459-2a02-4cb7-9c57-66d4def92d9b" testId="adc67e64-9cdb-5799-0b28-f0e9b5683888" testName="TestLandDataDeserializeNoAccessLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0199440" startTime="2026-06-02T10:48:03.4216636+02:00" endTime="2026-06-02T10:48:03.4416074+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14f86459-2a02-4cb7-9c57-66d4def92d9b">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestLandDataDeserializeNoAccessLists &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69378cee-8da8-4b18-9baa-844f69d314c5" testId="6fe6f8fc-4880-0ebb-0937-30c29636418b" testName="T012_EstateSettingsRandomStorage" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002300" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3413996+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69378cee-8da8-4b18-9baa-844f69d314c5">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfb7c61b-7041-48a0-ab50-1d2e2456670d" testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002570" startTime="2026-06-02T10:48:03.4210213+02:00" endTime="2026-06-02T10:48:03.4212782+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfb7c61b-7041-48a0-ab50-1d2e2456670d">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87f88ba2-a456-4fc5-a0e6-25114810d122" testId="51aa2931-b79d-5980-4c97-4b096eb0cbc9" testName="T020_EstateSettingsManagerList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002320" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3414014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87f88ba2-a456-4fc5-a0e6-25114810d122">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc08ccec-0349-4f4b-826f-e7b7c8f587a8" testId="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97" testName="SLUtilTypeConvertTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005960" startTime="2026-06-02T10:48:03.4958295+02:00" endTime="2026-06-02T10:48:03.4964256+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc08ccec-0349-4f4b-826f-e7b7c8f587a8" />
+    <UnitTestResult executionId="642691cd-5d2c-41a8-b2ea-23a98e7b7d57" testId="4e582587-0202-714b-190f-e62e992bf9c7" testName="T012_EstateSettingsRandomStorage" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001440" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214512+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="642691cd-5d2c-41a8-b2ea-23a98e7b7d57">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e09510a-46fd-499a-babe-f74fff11f972" testId="499e9057-4fb6-d102-85ba-2cf0b5387676" testName="UUIDShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001620" startTime="2026-06-02T10:48:03.4129465+02:00" endTime="2026-06-02T10:48:03.4131087+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e09510a-46fd-499a-babe-f74fff11f972" />
+    <UnitTestResult executionId="f826110c-f4e5-4313-9121-b2942cc15b8f" testId="c58ac1e3-419b-3462-82ce-cf7b3cc7283c" testName="TestGetPrime" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004090" startTime="2026-06-02T10:48:03.4932627+02:00" endTime="2026-06-02T10:48:03.4936717+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f826110c-f4e5-4313-9121-b2942cc15b8f" />
+    <UnitTestResult executionId="28b1c29b-8ce9-4024-b2d2-7a51ca91b1fc" testId="d4969930-e153-6031-fd45-e8f3faf49436" testName="TestAgentCircuitDataOSDConversion" computerName="MHPC-WORKSTATIO" duration="00:00:00.0149950" startTime="2026-06-02T10:48:03.4607698+02:00" endTime="2026-06-02T10:48:03.4757638+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28b1c29b-8ce9-4024-b2d2-7a51ca91b1fc" />
+    <UnitTestResult executionId="a3f67337-36dd-4868-9282-d5b7e68d6372" testId="fa306458-aa1a-bd13-3cce-3894b0c8f21c" testName="ChildAgentDataUpdate01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000980" startTime="2026-06-02T10:48:03.4888076+02:00" endTime="2026-06-02T10:48:03.4889059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3f67337-36dd-4868-9282-d5b7e68d6372" />
+    <UnitTestResult executionId="e849823a-4268-454d-a826-410a046dca25" testId="5e749a33-b16c-67ed-d947-25b975f49fd5" testName="UUIDTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002100" startTime="2026-06-02T10:48:03.4964419+02:00" endTime="2026-06-02T10:48:03.4966513+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e849823a-4268-454d-a826-410a046dca25" />
+    <UnitTestResult executionId="9ea159fa-8a07-4b5a-ab71-210a982f01c8" testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001450" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214522+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ea159fa-8a07-4b5a-ab71-210a982f01c8">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fbd09307-c552-4c1e-ab8c-6f50dc1cc8e4" testId="72ed9f60-2570-c8ae-52df-10594cf0265b" testName="T300_NoTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001270" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215920+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbd09307-c552-4c1e-ab8c-6f50dc1cc8e4">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4ab072f1-8674-4e3c-a7de-413cfeea489a" testId="2e399be7-cc05-fd0d-fd3a-2528014d446d" testName="EstateSettingsMundateTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0015250" startTime="2026-06-02T10:48:03.4890771+02:00" endTime="2026-06-02T10:48:03.4906014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ab072f1-8674-4e3c-a7de-413cfeea489a" />
+    <UnitTestResult executionId="9d304ec2-aab2-49ae-87f7-d340b33a358c" testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" testName="T010_StoreReadVerifyAssets" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002660" startTime="2026-06-02T10:48:03.4210213+02:00" endTime="2026-06-02T10:48:03.4212877+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d304ec2-aab2-49ae-87f7-d340b33a358c">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d52d8494-a51a-4282-adb9-4400b7a72a0b" testId="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b" testName="T025_PrimInventoryPersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002570" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420223+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d52d8494-a51a-4282-adb9-4400b7a72a0b">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd855b1c-40ef-4892-8841-4da014544690" testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" testName="T022_EstateSettingsBanList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001470" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214549+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd855b1c-40ef-4892-8841-4da014544690">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="03d0dcca-965a-4fc8-b2ed-2d420eeb13e5" testId="97c2ccff-bb27-4030-0e46-dd6f137afa2d" testName="T012_SceneParts" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002440" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420093+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03d0dcca-965a-4fc8-b2ed-2d420eeb13e5">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01d74508-ec88-4b11-bde8-307c514c298e" testId="309796e1-11f2-746c-5bc6-effd0550e04f" testName="AssetShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005540" startTime="2026-06-02T10:48:03.4076843+02:00" endTime="2026-06-02T10:48:03.4082380+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01d74508-ec88-4b11-bde8-307c514c298e" />
+    <UnitTestResult executionId="29882e14-8264-4560-a8ff-f85c5899046a" testId="8ef90458-4232-8a53-3a54-1c746414bcba" testName="GetHashGuidTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0010160" startTime="2026-06-02T10:48:03.4947979+02:00" endTime="2026-06-02T10:48:03.4958142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29882e14-8264-4560-a8ff-f85c5899046a" />
+    <UnitTestResult executionId="6452109d-4a10-4575-99bc-f6f63ffd77b5" testId="28d324f1-bfba-6215-d008-28c64d496ca1" testName="locationRegionHandleRegionHandle" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003330" startTime="2026-06-02T10:48:03.4852991+02:00" endTime="2026-06-02T10:48:03.4856318+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6452109d-4a10-4575-99bc-f6f63ffd77b5" />
+    <UnitTestResult executionId="f653b4db-3fe2-412b-8676-d2455db20255" testId="009dbe34-88f9-b0fd-cbfd-16976c8950e4" testName="TestScramble" computerName="MHPC-WORKSTATIO" duration="00:00:00.0015210" startTime="2026-06-02T10:48:03.4194262+02:00" endTime="2026-06-02T10:48:03.4209476+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f653b4db-3fe2-412b-8676-d2455db20255" />
+    <UnitTestResult executionId="81c0fdad-82ee-405b-a37d-5e2e8aba0104" testId="4e27ce00-70cd-8d0f-00fd-042054acf5f8" testName="T021_EstateSettingsUserList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002320" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3414022+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81c0fdad-82ee-405b-a37d-5e2e8aba0104">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="02315e27-4048-4988-a5d0-fab84ef90aee" testId="a17f52ed-98d5-6112-2340-5efca43df893" testName="CacheItemMundane" computerName="MHPC-WORKSTATIO" duration="00:00:00.0016680" startTime="2026-06-02T10:48:03.4820703+02:00" endTime="2026-06-02T10:48:03.4837378+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02315e27-4048-4988-a5d0-fab84ef90aee" />
+    <UnitTestResult executionId="45adfb71-741a-4ea5-b434-6c97a6ce0b9e" testId="b1978015-37e3-42cf-cd41-d79356ee9616" testName="CultureSetCultureTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001560" startTime="2026-06-02T10:48:03.4889132+02:00" endTime="2026-06-02T10:48:03.4890696+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45adfb71-741a-4ea5-b434-6c97a6ce0b9e" />
+    <UnitTestResult executionId="a317f8ba-007e-43d7-a4da-5851681d7014" testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" testName="T400_EmptyLand" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001299" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a317f8ba-007e-43d7-a4da-5851681d7014">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a808294-b4b7-41c2-9f9c-7316b4e7ee1c" testId="00fc6096-67ab-79d2-c6ea-55e67892d813" testName="T104_RandomUpdateItem" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003140" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417381+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a808294-b4b7-41c2-9f9c-7316b4e7ee1c">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e659fc37-99d9-4a19-8131-5c36689cf16b" testId="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002290" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3413985+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e659fc37-99d9-4a19-8131-5c36689cf16b">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f677d2d-3126-4d11-9b6a-b4f72014fe68" testId="e561f19f-e65f-a6b1-5525-d621ae6bca59" testName="VectorOperationTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0018000" startTime="2026-06-02T10:48:03.4966599+02:00" endTime="2026-06-02T10:48:03.4984600+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f677d2d-3126-4d11-9b6a-b4f72014fe68" />
+    <UnitTestResult executionId="ebdc7293-e2ef-4668-ae52-0df2a5f16441" testId="dd698695-d5e8-e46b-5d87-7458da5b795e" testName="AddAgentCircuitTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0018260" startTime="2026-06-02T10:48:03.4759209+02:00" endTime="2026-06-02T10:48:03.4777467+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebdc7293-e2ef-4668-ae52-0df2a5f16441" />
+    <UnitTestResult executionId="11fdfcc2-2de0-4732-861c-ba2b550b0507" testId="84e85aef-1e37-c74c-48f8-9b714f4f8912" testName="FakeParcelIDTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0010300" startTime="2026-06-02T10:48:03.4937514+02:00" endTime="2026-06-02T10:48:03.4947811+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11fdfcc2-2de0-4732-861c-ba2b550b0507" />
+    <UnitTestResult executionId="99d90110-37ed-4fec-84b2-e5c5e0850980" testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" testName="T052_RemoveObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001240" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215893+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99d90110-37ed-4fec-84b2-e5c5e0850980">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0074a72c-5fdc-485c-a63a-903e36b67bb8" testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" testName="NUnit3RunnerIsWorking" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000550" startTime="2026-06-02T10:48:03.4986254+02:00" endTime="2026-06-02T10:48:03.4986807+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0074a72c-5fdc-485c-a63a-903e36b67bb8" />
+    <UnitTestResult executionId="fa609101-593d-4c7e-9d2b-ef18f97e673e" testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001430" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214502+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa609101-593d-4c7e-9d2b-ef18f97e673e">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfffc467-a13c-4d49-9603-4e8ee4ef7045" testId="5c5c6491-bd33-52a4-f553-cdb60575be3f" testName="ClearCacheTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0007680" startTime="2026-06-02T10:48:03.4837557+02:00" endTime="2026-06-02T10:48:03.4845236+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfffc467-a13c-4d49-9603-4e8ee4ef7045" />
+    <UnitTestResult executionId="33597051-33ab-40f3-a450-9f5bcc647659" testId="7897646f-d590-a744-6f54-191c285b2d61" testName="T010_StoreReadVerifyAssets" computerName="MHPC-WORKSTATIO" duration="00:00:00.0275870" startTime="2026-06-02T10:48:03.3116890+02:00" endTime="2026-06-02T10:48:03.3392757+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33597051-33ab-40f3-a450-9f5bcc647659">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74d70097-25a8-4335-b286-cc58dff19c68" testId="cf3c514c-7cb0-8eb1-03b3-53e879988c1c" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002390" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74d70097-25a8-4335-b286-cc58dff19c68">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9bdf745d-9af0-4a1b-b827-b47fc760b3b9" testId="686f6711-8021-a8f3-3b3a-eaba536072b2" testName="T011_ObjectNames" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002430" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420083+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bdf745d-9af0-4a1b-b827-b47fc760b3b9">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="180520cc-5a58-49aa-abbd-544a1af865d2" testId="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5" testName="T103_UpdateItem" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003130" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417372+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="180520cc-5a58-49aa-abbd-544a1af865d2">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d8a56de3-de32-4b14-92bc-4a54ac40c3f4" testId="5c117b56-1506-1bd1-f044-876710cad1ee" testName="ShouldCompareLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002120" startTime="2026-06-02T10:48:03.4096488+02:00" endTime="2026-06-02T10:48:03.4098607+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8a56de3-de32-4b14-92bc-4a54ac40c3f4" />
+    <UnitTestResult executionId="9f829d06-faa8-4a02-af01-5e8f92842aec" testId="044df121-0fda-1dc1-83b7-9cf764aef8f7" testName="InventoryFolderBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003900" startTime="2026-06-02T10:48:03.4906199+02:00" endTime="2026-06-02T10:48:03.4910102+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f829d06-faa8-4a02-af01-5e8f92842aec" />
+    <UnitTestResult executionId="702135bd-83c8-4276-85ad-4d98a2f59a49" testId="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb" testName="ChangeAgentCircuitCodeTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0006750" startTime="2026-06-02T10:48:03.4777649+02:00" endTime="2026-06-02T10:48:03.4784395+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="702135bd-83c8-4276-85ad-4d98a2f59a49" />
+    <UnitTestResult executionId="8517826f-a73d-490d-82ce-5c78b5064ae2" testId="599496d6-b812-62ed-1f0f-451526f6cb9c" testName="TestContainsReferences" computerName="MHPC-WORKSTATIO" duration="00:00:00.0017600" startTime="2026-06-02T10:48:03.4802018+02:00" endTime="2026-06-02T10:48:03.4819615+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8517826f-a73d-490d-82ce-5c78b5064ae2" />
+    <UnitTestResult executionId="ce017806-eb05-4429-bb40-ab969a2efb0e" testId="cc1c41d0-768f-e315-7ccb-0eec48d3b923" testName="InventoryItemBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003880" startTime="2026-06-02T10:48:03.4910249+02:00" endTime="2026-06-02T10:48:03.4914126+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce017806-eb05-4429-bb40-ab969a2efb0e" />
+    <UnitTestResult executionId="06927339-f606-4082-9a45-2bc933ff9bd5" testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" testName="T021_PrimInventoryBasic" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001220" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215876+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06927339-f606-4082-9a45-2bc933ff9bd5">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2378ae14-4972-4c7d-aff9-a8ec7af1a523" testId="37e0fafa-48db-99b1-0267-034149e7f4e7" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001130" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215781+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2378ae14-4972-4c7d-aff9-a8ec7af1a523">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9783cecb-e25c-40bf-a7d6-0e7996b5b475" testId="59b8a834-106d-cb19-7662-df730c728815" testName="TestNotInCache" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001640" startTime="2026-06-02T10:48:03.4848910+02:00" endTime="2026-06-02T10:48:03.4850545+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9783cecb-e25c-40bf-a7d6-0e7996b5b475" />
+    <UnitTestResult executionId="200a28d9-edc3-4fbe-97a1-6c44e565f1d2" testId="cf623f0d-8db9-29f4-271b-a1d594a59aea" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002310" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3414007+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="200a28d9-edc3-4fbe-97a1-6c44e565f1d2">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="51bd44ed-659a-4835-bd2c-32c7543e7533" testId="6584b63e-0a2b-f726-8ffc-f608faa84ab9" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0269580" startTime="2026-06-02T10:48:03.3116890+02:00" endTime="2026-06-02T10:48:03.3385977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51bd44ed-659a-4835-bd2c-32c7543e7533">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53a3004a-56d4-46f2-9c20-9ad63cf104ae" testId="09398b05-4baa-9258-8fef-14faa45a6744" testName="T302_FetchTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002620" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420272+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53a3004a-56d4-46f2-9c20-9ad63cf104ae">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43c9a171-7b12-43d1-8e08-f401ab66adbd" testId="2be04153-54d3-c44c-48bd-3141beaf73e6" testName="UUIDShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0014600" startTime="2026-06-02T10:48:03.4114752+02:00" endTime="2026-06-02T10:48:03.4129347+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43c9a171-7b12-43d1-8e08-f401ab66adbd" />
+    <UnitTestResult executionId="788557a7-a480-4c2d-8114-f692e47eceef" testId="361fdaca-0793-e07e-95e9-64161bbf57e3" testName="T014_UpdateObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002530" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420186+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="788557a7-a480-4c2d-8114-f692e47eceef">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ca7b307-0fff-4734-b86c-6a39d484096d" testId="f96120d2-bf6b-5fe7-3945-fb5b6791ab15" testName="T022_EstateSettingsGroupList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002340" startTime="2026-06-02T10:48:03.3411697+02:00" endTime="2026-06-02T10:48:03.3414038+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ca7b307-0fff-4734-b86c-6a39d484096d">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb750c3a-f9a3-49f0-82fb-9968b434f58c" testId="076da992-6b74-4880-0def-fee488592a5e" testName="T020_PrimInventoryEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001220" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215868+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb750c3a-f9a3-49f0-82fb-9968b434f58c">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af1157e8-c78d-451c-b7e8-3aeaee89ad71" testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" testName="T015_LargeSceneObjects" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001210" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215859+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af1157e8-c78d-451c-b7e8-3aeaee89ad71">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71d59c01-8722-4ae4-ac30-a27129f12407" testId="a4acd630-ffce-0956-fcfc-6b4a83ef5036" testName="T100_DefaultRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002580" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420237+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d59c01-8722-4ae4-ac30-a27129f12407">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a0db81f-a2c5-4201-a261-67312b19b3d4" testId="f068516a-6e46-bc39-b4c5-b5c2e474ef25" testName="TestColors" computerName="MHPC-WORKSTATIO" duration="00:00:00.0013000" startTime="2026-06-02T10:48:03.4101563+02:00" endTime="2026-06-02T10:48:03.4114564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a0db81f-a2c5-4201-a261-67312b19b3d4" />
+    <UnitTestResult executionId="8243badf-d6d0-4acb-a0bd-7e0ee7765ef1" testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" testName="T014_UpdateObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001200" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215851+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8243badf-d6d0-4acb-a0bd-7e0ee7765ef1">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c69c980b-27e6-4908-a8d1-209431e19ef3" testId="7dc437b0-df21-0f0e-0f6b-636b7abd849a" testName="IntShouldIgnore" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004720" startTime="2026-06-02T10:48:03.4087836+02:00" endTime="2026-06-02T10:48:03.4092549+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c69c980b-27e6-4908-a8d1-209431e19ef3" />
+    <UnitTestResult executionId="97d1fe92-2976-4ed8-9746-49d3be8f2cbc" testId="445fd443-72c6-196f-0e54-8f2c2183476c" testName="T012_FolderList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003050" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417293+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97d1fe92-2976-4ed8-9746-49d3be8f2cbc">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="050c2d7e-7938-4476-996e-74a9907f774c" testId="5a951db2-ec92-6fa1-ef6c-9c07858383b4" testName="HistoricalAgentCircuitDataOSDConversion" computerName="MHPC-WORKSTATIO" duration="00:00:00.0127060" startTime="2026-06-02T10:48:03.4480364+02:00" endTime="2026-06-02T10:48:03.4607418+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="050c2d7e-7938-4476-996e-74a9907f774c" />
+    <UnitTestResult executionId="f2dee9a5-6d22-49b7-b6c1-674cf2c1232a" testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001399" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214479+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2dee9a5-6d22-49b7-b6c1-674cf2c1232a">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ab692b0-b62d-4037-b4d0-94c6331255c4" testId="ab3253be-6237-d094-054b-e631c486bf5e" testName="T010_StoreSimpleObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002420" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420072+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab692b0-b62d-4037-b4d0-94c6331255c4">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="374a3500-85e6-4f3d-8062-a238e7fd4d94" testId="e2fb3f17-704c-ee8a-f170-ad643a4033c1" testName="T014_MoveFolder" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003070" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417309+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="374a3500-85e6-4f3d-8062-a238e7fd4d94">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4072d4f9-6aa0-4706-9d4c-c56c1acd6e8e" testId="0be7308e-6f14-61f7-97b2-c45180fa8057" testName="T100_NoItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003100" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417336+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4072d4f9-6aa0-4706-9d4c-c56c1acd6e8e">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89bce0fb-f076-4c10-ab78-92b8144cb6c2" testId="a380e378-0806-bd0a-422c-145f7250636d" testName="ValidateLoginTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003940" startTime="2026-06-02T10:48:03.4788431+02:00" endTime="2026-06-02T10:48:03.4792372+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89bce0fb-f076-4c10-ab78-92b8144cb6c2" />
+    <UnitTestResult executionId="2944c74f-cfa8-4eb0-bf6e-47435813b077" testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" testName="T301_CreateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001280" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215929+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2944c74f-cfa8-4eb0-bf6e-47435813b077">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f58111d6-e8fb-49d0-8c71-ed3d79f36dcc" testId="3760ab22-b347-53b1-4faa-003be093b83e" testName="ErrorsOutOnRecursive" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003440" startTime="2026-06-02T10:48:03.4084309+02:00" endTime="2026-06-02T10:48:03.4087744+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f58111d6-e8fb-49d0-8c71-ed3d79f36dcc" />
+    <UnitTestResult executionId="e4ecbb00-2f89-40c2-87a8-fdfaa0d7c055" testId="f196d956-1550-703f-81f2-8253d5c88458" testName="T021_PrimInventoryBasic" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002560" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420214+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4ecbb00-2f89-40c2-87a8-fdfaa0d7c055">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2344a217-8db5-4a39-9657-5fb24e94c8ac" testId="85a5546d-e174-aa0e-2505-818a7458490d" testName="T010_FolderNonParent" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003030" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417273+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2344a217-8db5-4a39-9657-5fb24e94c8ac">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b2c5a0b-71a9-4ba9-bd5a-9013bb6ec5cd" testId="25f1def4-2dc5-2d09-3cad-02fb16036ecd" testName="T101_CreatItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003110" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417354+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b2c5a0b-71a9-4ba9-bd5a-9013bb6ec5cd">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a755543b-a595-4cb5-9c3c-080c59fe2e7d" testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" testName="T100_DefaultRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001250" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215902+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a755543b-a595-4cb5-9c3c-080c59fe2e7d">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23bcb0d6-888b-4432-b4b8-45df87c3cc0a" testId="2e447bef-0afc-a6dd-2452-7a2d8c392ed2" testName="T101_UpdateRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002590" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420247+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23bcb0d6-888b-4432-b4b8-45df87c3cc0a">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7ea9cdd-cfe0-46e8-bcdd-637519d72c9c" testId="011dba1b-eeee-7ba3-aed6-657436df6c33" testName="AssetMetaDataNonNullContentTypeTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003669" startTime="2026-06-02T10:48:03.4879567+02:00" endTime="2026-06-02T10:48:03.4883239+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7ea9cdd-cfe0-46e8-bcdd-637519d72c9c" />
+    <UnitTestResult executionId="720c3f69-f73b-41f2-a8f2-f8ec3aeafe20" testId="a0f13bf7-0ea3-2b35-193c-2debfa6668eb" testName="IntShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001140" startTime="2026-06-02T10:48:03.4095276+02:00" endTime="2026-06-02T10:48:03.4096413+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="720c3f69-f73b-41f2-a8f2-f8ec3aeafe20" />
+    <UnitTestResult executionId="2d57e169-8b9a-4f48-aee5-9bc0ebc03dfd" testId="82ea7284-bc8d-1494-677c-c44442db24d0" testName="RemoveAgentCircuitTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003780" startTime="2026-06-02T10:48:03.4784492+02:00" endTime="2026-06-02T10:48:03.4788274+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d57e169-8b9a-4f48-aee5-9bc0ebc03dfd" />
+    <UnitTestResult executionId="56f458cb-4488-4689-835b-2477f82c7f20" testId="9c499120-4a7c-8778-2db1-31dad9a8332f" testName="T020_CheckForWeirdCreatorID" computerName="MHPC-WORKSTATIO" duration="00:00:00.0275960" startTime="2026-06-02T10:48:03.3116890+02:00" endTime="2026-06-02T10:48:03.3392847+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56f458cb-4488-4689-835b-2477f82c7f20">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="119ee4a6-8d04-451d-ab98-c6b1f0a0ef26" testId="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb" testName="T999_StillNull" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003150" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417391+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="119ee4a6-8d04-451d-ab98-c6b1f0a0ef26">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76d43b7a-2481-4189-8843-c9a3a5d95809" testId="6cfd9ead-8d99-f13a-439a-671fffa960f6" testName="locationXYRegionHandle" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005130" startTime="2026-06-02T10:48:03.4856402+02:00" endTime="2026-06-02T10:48:03.4861528+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76d43b7a-2481-4189-8843-c9a3a5d95809" />
+    <UnitTestResult executionId="3e4562fd-3c88-426b-8033-c206bf16e330" testId="f9daee40-a27c-d2bf-fe31-2b54712ee428" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002999" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417242+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e4562fd-3c88-426b-8033-c206bf16e330">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c4d7cc77-6bc1-4022-b097-89a0ee317de7" testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" testName="T012_SceneParts" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001180" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215830+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4d7cc77-6bc1-4022-b097-89a0ee317de7">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="32331cb7-001c-4378-b094-c05b09cc1192" testId="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830" testName="T303_UpdateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002620" startTime="2026-06-02T10:48:03.3417656+02:00" endTime="2026-06-02T10:48:03.3420280+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32331cb7-001c-4378-b094-c05b09cc1192">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e5cd60db-277a-43d6-a31b-19fa82eeb78b" testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" testName="T021_EstateSettingsUserList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001460" startTime="2026-06-02T10:48:03.4213076+02:00" endTime="2026-06-02T10:48:03.4214541+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5cd60db-277a-43d6-a31b-19fa82eeb78b">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f94c2ac-f20e-482b-b414-39971d03f74e" testId="8b9a7bf2-d547-97fe-931b-d2ccafd824fa" testName="AsssetBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004590" startTime="2026-06-02T10:48:03.4883395+02:00" endTime="2026-06-02T10:48:03.4887982+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f94c2ac-f20e-482b-b414-39971d03f74e" />
+    <UnitTestResult executionId="5eaf71fc-33e9-4f60-acf6-109a281c2783" testId="890a16fe-50aa-9b63-d087-fa57500a45d2" testName="AssetShouldNotMatch2" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001720" startTime="2026-06-02T10:48:03.4082502+02:00" endTime="2026-06-02T10:48:03.4084224+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eaf71fc-33e9-4f60-acf6-109a281c2783" />
+    <UnitTestResult executionId="ec70d492-b4b2-4e0c-b834-4b21af9f9951" testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" testName="T303_UpdateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001290" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215946+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec70d492-b4b2-4e0c-b834-4b21af9f9951">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a8c4c17-b292-4942-a9f7-03d2970e27b7" testId="efc82548-0025-2ae3-b845-7c3c157f002d" testName="T015_FolderHierarchy" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003080" startTime="2026-06-02T10:48:03.3414239+02:00" endTime="2026-06-02T10:48:03.3417317+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a8c4c17-b292-4942-a9f7-03d2970e27b7">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="238f99ab-e181-4b53-a0c9-b52c1e929810" testId="73f169de-c533-6078-d217-b67aa78d82e7" testName="T010_StoreSimpleObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001160" startTime="2026-06-02T10:48:03.4214652+02:00" endTime="2026-06-02T10:48:03.4215809+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="238f99ab-e181-4b53-a0c9-b52c1e929810">
+      <Output>
+        <StdOut>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a9810d7-06da-4e74-ba55-8740354f39b4" testId="d3cb10a6-b759-7429-8c8e-9bf664aee45c" testName="RegionSettingsTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003460" startTime="2026-06-02T10:48:03.4914282+02:00" endTime="2026-06-02T10:48:03.4917743+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a9810d7-06da-4e74-ba55-8740354f39b4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestContainsReferences" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="599496d6-b812-62ed-1f0f-451526f6cb9c">
+      <Execution id="8517826f-a73d-490d-82ce-5c78b5064ae2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AssetBaseTest" name="TestContainsReferences" />
+    </UnitTest>
+    <UnitTest name="T011_FolderCreate" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="767a14f4-3be3-6c93-205f-d04e030d60ed">
+      <Execution id="15c0a66b-0f1e-414e-a906-38134a284c3f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T011_FolderCreate" />
+    </UnitTest>
+    <UnitTest name="T012_SceneParts" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="c5a53d24-a4d9-bcbf-126d-54fca0399c4b">
+      <Execution id="c4d7cc77-6bc1-4022-b097-89a0ee317de7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T012_SceneParts" />
+    </UnitTest>
+    <UnitTest name="TestRetreive" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="03c0d539-4d8b-825c-c0c6-8a13a8d4696d">
+      <Execution id="5cecedac-8254-4282-ac2d-d76bd719bcf2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="TestRetreive" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cf623f0d-8db9-29f4-271b-a1d594a59aea">
+      <Execution id="200a28d9-edc3-4fbe-97a1-6c44e565f1d2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="T021_PrimInventoryBasic" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f196d956-1550-703f-81f2-8253d5c88458">
+      <Execution id="e4ecbb00-2f89-40c2-87a8-fdfaa0d7c055" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T021_PrimInventoryBasic" />
+    </UnitTest>
+    <UnitTest name="T013_FolderHierarchy" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72">
+      <Execution id="b48117c0-a66e-4995-875c-537fb0eae82e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T013_FolderHierarchy" />
+    </UnitTest>
+    <UnitTest name="T010_StoreReadVerifyAssets" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="775c2346-dfda-ea7c-b9ab-66e58b282a29">
+      <Execution id="9d304ec2-aab2-49ae-87f7-d340b33a358c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T010_StoreReadVerifyAssets" />
+    </UnitTest>
+    <UnitTest name="DontScramble" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="90c3e869-401f-5da0-e507-48801c4a1b07">
+      <Execution id="cad06882-1fd5-45f2-a543-c6221bc9b8f2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyScramblerTests" name="DontScramble" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1">
+      <Execution id="e659fc37-99d9-4a19-8131-5c36689cf16b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="UUIDTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5e749a33-b16c-67ed-d947-25b975f49fd5">
+      <Execution id="e849823a-4268-454d-a826-410a046dca25" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="UUIDTests" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsBanList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6bd8cea5-da22-039f-b159-7758adaaece5">
+      <Execution id="14df6f27-d8a9-43db-ac31-ddceb1124228" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T022_EstateSettingsBanList" />
+    </UnitTest>
+    <UnitTest name="FakeParcelIDTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="84e85aef-1e37-c74c-48f8-9b714f4f8912">
+      <Execution id="11fdfcc2-2de0-4732-861c-ba2b550b0507" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="FakeParcelIDTests" />
+    </UnitTest>
+    <UnitTest name="T021_EstateSettingsUserList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="4e27ce00-70cd-8d0f-00fd-042054acf5f8">
+      <Execution id="81c0fdad-82ee-405b-a37d-5e2e8aba0104" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T021_EstateSettingsUserList" />
+    </UnitTest>
+    <UnitTest name="AssetShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3">
+      <Execution id="721b5da1-e376-4184-8aa4-fbb2a7fc7c9f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldMatch" />
+    </UnitTest>
+    <UnitTest name="T301_CreateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e">
+      <Execution id="2944c74f-cfa8-4eb0-bf6e-47435813b077" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T301_CreateTerrain" />
+    </UnitTest>
+    <UnitTest name="T104_RandomUpdateItem" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="00fc6096-67ab-79d2-c6ea-55e67892d813">
+      <Execution id="9a808294-b4b7-41c2-9f9c-7316b4e7ee1c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T104_RandomUpdateItem" />
+    </UnitTest>
+    <UnitTest name="T021_PrimInventoryBasic" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a">
+      <Execution id="06927339-f606-4082-9a45-2bc933ff9bd5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T021_PrimInventoryBasic" />
+    </UnitTest>
+    <UnitTest name="TestRegionSettingsDeserialize" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6">
+      <Execution id="e7f8cf8c-ad31-4ec1-85cf-e4ddfefbb00f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.RegionSettingsSerializerTests" name="TestRegionSettingsDeserialize" />
+    </UnitTest>
+    <UnitTest name="ErrorsOutOnRecursive" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3760ab22-b347-53b1-4faa-003be093b83e">
+      <Execution id="f58111d6-e8fb-49d0-8c71-ed3d79f36dcc" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ErrorsOutOnRecursive" />
+    </UnitTest>
+    <UnitTest name="T303_UpdateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830">
+      <Execution id="32331cb7-001c-4378-b094-c05b09cc1192" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T303_UpdateTerrain" />
+    </UnitTest>
+    <UnitTest name="IntShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a0f13bf7-0ea3-2b35-193c-2debfa6668eb">
+      <Execution id="720c3f69-f73b-41f2-a8f2-f8ec3aeafe20" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="T100_NoItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0be7308e-6f14-61f7-97b2-c45180fa8057">
+      <Execution id="4072d4f9-6aa0-4706-9d4c-c56c1acd6e8e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T100_NoItems" />
+    </UnitTest>
+    <UnitTest name="T025_PrimInventoryPersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d">
+      <Execution id="f47ceaa6-31d9-4e24-8735-712779f8e765" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T025_PrimInventoryPersistency" />
+    </UnitTest>
+    <UnitTest name="AssetShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="309796e1-11f2-746c-5bc6-effd0550e04f">
+      <Execution id="01d74508-ec88-4b11-bde8-307c514c298e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="TestScramble" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="009dbe34-88f9-b0fd-cbfd-16976c8950e4">
+      <Execution id="f653b4db-3fe2-412b-8676-d2455db20255" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyScramblerTests" name="TestScramble" />
+    </UnitTest>
+    <UnitTest name="T400_EmptyLand" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6d877b38-ff89-3c2e-d6bf-4f524738cc6c">
+      <Execution id="98fa2c64-8089-4c4f-9225-2a6267f595f0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T400_EmptyLand" />
+    </UnitTest>
+    <UnitTest name="TestLandDataDeserializeNoAccessLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="adc67e64-9cdb-5799-0b28-f0e9b5683888">
+      <Execution id="14f86459-2a02-4cb7-9c57-66d4def92d9b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.LandDataSerializerTest" name="TestLandDataDeserializeNoAccessLists" />
+    </UnitTest>
+    <UnitTest name="T020_CheckForWeirdCreatorID" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="852239b7-624d-305c-e63e-8b4841d18200">
+      <Execution id="ac467a87-7422-4945-b1b9-9f60f24c1b5e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T020_CheckForWeirdCreatorID" />
+    </UnitTest>
+    <UnitTest name="TestColors" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f068516a-6e46-bc39-b4c5-b5c2e474ef25">
+      <Execution id="6a0db81f-a2c5-4201-a261-67312b19b3d4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="TestColors" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsRandomStorage" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6fe6f8fc-4880-0ebb-0937-30c29636418b">
+      <Execution id="69378cee-8da8-4b18-9baa-844f69d314c5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T012_EstateSettingsRandomStorage" />
+    </UnitTest>
+    <UnitTest name="locationRegionHandleRegionHandle" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="28d324f1-bfba-6215-d008-28c64d496ca1">
+      <Execution id="6452109d-4a10-4575-99bc-f6f63ffd77b5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.LocationTest" name="locationRegionHandleRegionHandle" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="483a1bfd-72db-5475-1f9c-e42ff5322c97">
+      <Execution id="fa609101-593d-4c7e-9d2b-ef18f97e673e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T101_UpdateRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2e447bef-0afc-a6dd-2452-7a2d8c392ed2">
+      <Execution id="23bcb0d6-888b-4432-b4b8-45df87c3cc0a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T101_UpdateRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6584b63e-0a2b-f726-8ffc-f608faa84ab9">
+      <Execution id="51bd44ed-659a-4835-bd2c-32c7543e7533" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T301_CreateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f05779d8-2ba9-ad62-c34e-74faea653ec4">
+      <Execution id="4a9b0b94-5363-4b78-88d6-2a8538c128fb" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T301_CreateTerrain" />
+    </UnitTest>
+    <UnitTest name="GetHashGuidTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="8ef90458-4232-8a53-3a54-1c746414bcba">
+      <Execution id="29882e14-8264-4560-a8ff-f85c5899046a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="GetHashGuidTests" />
+    </UnitTest>
+    <UnitTest name="AgentPositionTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="548cba8c-1666-f71b-87c0-cb437d1387e9">
+      <Execution id="207befd5-b576-4e36-a6df-0d3469c695be" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AgentPositionTest01" />
+    </UnitTest>
+    <UnitTest name="T020_EstateSettingsManagerList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="51aa2931-b79d-5980-4c97-4b096eb0cbc9">
+      <Execution id="87f88ba2-a456-4fc5-a0e6-25114810d122" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T020_EstateSettingsManagerList" />
+    </UnitTest>
+    <UnitTest name="T014_MoveFolder" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e2fb3f17-704c-ee8a-f170-ad643a4033c1">
+      <Execution id="374a3500-85e6-4f3d-8062-a238e7fd4d94" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T014_MoveFolder" />
+    </UnitTest>
+    <UnitTest name="NUnit3RunnerIsWorking" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e9d29922-23c8-b619-4492-0c3fe7c1fb4d">
+      <Execution id="0074a72c-5fdc-485c-a63a-903e36b67bb8" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Tests.NUnitCompatibilitySmokeTests" name="NUnit3RunnerIsWorking" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsBanList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0">
+      <Execution id="cd855b1c-40ef-4892-8841-4da014544690" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsBanList" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsGroupList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3fd170c8-bbaf-480c-81b8-b43411be4886">
+      <Execution id="608e08ba-3a41-4a70-8015-640a702230b7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsGroupList" />
+    </UnitTest>
+    <UnitTest name="T103_UpdateItem" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5">
+      <Execution id="180520cc-5a58-49aa-abbd-544a1af865d2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T103_UpdateItem" />
+    </UnitTest>
+    <UnitTest name="UUIDShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="499e9057-4fb6-d102-85ba-2cf0b5387676">
+      <Execution id="4e09510a-46fd-499a-babe-f74fff11f972" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="UUIDShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsRandomStorage" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="4e582587-0202-714b-190f-e62e992bf9c7">
+      <Execution id="642691cd-5d2c-41a8-b2ea-23a98e7b7d57" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsRandomStorage" />
+    </UnitTest>
+    <UnitTest name="ChangeAgentCircuitCodeTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb">
+      <Execution id="702135bd-83c8-4276-85ad-4d98a2f59a49" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="ChangeAgentCircuitCodeTest" />
+    </UnitTest>
+    <UnitTest name="T302_FetchTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="09398b05-4baa-9258-8fef-14faa45a6744">
+      <Execution id="53a3004a-56d4-46f2-9c20-9ad63cf104ae" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T302_FetchTerrain" />
+    </UnitTest>
+    <UnitTest name="T020_PrimInventoryEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="076da992-6b74-4880-0def-fee488592a5e">
+      <Execution id="eb750c3a-f9a3-49f0-82fb-9968b434f58c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T020_PrimInventoryEmpty" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21">
+      <Execution id="9ea159fa-8a07-4b5a-ab71-210a982f01c8" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="CacheItemMundane" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a17f52ed-98d5-6112-2340-5efca43df893">
+      <Execution id="02315e27-4048-4988-a5d0-fab84ef90aee" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="CacheItemMundane" />
+    </UnitTest>
+    <UnitTest name="T021_EstateSettingsUserList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="aa37c719-d88d-f7d4-eb22-03d32f91a053">
+      <Execution id="e5cd60db-277a-43d6-a31b-19fa82eeb78b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T021_EstateSettingsUserList" />
+    </UnitTest>
+    <UnitTest name="CultureSetCultureTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b1978015-37e3-42cf-cd41-d79356ee9616">
+      <Execution id="45adfb71-741a-4ea5-b434-6c97a6ce0b9e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="CultureSetCultureTest01" />
+    </UnitTest>
+    <UnitTest name="T300_NoTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="72ed9f60-2570-c8ae-52df-10594cf0265b">
+      <Execution id="fbd09307-c552-4c1e-ab8c-6f50dc1cc8e4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T300_NoTerrain" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="37e0fafa-48db-99b1-0267-034149e7f4e7">
+      <Execution id="2378ae14-4972-4c7d-aff9-a8ec7af1a523" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="ClearCacheTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5c5c6491-bd33-52a4-f553-cdb60575be3f">
+      <Execution id="bfffc467-a13c-4d49-9603-4e8ee4ef7045" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="ClearCacheTest" />
+    </UnitTest>
+    <UnitTest name="VectorOperationTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e561f19f-e65f-a6b1-5525-d621ae6bca59">
+      <Execution id="4f677d2d-3126-4d11-9b6a-b4f72014fe68" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="VectorOperationTests" />
+    </UnitTest>
+    <UnitTest name="AddAgentCircuitTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="dd698695-d5e8-e46b-5d87-7458da5b795e">
+      <Execution id="ebdc7293-e2ef-4668-ae52-0df2a5f16441" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="AddAgentCircuitTest" />
+    </UnitTest>
+    <UnitTest name="InventoryFolderBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="044df121-0fda-1dc1-83b7-9cf764aef8f7">
+      <Execution id="9f829d06-faa8-4a02-af01-5e8f92842aec" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="InventoryFolderBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="RemoveAgentCircuitTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="82ea7284-bc8d-1494-677c-c44442db24d0">
+      <Execution id="2d57e169-8b9a-4f48-aee5-9bc0ebc03dfd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="RemoveAgentCircuitTest" />
+    </UnitTest>
+    <UnitTest name="T011_ObjectNames" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="686f6711-8021-a8f3-3b3a-eaba536072b2">
+      <Execution id="9bdf745d-9af0-4a1b-b827-b47fc760b3b9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T011_ObjectNames" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b82710e2-e5c7-c29c-5b1d-43a7f5858006">
+      <Execution id="bfb7c61b-7041-48a0-ab50-1d2e2456670d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T025_PrimInventoryPersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b">
+      <Execution id="d52d8494-a51a-4282-adb9-4400b7a72a0b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T025_PrimInventoryPersistency" />
+    </UnitTest>
+    <UnitTest name="TestGetPrime" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="c58ac1e3-419b-3462-82ce-cf7b3cc7283c">
+      <Execution id="f826110c-f4e5-4313-9121-b2942cc15b8f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.PrimeNumberHelperTests" name="TestGetPrime" />
+    </UnitTest>
+    <UnitTest name="T052_RemoveObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="81f29b60-b376-7ecb-3127-952594448024">
+      <Execution id="567f576d-9615-427e-94de-e03158eb5089" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T052_RemoveObject" />
+    </UnitTest>
+    <UnitTest name="T015_LargeSceneObjects" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ad7fcc2c-1160-8a86-1b90-2fe399f6b562">
+      <Execution id="af1157e8-c78d-451c-b7e8-3aeaee89ad71" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T015_LargeSceneObjects" />
+    </UnitTest>
+    <UnitTest name="T013_DatabasePersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d">
+      <Execution id="8820408d-74f7-47b2-a756-58e12ac11fab" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T013_DatabasePersistency" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8">
+      <Execution id="f2dee9a5-6d22-49b7-b6c1-674cf2c1232a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+    <UnitTest name="TestAgentCircuitDataOSDConversion" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d4969930-e153-6031-fd45-e8f3faf49436">
+      <Execution id="28b1c29b-8ce9-4024-b2d2-7a51ca91b1fc" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitDataTest" name="TestAgentCircuitDataOSDConversion" />
+    </UnitTest>
+    <UnitTest name="T012_FolderList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="445fd443-72c6-196f-0e54-8f2c2183476c">
+      <Execution id="97d1fe92-2976-4ed8-9746-49d3be8f2cbc" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T012_FolderList" />
+    </UnitTest>
+    <UnitTest name="T014_UpdateObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2c06fe12-7f43-f3c4-497b-f5020660b0b4">
+      <Execution id="8243badf-d6d0-4acb-a0bd-7e0ee7765ef1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T014_UpdateObject" />
+    </UnitTest>
+    <UnitTest name="ShouldFailToCompareListsThatAreDifferent" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="abe572dc-9cba-04e8-323e-9a72536da491">
+      <Execution id="3b049093-815f-4bab-90ff-4c5b33576184" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldFailToCompareListsThatAreDifferent" />
+    </UnitTest>
+    <UnitTest name="ExpireItemManually" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f8ba269a-c7a7-db85-4521-7a458ca43493">
+      <Execution id="8e224b9f-df82-48e7-aaa5-a65a46238654" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="ExpireItemManually" />
+    </UnitTest>
+    <UnitTest name="T100_DefaultRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="250c4f1e-803c-d75a-2ac3-d16d65e97d12">
+      <Execution id="a755543b-a595-4cb5-9c3c-080c59fe2e7d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T100_DefaultRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T052_RemoveObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e34c9835-dafc-486c-0892-8bc9c68fb20e">
+      <Execution id="99d90110-37ed-4fec-84b2-e5c5e0850980" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T052_RemoveObject" />
+    </UnitTest>
+    <UnitTest name="T302_FetchTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7">
+      <Execution id="54512a41-b092-4273-babd-24c7bb5211ff" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T302_FetchTerrain" />
+    </UnitTest>
+    <UnitTest name="T013_DatabasePersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="098181c7-a000-6052-cfff-e9cd8f00af0e">
+      <Execution id="86ccd1a4-c791-4713-b5cb-38ff0e14a8fe" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T013_DatabasePersistency" />
+    </UnitTest>
+    <UnitTest name="ShouldFailToCompareListsThatAreDifferentLengths" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6db48d17-20b0-c78a-2049-391c705fef5f">
+      <Execution id="c3b84e28-37d7-4d65-b43a-c0fd652ff6e3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldFailToCompareListsThatAreDifferentLengths" />
+    </UnitTest>
+    <UnitTest name="UUIDShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2be04153-54d3-c44c-48bd-3141beaf73e6">
+      <Execution id="43c9a171-7b12-43d1-8e08-f401ab66adbd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="UUIDShouldMatch" />
+    </UnitTest>
+    <UnitTest name="TestLandDataDeserializeWithAccessLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="32189929-1bd3-69f1-c05e-251604dca7db">
+      <Execution id="b344183d-ed5a-4091-894a-1ba95ef46aad" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.LandDataSerializerTest" name="TestLandDataDeserializeWithAccessLists" />
+    </UnitTest>
+    <UnitTest name="T100_DefaultRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a4acd630-ffce-0956-fcfc-6b4a83ef5036">
+      <Execution id="71d59c01-8722-4ae4-ac30-a27129f12407" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T100_DefaultRegionInfo" />
+    </UnitTest>
+    <UnitTest name="EstateSettingsMundateTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2e399be7-cc05-fd0d-fd3a-2528014d446d">
+      <Execution id="4ab072f1-8674-4e3c-a7de-413cfeea489a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="EstateSettingsMundateTests" />
+    </UnitTest>
+    <UnitTest name="AnimationOSDTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="47c83c91-df22-d221-1e71-68386c74c54e">
+      <Execution id="8650a954-b698-4e83-8138-762c8136846c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AnimationTests" name="AnimationOSDTest" />
+    </UnitTest>
+    <UnitTest name="ShouldCompareLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5c117b56-1506-1bd1-f044-876710cad1ee">
+      <Execution id="d8a56de3-de32-4b14-92bc-4a54ac40c3f4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldCompareLists" />
+    </UnitTest>
+    <UnitTest name="T020_CheckForWeirdCreatorID" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="9c499120-4a7c-8778-2db1-31dad9a8332f">
+      <Execution id="56f458cb-4488-4689-835b-2477f82c7f20" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T020_CheckForWeirdCreatorID" />
+    </UnitTest>
+    <UnitTest name="AssetShouldNotMatch2" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="890a16fe-50aa-9b63-d087-fa57500a45d2">
+      <Execution id="5eaf71fc-33e9-4f60-acf6-109a281c2783" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldNotMatch2" />
+    </UnitTest>
+    <UnitTest name="IntShouldIgnore" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7dc437b0-df21-0f0e-0f6b-636b7abd849a">
+      <Execution id="c69c980b-27e6-4908-a8d1-209431e19ef3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldIgnore" />
+    </UnitTest>
+    <UnitTest name="T102_CompareItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="042a96c9-9623-86b4-8531-0dc5a074627e">
+      <Execution id="a347df4c-6456-414a-b9ea-4f8f12ac9004" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T102_CompareItems" />
+    </UnitTest>
+    <UnitTest name="SLUtilTypeConvertTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97">
+      <Execution id="bc08ccec-0349-4f4b-826f-e7b7c8f587a8" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="SLUtilTypeConvertTests" />
+    </UnitTest>
+    <UnitTest name="T014_UpdateObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="361fdaca-0793-e07e-95e9-64161bbf57e3">
+      <Execution id="788557a7-a480-4c2d-8114-f692e47eceef" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T014_UpdateObject" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f1d0ec42-910f-55fa-6320-f7209b19e16c">
+      <Execution id="b8659c9f-a8c2-411f-b1df-9c53f2485b98" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T010_StoreReadVerifyAssets" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7897646f-d590-a744-6f54-191c285b2d61">
+      <Execution id="33597051-33ab-40f3-a450-9f5bcc647659" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T010_StoreReadVerifyAssets" />
+    </UnitTest>
+    <UnitTest name="T300_NoTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747">
+      <Execution id="6d7ac920-01b3-4be4-8c40-2d6e119584d0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T300_NoTerrain" />
+    </UnitTest>
+    <UnitTest name="T010_StoreSimpleObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="73f169de-c533-6078-d217-b67aa78d82e7">
+      <Execution id="238f99ab-e181-4b53-a0c9-b52c1e929810" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T010_StoreSimpleObject" />
+    </UnitTest>
+    <UnitTest name="T400_EmptyLand" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741">
+      <Execution id="a317f8ba-007e-43d7-a4da-5851681d7014" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T400_EmptyLand" />
+    </UnitTest>
+    <UnitTest name="T101_UpdateRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e">
+      <Execution id="0fc33707-66ac-4da1-b3c3-23c3f5453f77" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T101_UpdateRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T012_SceneParts" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="97c2ccff-bb27-4030-0e46-dd6f137afa2d">
+      <Execution id="03d0dcca-965a-4fc8-b2ed-2d420eeb13e5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T012_SceneParts" />
+    </UnitTest>
+    <UnitTest name="InventoryItemBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cc1c41d0-768f-e315-7ccb-0eec48d3b923">
+      <Execution id="ce017806-eb05-4429-bb40-ab969a2efb0e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="InventoryItemBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="T010_FolderNonParent" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="85a5546d-e174-aa0e-2505-818a7458490d">
+      <Execution id="2344a217-8db5-4a39-9657-5fb24e94c8ac" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T010_FolderNonParent" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsGroupList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f96120d2-bf6b-5fe7-3945-fb5b6791ab15">
+      <Execution id="2ca7b307-0fff-4734-b86c-6a39d484096d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T022_EstateSettingsGroupList" />
+    </UnitTest>
+    <UnitTest name="ValidateLoginTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a380e378-0806-bd0a-422c-145f7250636d">
+      <Execution id="89bce0fb-f076-4c10-ab78-92b8144cb6c2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="ValidateLoginTest" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f9daee40-a27c-d2bf-fe31-2b54712ee428">
+      <Execution id="3e4562fd-3c88-426b-8033-c206bf16e330" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="HistoricalAgentCircuitDataOSDConversion" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5a951db2-ec92-6fa1-ef6c-9c07858383b4">
+      <Execution id="050c2d7e-7938-4476-996e-74a9907f774c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitDataTest" name="HistoricalAgentCircuitDataOSDConversion" />
+    </UnitTest>
+    <UnitTest name="T010_StoreSimpleObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ab3253be-6237-d094-054b-e631c486bf5e">
+      <Execution id="2ab692b0-b62d-4037-b4d0-94c6331255c4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T010_StoreSimpleObject" />
+    </UnitTest>
+    <UnitTest name="T020_EstateSettingsManagerList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b08d191f-efe5-e296-c548-602238003849">
+      <Execution id="2fd50ce9-ecaa-45a5-8394-9976b403fa5f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T020_EstateSettingsManagerList" />
+    </UnitTest>
+    <UnitTest name="Test1000SmallPrimeNumbers" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c">
+      <Execution id="5f68390a-0b68-4af2-8c55-7b011c504046" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.PrimeNumberHelperTests" name="Test1000SmallPrimeNumbers" />
+    </UnitTest>
+    <UnitTest name="ChildAgentDataUpdate01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="fa306458-aa1a-bd13-3cce-3894b0c8f21c">
+      <Execution id="a3f67337-36dd-4868-9282-d5b7e68d6372" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="ChildAgentDataUpdate01" />
+    </UnitTest>
+    <UnitTest name="T011_ObjectNames" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="676f7830-204a-0fd2-0bac-e8db19a57d4d">
+      <Execution id="7c7f82bb-06cf-4222-a526-66cd3007b39d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T011_ObjectNames" />
+    </UnitTest>
+    <UnitTest name="AsssetBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="8b9a7bf2-d547-97fe-931b-d2ccafd824fa">
+      <Execution id="2f94c2ac-f20e-482b-b414-39971d03f74e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AsssetBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="TestNotInCache" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="59b8a834-106d-cb19-7662-df730c728815">
+      <Execution id="9783cecb-e25c-40bf-a7d6-0e7996b5b475" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="TestNotInCache" />
+    </UnitTest>
+    <UnitTest name="T101_CreatItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="25f1def4-2dc5-2d09-3cad-02fb16036ecd">
+      <Execution id="2b2c5a0b-71a9-4ba9-bd5a-9013bb6ec5cd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T101_CreatItems" />
+    </UnitTest>
+    <UnitTest name="T999_StillNull" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb">
+      <Execution id="119ee4a6-8d04-451d-ab98-c6b1f0a0ef26" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T999_StillNull" />
+    </UnitTest>
+    <UnitTest name="IntShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e57c63cb-639c-5bf4-0581-f13c0be293a1">
+      <Execution id="d799ffef-34e1-408b-a244-b1b8d81852b3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldMatch" />
+    </UnitTest>
+    <UnitTest name="T020_PrimInventoryEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f6e201dd-1996-9312-6851-498ac8e9d3ef">
+      <Execution id="05506852-90e2-47d5-a893-a6c711c181f7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T020_PrimInventoryEmpty" />
+    </UnitTest>
+    <UnitTest name="T015_FolderHierarchy" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="efc82548-0025-2ae3-b845-7c3c157f002d">
+      <Execution id="8a8c4c17-b292-4942-a9f7-03d2970e27b7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T015_FolderHierarchy" />
+    </UnitTest>
+    <UnitTest name="T303_UpdateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3b2ea24f-e1c9-ca33-decc-6122c44d9e45">
+      <Execution id="ec70d492-b4b2-4e0c-b834-4b21af9f9951" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T303_UpdateTerrain" />
+    </UnitTest>
+    <UnitTest name="locationXYRegionHandle" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6cfd9ead-8d99-f13a-439a-671fffa960f6">
+      <Execution id="76d43b7a-2481-4189-8843-c9a3a5d95809" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.LocationTest" name="locationXYRegionHandle" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cf3c514c-7cb0-8eb1-03b3-53e879988c1c">
+      <Execution id="74d70097-25a8-4335-b286-cc58dff19c68" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="RegionSettingsTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d3cb10a6-b759-7429-8c8e-9bf664aee45c">
+      <Execution id="7a9810d7-06da-4e74-ba55-8740354f39b4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="RegionSettingsTest01" />
+    </UnitTest>
+    <UnitTest name="AssetMetaDataNonNullContentTypeTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="011dba1b-eeee-7ba3-aed6-657436df6c33">
+      <Execution id="e7ea9cdd-cfe0-46e8-bcdd-637519d72c9c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AssetMetaDataNonNullContentTypeTest01" />
+    </UnitTest>
+    <UnitTest name="T015_LargeSceneObjects" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c">
+      <Execution id="c33f5385-385d-42b6-b561-305eeeb45678" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T015_LargeSceneObjects" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3fd170c8-bbaf-480c-81b8-b43411be4886" executionId="608e08ba-3a41-4a70-8015-640a702230b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6" executionId="e7f8cf8c-ad31-4ec1-85cf-e4ddfefbb00f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" executionId="54512a41-b092-4273-babd-24c7bb5211ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="852239b7-624d-305c-e63e-8b4841d18200" executionId="ac467a87-7422-4945-b1b9-9f60f24c1b5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f05779d8-2ba9-ad62-c34e-74faea653ec4" executionId="4a9b0b94-5363-4b78-88d6-2a8538c128fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abe572dc-9cba-04e8-323e-9a72536da491" executionId="3b049093-815f-4bab-90ff-4c5b33576184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8ba269a-c7a7-db85-4521-7a458ca43493" executionId="8e224b9f-df82-48e7-aaa5-a65a46238654" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bd8cea5-da22-039f-b159-7758adaaece5" executionId="14df6f27-d8a9-43db-ac31-ddceb1124228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" executionId="0fc33707-66ac-4da1-b3c3-23c3f5453f77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="767a14f4-3be3-6c93-205f-d04e030d60ed" executionId="15c0a66b-0f1e-414e-a906-38134a284c3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c" executionId="c33f5385-385d-42b6-b561-305eeeb45678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03c0d539-4d8b-825c-c0c6-8a13a8d4696d" executionId="5cecedac-8254-4282-ac2d-d76bd719bcf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6db48d17-20b0-c78a-2049-391c705fef5f" executionId="c3b84e28-37d7-4d65-b43a-c0fd652ff6e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="548cba8c-1666-f71b-87c0-cb437d1387e9" executionId="207befd5-b576-4e36-a6df-0d3469c695be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81f29b60-b376-7ecb-3127-952594448024" executionId="567f576d-9615-427e-94de-e03158eb5089" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b08d191f-efe5-e296-c548-602238003849" executionId="2fd50ce9-ecaa-45a5-8394-9976b403fa5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6e201dd-1996-9312-6851-498ac8e9d3ef" executionId="05506852-90e2-47d5-a893-a6c711c181f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747" executionId="6d7ac920-01b3-4be4-8c40-2d6e119584d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c83c91-df22-d221-1e71-68386c74c54e" executionId="8650a954-b698-4e83-8138-762c8136846c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="098181c7-a000-6052-cfff-e9cd8f00af0e" executionId="86ccd1a4-c791-4713-b5cb-38ff0e14a8fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c" executionId="5f68390a-0b68-4af2-8c55-7b011c504046" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32189929-1bd3-69f1-c05e-251604dca7db" executionId="b344183d-ed5a-4091-894a-1ba95ef46aad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d877b38-ff89-3c2e-d6bf-4f524738cc6c" executionId="98fa2c64-8089-4c4f-9225-2a6267f595f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" executionId="f47ceaa6-31d9-4e24-8735-712779f8e765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72" executionId="b48117c0-a66e-4995-875c-537fb0eae82e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1d0ec42-910f-55fa-6320-f7209b19e16c" executionId="b8659c9f-a8c2-411f-b1df-9c53f2485b98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" executionId="7c7f82bb-06cf-4222-a526-66cd3007b39d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="042a96c9-9623-86b4-8531-0dc5a074627e" executionId="a347df4c-6456-414a-b9ea-4f8f12ac9004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c3e869-401f-5da0-e507-48801c4a1b07" executionId="cad06882-1fd5-45f2-a543-c6221bc9b8f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3" executionId="721b5da1-e376-4184-8aa4-fbb2a7fc7c9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57c63cb-639c-5bf4-0581-f13c0be293a1" executionId="d799ffef-34e1-408b-a244-b1b8d81852b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d" executionId="8820408d-74f7-47b2-a756-58e12ac11fab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adc67e64-9cdb-5799-0b28-f0e9b5683888" executionId="14f86459-2a02-4cb7-9c57-66d4def92d9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fe6f8fc-4880-0ebb-0937-30c29636418b" executionId="69378cee-8da8-4b18-9baa-844f69d314c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" executionId="bfb7c61b-7041-48a0-ab50-1d2e2456670d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51aa2931-b79d-5980-4c97-4b096eb0cbc9" executionId="87f88ba2-a456-4fc5-a0e6-25114810d122" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97" executionId="bc08ccec-0349-4f4b-826f-e7b7c8f587a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e582587-0202-714b-190f-e62e992bf9c7" executionId="642691cd-5d2c-41a8-b2ea-23a98e7b7d57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="499e9057-4fb6-d102-85ba-2cf0b5387676" executionId="4e09510a-46fd-499a-babe-f74fff11f972" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c58ac1e3-419b-3462-82ce-cf7b3cc7283c" executionId="f826110c-f4e5-4313-9121-b2942cc15b8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4969930-e153-6031-fd45-e8f3faf49436" executionId="28b1c29b-8ce9-4024-b2d2-7a51ca91b1fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa306458-aa1a-bd13-3cce-3894b0c8f21c" executionId="a3f67337-36dd-4868-9282-d5b7e68d6372" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e749a33-b16c-67ed-d947-25b975f49fd5" executionId="e849823a-4268-454d-a826-410a046dca25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" executionId="9ea159fa-8a07-4b5a-ab71-210a982f01c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ed9f60-2570-c8ae-52df-10594cf0265b" executionId="fbd09307-c552-4c1e-ab8c-6f50dc1cc8e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e399be7-cc05-fd0d-fd3a-2528014d446d" executionId="4ab072f1-8674-4e3c-a7de-413cfeea489a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" executionId="9d304ec2-aab2-49ae-87f7-d340b33a358c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b" executionId="d52d8494-a51a-4282-adb9-4400b7a72a0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" executionId="cd855b1c-40ef-4892-8841-4da014544690" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97c2ccff-bb27-4030-0e46-dd6f137afa2d" executionId="03d0dcca-965a-4fc8-b2ed-2d420eeb13e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="309796e1-11f2-746c-5bc6-effd0550e04f" executionId="01d74508-ec88-4b11-bde8-307c514c298e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ef90458-4232-8a53-3a54-1c746414bcba" executionId="29882e14-8264-4560-a8ff-f85c5899046a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28d324f1-bfba-6215-d008-28c64d496ca1" executionId="6452109d-4a10-4575-99bc-f6f63ffd77b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="009dbe34-88f9-b0fd-cbfd-16976c8950e4" executionId="f653b4db-3fe2-412b-8676-d2455db20255" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e27ce00-70cd-8d0f-00fd-042054acf5f8" executionId="81c0fdad-82ee-405b-a37d-5e2e8aba0104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a17f52ed-98d5-6112-2340-5efca43df893" executionId="02315e27-4048-4988-a5d0-fab84ef90aee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1978015-37e3-42cf-cd41-d79356ee9616" executionId="45adfb71-741a-4ea5-b434-6c97a6ce0b9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" executionId="a317f8ba-007e-43d7-a4da-5851681d7014" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00fc6096-67ab-79d2-c6ea-55e67892d813" executionId="9a808294-b4b7-41c2-9f9c-7316b4e7ee1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1" executionId="e659fc37-99d9-4a19-8131-5c36689cf16b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e561f19f-e65f-a6b1-5525-d621ae6bca59" executionId="4f677d2d-3126-4d11-9b6a-b4f72014fe68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd698695-d5e8-e46b-5d87-7458da5b795e" executionId="ebdc7293-e2ef-4668-ae52-0df2a5f16441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e85aef-1e37-c74c-48f8-9b714f4f8912" executionId="11fdfcc2-2de0-4732-861c-ba2b550b0507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" executionId="99d90110-37ed-4fec-84b2-e5c5e0850980" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" executionId="0074a72c-5fdc-485c-a63a-903e36b67bb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" executionId="fa609101-593d-4c7e-9d2b-ef18f97e673e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c5c6491-bd33-52a4-f553-cdb60575be3f" executionId="bfffc467-a13c-4d49-9603-4e8ee4ef7045" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7897646f-d590-a744-6f54-191c285b2d61" executionId="33597051-33ab-40f3-a450-9f5bcc647659" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf3c514c-7cb0-8eb1-03b3-53e879988c1c" executionId="74d70097-25a8-4335-b286-cc58dff19c68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="686f6711-8021-a8f3-3b3a-eaba536072b2" executionId="9bdf745d-9af0-4a1b-b827-b47fc760b3b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5" executionId="180520cc-5a58-49aa-abbd-544a1af865d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c117b56-1506-1bd1-f044-876710cad1ee" executionId="d8a56de3-de32-4b14-92bc-4a54ac40c3f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="044df121-0fda-1dc1-83b7-9cf764aef8f7" executionId="9f829d06-faa8-4a02-af01-5e8f92842aec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb" executionId="702135bd-83c8-4276-85ad-4d98a2f59a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="599496d6-b812-62ed-1f0f-451526f6cb9c" executionId="8517826f-a73d-490d-82ce-5c78b5064ae2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc1c41d0-768f-e315-7ccb-0eec48d3b923" executionId="ce017806-eb05-4429-bb40-ab969a2efb0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" executionId="06927339-f606-4082-9a45-2bc933ff9bd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37e0fafa-48db-99b1-0267-034149e7f4e7" executionId="2378ae14-4972-4c7d-aff9-a8ec7af1a523" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59b8a834-106d-cb19-7662-df730c728815" executionId="9783cecb-e25c-40bf-a7d6-0e7996b5b475" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf623f0d-8db9-29f4-271b-a1d594a59aea" executionId="200a28d9-edc3-4fbe-97a1-6c44e565f1d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6584b63e-0a2b-f726-8ffc-f608faa84ab9" executionId="51bd44ed-659a-4835-bd2c-32c7543e7533" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09398b05-4baa-9258-8fef-14faa45a6744" executionId="53a3004a-56d4-46f2-9c20-9ad63cf104ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2be04153-54d3-c44c-48bd-3141beaf73e6" executionId="43c9a171-7b12-43d1-8e08-f401ab66adbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="361fdaca-0793-e07e-95e9-64161bbf57e3" executionId="788557a7-a480-4c2d-8114-f692e47eceef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f96120d2-bf6b-5fe7-3945-fb5b6791ab15" executionId="2ca7b307-0fff-4734-b86c-6a39d484096d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076da992-6b74-4880-0def-fee488592a5e" executionId="eb750c3a-f9a3-49f0-82fb-9968b434f58c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" executionId="af1157e8-c78d-451c-b7e8-3aeaee89ad71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4acd630-ffce-0956-fcfc-6b4a83ef5036" executionId="71d59c01-8722-4ae4-ac30-a27129f12407" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f068516a-6e46-bc39-b4c5-b5c2e474ef25" executionId="6a0db81f-a2c5-4201-a261-67312b19b3d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" executionId="8243badf-d6d0-4acb-a0bd-7e0ee7765ef1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dc437b0-df21-0f0e-0f6b-636b7abd849a" executionId="c69c980b-27e6-4908-a8d1-209431e19ef3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445fd443-72c6-196f-0e54-8f2c2183476c" executionId="97d1fe92-2976-4ed8-9746-49d3be8f2cbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a951db2-ec92-6fa1-ef6c-9c07858383b4" executionId="050c2d7e-7938-4476-996e-74a9907f774c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" executionId="f2dee9a5-6d22-49b7-b6c1-674cf2c1232a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab3253be-6237-d094-054b-e631c486bf5e" executionId="2ab692b0-b62d-4037-b4d0-94c6331255c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2fb3f17-704c-ee8a-f170-ad643a4033c1" executionId="374a3500-85e6-4f3d-8062-a238e7fd4d94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0be7308e-6f14-61f7-97b2-c45180fa8057" executionId="4072d4f9-6aa0-4706-9d4c-c56c1acd6e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a380e378-0806-bd0a-422c-145f7250636d" executionId="89bce0fb-f076-4c10-ab78-92b8144cb6c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" executionId="2944c74f-cfa8-4eb0-bf6e-47435813b077" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3760ab22-b347-53b1-4faa-003be093b83e" executionId="f58111d6-e8fb-49d0-8c71-ed3d79f36dcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f196d956-1550-703f-81f2-8253d5c88458" executionId="e4ecbb00-2f89-40c2-87a8-fdfaa0d7c055" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85a5546d-e174-aa0e-2505-818a7458490d" executionId="2344a217-8db5-4a39-9657-5fb24e94c8ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25f1def4-2dc5-2d09-3cad-02fb16036ecd" executionId="2b2c5a0b-71a9-4ba9-bd5a-9013bb6ec5cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" executionId="a755543b-a595-4cb5-9c3c-080c59fe2e7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e447bef-0afc-a6dd-2452-7a2d8c392ed2" executionId="23bcb0d6-888b-4432-b4b8-45df87c3cc0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="011dba1b-eeee-7ba3-aed6-657436df6c33" executionId="e7ea9cdd-cfe0-46e8-bcdd-637519d72c9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0f13bf7-0ea3-2b35-193c-2debfa6668eb" executionId="720c3f69-f73b-41f2-a8f2-f8ec3aeafe20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82ea7284-bc8d-1494-677c-c44442db24d0" executionId="2d57e169-8b9a-4f48-aee5-9bc0ebc03dfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c499120-4a7c-8778-2db1-31dad9a8332f" executionId="56f458cb-4488-4689-835b-2477f82c7f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb" executionId="119ee4a6-8d04-451d-ab98-c6b1f0a0ef26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cfd9ead-8d99-f13a-439a-671fffa960f6" executionId="76d43b7a-2481-4189-8843-c9a3a5d95809" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9daee40-a27c-d2bf-fe31-2b54712ee428" executionId="3e4562fd-3c88-426b-8033-c206bf16e330" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" executionId="c4d7cc77-6bc1-4022-b097-89a0ee317de7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830" executionId="32331cb7-001c-4378-b094-c05b09cc1192" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" executionId="e5cd60db-277a-43d6-a31b-19fa82eeb78b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b9a7bf2-d547-97fe-931b-d2ccafd824fa" executionId="2f94c2ac-f20e-482b-b414-39971d03f74e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="890a16fe-50aa-9b63-d087-fa57500a45d2" executionId="5eaf71fc-33e9-4f60-acf6-109a281c2783" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" executionId="ec70d492-b4b2-4e0c-b834-4b21af9f9951" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc82548-0025-2ae3-b845-7c3c157f002d" executionId="8a8c4c17-b292-4942-a9f7-03d2970e27b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f169de-c533-6078-d217-b67aa78d82e7" executionId="238f99ab-e181-4b53-a0c9-b52c1e929810" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3cb10a6-b759-7429-8c8e-9bf664aee45c" executionId="7a9810d7-06da-4e74-ba55-8740354f39b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="121" executed="50" passed="50" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running selected tests in D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 121 of 121 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+T001_LoadEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T010_StoreReadVerifyAssets: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T020_CheckForWeirdCreatorID: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T010_EstateSettingsSimpleStorage_MinimumParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T011_EstateSettingsSimpleStorage_MaximumParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T012_EstateSettingsRandomStorage: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T012_EstateSettingsSimpleStorage_AccurateParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T020_EstateSettingsManagerList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T021_EstateSettingsUserList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T022_EstateSettingsBanList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_StoreReadVerifyAssets" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_CheckForWeirdCreatorID" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_EstateSettingsSimpleStorage_MinimumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_EstateSettingsSimpleStorage_MaximumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsRandomStorage" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsSimpleStorage_AccurateParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_EstateSettingsManagerList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_EstateSettingsUserList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T022_EstateSettingsBanList" wurde im Testlauf übersprungen.&#xD;
+T022_EstateSettingsGroupList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T001_LoadEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T010_FolderNonParent: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T011_FolderCreate: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T012_FolderList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T013_FolderHierarchy: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T014_MoveFolder: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T015_FolderHierarchy: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T100_NoItems: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T101_CreatItems: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T022_EstateSettingsGroupList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_FolderNonParent" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_FolderCreate" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_FolderList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T013_FolderHierarchy" wurde im Testlauf übersprungen.&#xD;
+Der Test "T014_MoveFolder" wurde im Testlauf übersprungen.&#xD;
+Der Test "T015_FolderHierarchy" wurde im Testlauf übersprungen.&#xD;
+Der Test "T100_NoItems" wurde im Testlauf übersprungen.&#xD;
+Der Test "T101_CreatItems" wurde im Testlauf übersprungen.&#xD;
+T102_CompareItems: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T103_UpdateItem: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T104_RandomUpdateItem: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T999_StillNull: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T001_LoadEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T010_StoreSimpleObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T011_ObjectNames: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T012_SceneParts: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T013_DatabasePersistency: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T014_UpdateObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T102_CompareItems" wurde im Testlauf übersprungen.&#xD;
+Der Test "T103_UpdateItem" wurde im Testlauf übersprungen.&#xD;
+Der Test "T104_RandomUpdateItem" wurde im Testlauf übersprungen.&#xD;
+Der Test "T999_StillNull" wurde im Testlauf übersprungen.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_StoreSimpleObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_ObjectNames" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_SceneParts" wurde im Testlauf übersprungen.&#xD;
+Der Test "T013_DatabasePersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T014_UpdateObject" wurde im Testlauf übersprungen.&#xD;
+T015_LargeSceneObjects: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T020_PrimInventoryEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T021_PrimInventoryBasic: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T025_PrimInventoryPersistency: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T052_RemoveObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T100_DefaultRegionInfo: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T101_UpdateRegionInfo: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T300_NoTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T301_CreateTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T302_FetchTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T015_LargeSceneObjects" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_PrimInventoryEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_PrimInventoryBasic" wurde im Testlauf übersprungen.&#xD;
+Der Test "T025_PrimInventoryPersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T052_RemoveObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T100_DefaultRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T101_UpdateRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T300_NoTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T301_CreateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T302_FetchTerrain" wurde im Testlauf übersprungen.&#xD;
+T303_UpdateTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+T400_EmptyLand: OneTimeSetUp: Missing optional resource TestDataConnections.ini for MySqlConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T303_UpdateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T400_EmptyLand" wurde im Testlauf übersprungen.&#xD;
+T001_LoadEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T010_StoreReadVerifyAssets: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_StoreReadVerifyAssets" wurde im Testlauf übersprungen.&#xD;
+T020_CheckForWeirdCreatorID: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T010_EstateSettingsSimpleStorage_MinimumParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T011_EstateSettingsSimpleStorage_MaximumParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T012_EstateSettingsRandomStorage: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T012_EstateSettingsSimpleStorage_AccurateParameterSet: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T020_EstateSettingsManagerList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T021_EstateSettingsUserList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T022_EstateSettingsBanList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T022_EstateSettingsGroupList: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T001_LoadEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T020_CheckForWeirdCreatorID" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_EstateSettingsSimpleStorage_MinimumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_EstateSettingsSimpleStorage_MaximumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsRandomStorage" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsSimpleStorage_AccurateParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_EstateSettingsManagerList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_EstateSettingsUserList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T022_EstateSettingsBanList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T022_EstateSettingsGroupList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+T010_StoreSimpleObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T011_ObjectNames: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T012_SceneParts: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T013_DatabasePersistency: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T014_UpdateObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T015_LargeSceneObjects: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T020_PrimInventoryEmpty: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T021_PrimInventoryBasic: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T025_PrimInventoryPersistency: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T052_RemoveObject: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+Der Test "T010_StoreSimpleObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_ObjectNames" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_SceneParts" wurde im Testlauf übersprungen.&#xD;
+Der Test "T013_DatabasePersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T014_UpdateObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T015_LargeSceneObjects" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_PrimInventoryEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_PrimInventoryBasic" wurde im Testlauf übersprungen.&#xD;
+Der Test "T025_PrimInventoryPersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T052_RemoveObject" wurde im Testlauf übersprungen.&#xD;
+T100_DefaultRegionInfo: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T101_UpdateRegionInfo: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T300_NoTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T301_CreateTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T302_FetchTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T303_UpdateTerrain: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+T400_EmptyLand: OneTimeSetUp: Missing optional resource TestDataConnections.ini for SqliteConnection. Database-backed data tests are skipped.&#xD;
+&#xD;
+===&gt; In Test Method : TestLandDataDeserializeNoAccessLists &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : TestLandDataDeserializeWithAccessLists &lt;===&#xD;
+&#xD;
+Der Test "T100_DefaultRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T101_UpdateRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T300_NoTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T301_CreateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T302_FetchTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T303_UpdateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T400_EmptyLand" wurde im Testlauf übersprungen.&#xD;
+&#xD;
+===&gt; In Test Method : TestRegionSettingsDeserialize &lt;===&#xD;
+&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MHPC-WORKSTATIO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.info"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

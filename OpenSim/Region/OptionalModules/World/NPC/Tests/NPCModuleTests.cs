@@ -54,14 +54,14 @@ namespace OpenSim.Region.OptionalModules.World.NPC.Tests
         private AttachmentsModule m_attMod;
         private NPCModule m_npcMod;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void FixtureInit()
         {
             // Don't allow tests to be bamboozled by asynchronous events.  Execute everything on the same thread.
             Util.FireAndForgetMethod = FireAndForgetMethod.None;
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TearDown()
         {
             // We must set this back afterwards, otherwise later tests will fail since they're expecting multiple
@@ -484,3 +484,4 @@ namespace OpenSim.Region.OptionalModules.World.NPC.Tests
         }
     }
 }
+

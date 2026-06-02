@@ -88,11 +88,12 @@ namespace OpenSim.Server.Handlers.Authentication
                     return DoPlainMethods(body);
 
                 case "crypt":
-                    byte[] buffer = new byte[request.Length];
                     long length = request.Length;
                     if (length > 16384)
                         length = 16384;
-                    request.Read(buffer, 0, (int)length);
+                    byte[] buffer = new byte[length];
+                    if (length > 0)
+                        Util.ReadStream(request, buffer);
 
                     return DoEncryptedMethods(buffer);
                 }

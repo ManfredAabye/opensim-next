@@ -26,7 +26,6 @@
  */
 
 using System;
-using NUnit.Framework;
 using NUnit.Framework.Constraints;
 
 namespace OpenSim.Tests.Common
@@ -48,7 +47,7 @@ namespace OpenSim.Tests.Common
         ///<returns>
         ///True for success, false for failure
         ///</returns>
-        public override bool Matches(object valueToBeTested)
+        public override ConstraintResult ApplyTo<TActual>(TActual valueToBeTested)
         {
             if (valueToBeTested == null)
             {
@@ -59,19 +58,19 @@ namespace OpenSim.Tests.Common
                 throw new ArgumentException("Constraint cannot be used upon non double-values.");
             }
 
-            _valueToBeTested = (double)valueToBeTested;
+            _valueToBeTested = (double)(object)valueToBeTested;
+            bool success = IsWithinDoubleConstraint(_valueToBeTested, _baseValue);
 
-            return IsWithinDoubleConstraint(_valueToBeTested, _baseValue);
+            return new ConstraintResult(this, valueToBeTested, success);
         }
 
-        public override void WriteDescriptionTo(MessageWriter writer)
+        public override string Description
         {
-            writer.WriteExpectedValue(string.Format("A value {0} within tolerance of plus or minus {1}",_baseValue,_tolerance));
-        }
-
-        public override void WriteActualValueTo(MessageWriter writer)
-        {
-            writer.WriteActualValue(_valueToBeTested);
+            get
+            {
+                return string.Format("A value {0} within tolerance of plus or minus {1}, actual {2}",
+                    _baseValue, _tolerance, _valueToBeTested);
+            }
         }
     }
 }

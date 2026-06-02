@@ -1,0 +1,1484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0f62ac92-fa3d-4a95-bba3-a7d9b0a68067" name="zainh@MHPC-WORKSTATIO 2026-06-02 12:02:39" runUser="MHPC-WORKSTATIO\zainh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-02T12:02:39.0507948+02:00" queuing="2026-06-02T12:02:39.0507951+02:00" start="2026-06-02T12:01:48.1478222+02:00" finish="2026-06-02T12:02:43.8029907+02:00" />
+  <TestSettings name="default" id="4b808249-1acf-46a9-a85e-48f8424d8826">
+    <Deployment runDeploymentRoot="zainh_MHPC-WORKSTATIO_2026-06-02_12_02_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4e8e084c-9d59-42d0-afee-68f5aa45d096" testId="011dba1b-eeee-7ba3-aed6-657436df6c33" testName="AssetMetaDataNonNullContentTypeTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003080" startTime="2026-06-02T12:02:40.8544571+02:00" endTime="2026-06-02T12:02:40.8547646+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e8e084c-9d59-42d0-afee-68f5aa45d096" />
+    <UnitTestResult executionId="b8cf0d7c-3998-4000-874e-ca1252a5cb56" testId="59b8a834-106d-cb19-7662-df730c728815" testName="TestNotInCache" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001630" startTime="2026-06-02T12:02:40.8517116+02:00" endTime="2026-06-02T12:02:40.8518748+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8cf0d7c-3998-4000-874e-ca1252a5cb56" />
+    <UnitTestResult executionId="b0c025f2-c423-42f1-a9df-1e853fe034c9" testId="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747" testName="T300_NoTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003860" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954818+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0c025f2-c423-42f1-a9df-1e853fe034c9">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e2c7123-f479-428f-a5d4-103b214325e9" testId="8ef90458-4232-8a53-3a54-1c746414bcba" testName="GetHashGuidTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008540" startTime="2026-06-02T12:02:40.8598487+02:00" endTime="2026-06-02T12:02:40.8607023+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e2c7123-f479-428f-a5d4-103b214325e9" />
+    <UnitTestResult executionId="797b2e57-1c2f-461b-bfb0-26b7b2913305" testId="9c499120-4a7c-8778-2db1-31dad9a8332f" testName="T020_CheckForWeirdCreatorID" computerName="MHPC-WORKSTATIO" duration="00:00:00.0624260" startTime="2026-06-02T12:02:38.9293275+02:00" endTime="2026-06-02T12:02:38.9917537+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="797b2e57-1c2f-461b-bfb0-26b7b2913305">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00910e3b-b539-439e-83e1-06ffdff6ecee" testId="009dbe34-88f9-b0fd-cbfd-16976c8950e4" testName="TestScramble" computerName="MHPC-WORKSTATIO" duration="00:00:00.0028140" startTime="2026-06-02T12:02:39.0439015+02:00" endTime="2026-06-02T12:02:39.0467152+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00910e3b-b539-439e-83e1-06ffdff6ecee" />
+    <UnitTestResult executionId="a400c67f-ad3a-42b0-9e76-b02dfefcc119" testId="548cba8c-1666-f71b-87c0-cb437d1387e9" testName="AgentPositionTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0014750" startTime="2026-06-02T12:02:40.8529667+02:00" endTime="2026-06-02T12:02:40.8544414+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a400c67f-ad3a-42b0-9e76-b02dfefcc119" />
+    <UnitTestResult executionId="be283af9-771a-4b7d-b619-666cc21b064a" testId="6584b63e-0a2b-f726-8ffc-f608faa84ab9" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0616040" startTime="2026-06-02T12:02:38.9293275+02:00" endTime="2026-06-02T12:02:38.9908865+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be283af9-771a-4b7d-b619-666cc21b064a">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb67b1d2-25f4-4607-8516-cdff12f523ad" testId="f8ba269a-c7a7-db85-4521-7a458ca43493" testName="ExpireItemManually" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002860" startTime="2026-06-02T12:02:40.8514116+02:00" endTime="2026-06-02T12:02:40.8516980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb67b1d2-25f4-4607-8516-cdff12f523ad" />
+    <UnitTestResult executionId="43ff0eec-97d2-4b14-a020-e8280b033a81" testId="73f169de-c533-6078-d217-b67aa78d82e7" testName="T010_StoreSimpleObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0341890" startTime="2026-06-02T12:02:39.4476174+02:00" endTime="2026-06-02T12:02:39.4818064+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43ff0eec-97d2-4b14-a020-e8280b033a81">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_StoreSimpleObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e3bc71d-3525-4d3b-86c8-a9b8693f7ca8" testId="5c117b56-1506-1bd1-f044-876710cad1ee" testName="ShouldCompareLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001950" startTime="2026-06-02T12:02:39.0291531+02:00" endTime="2026-06-02T12:02:39.0293480+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e3bc71d-3525-4d3b-86c8-a9b8693f7ca8" />
+    <UnitTestResult executionId="0c981af1-ad23-4f5b-94b8-9a850060b40d" testId="6d877b38-ff89-3c2e-d6bf-4f524738cc6c" testName="T400_EmptyLand" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003890" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954847+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c981af1-ad23-4f5b-94b8-9a850060b40d">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8544cddc-5be0-4eb9-ae43-d837fc5bc929" testId="32189929-1bd3-69f1-c05e-251604dca7db" testName="TestLandDataDeserializeWithAccessLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0010500" startTime="2026-06-02T12:02:40.8185037+02:00" endTime="2026-06-02T12:02:40.8195534+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8544cddc-5be0-4eb9-ae43-d837fc5bc929">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestLandDataDeserializeWithAccessLists &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="689bb0ed-d60e-4afe-b557-24789dbf25b0" testId="e561f19f-e65f-a6b1-5525-d621ae6bca59" testName="VectorOperationTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0009080" startTime="2026-06-02T12:02:40.8616013+02:00" endTime="2026-06-02T12:02:40.8625092+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="689bb0ed-d60e-4afe-b557-24789dbf25b0" />
+    <UnitTestResult executionId="9027e424-2172-43af-b9ea-dcf0840d9728" testId="3fd170c8-bbaf-480c-81b8-b43411be4886" testName="T022_EstateSettingsGroupList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0262560" startTime="2026-06-02T12:02:39.2970895+02:00" endTime="2026-06-02T12:02:39.3233452+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9027e424-2172-43af-b9ea-dcf0840d9728">
+      <Output>
+        <StdOut>===&gt; In Test Method : T022_EstateSettingsGroupList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cfbb79a-eabd-4250-8f5f-43a382f49db1" testId="098181c7-a000-6052-cfff-e9cd8f00af0e" testName="T013_DatabasePersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0214900" startTime="2026-06-02T12:02:39.5042485+02:00" endTime="2026-06-02T12:02:39.5257383+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cfbb79a-eabd-4250-8f5f-43a382f49db1">
+      <Output>
+        <StdOut>===&gt; In Test Method : T013_DatabasePersistency &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ad34234-2a6d-4772-95b5-d7f352c78af9" testId="51aa2931-b79d-5980-4c97-4b096eb0cbc9" testName="T020_EstateSettingsManagerList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008700" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945982+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ad34234-2a6d-4772-95b5-d7f352c78af9">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ccf3343c-7550-4d38-8a09-feab41641df3" testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0028500" startTime="2026-06-02T12:02:39.1462199+02:00" endTime="2026-06-02T12:02:39.1490703+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccf3343c-7550-4d38-8a09-feab41641df3">
+      <Output>
+        <StdOut>===&gt; In Test Method : T001_LoadEmpty &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="68c213a6-a0d6-46c9-b827-73de6a925254" testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" testName="T100_DefaultRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0087350" startTime="2026-06-02T12:02:39.7084847+02:00" endTime="2026-06-02T12:02:39.7172184+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68c213a6-a0d6-46c9-b827-73de6a925254">
+      <Output>
+        <StdOut>===&gt; In Test Method : T100_DefaultRegionInfo &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b74dca62-5d3f-4aa8-a7f2-85103c0e218d" testId="f96120d2-bf6b-5fe7-3945-fb5b6791ab15" testName="T022_EstateSettingsGroupList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008720" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9946004+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b74dca62-5d3f-4aa8-a7f2-85103c0e218d">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c96bd1d-b34c-41b0-8d0a-7bda7b9416af" testId="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b" testName="T025_PrimInventoryPersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003840" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954790+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c96bd1d-b34c-41b0-8d0a-7bda7b9416af">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d489a916-080a-414a-91a0-2a3d61cea1e1" testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" testName="T010_StoreReadVerifyAssets" computerName="MHPC-WORKSTATIO" duration="00:00:00.0222400" startTime="2026-06-02T12:02:39.1490927+02:00" endTime="2026-06-02T12:02:39.1713327+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d489a916-080a-414a-91a0-2a3d61cea1e1">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_StoreReadVerifyAssets &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f303af23-200a-4a3a-8da0-1b2d4ac3d2fe" testId="84e85aef-1e37-c74c-48f8-9b714f4f8912" testName="FakeParcelIDTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0007530" startTime="2026-06-02T12:02:40.8590811+02:00" endTime="2026-06-02T12:02:40.8598338+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f303af23-200a-4a3a-8da0-1b2d4ac3d2fe" />
+    <UnitTestResult executionId="541dc742-788f-4936-bfa2-8b078f64240b" testId="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5" testName="T103_UpdateItem" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004390" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950668+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="541dc742-788f-4936-bfa2-8b078f64240b">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e78da6cb-78e5-4c20-9f74-be5c2d4bea32" testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" testName="T302_FetchTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0105570" startTime="2026-06-02T12:02:40.2711633+02:00" endTime="2026-06-02T12:02:40.2817202+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e78da6cb-78e5-4c20-9f74-be5c2d4bea32">
+      <Output>
+        <StdOut>===&gt; In Test Method : T302_FetchTerrain &lt;===&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3ca5fee-1e8f-4d64-b63b-b771d2ef3cff" testId="f05779d8-2ba9-ad62-c34e-74faea653ec4" testName="T301_CreateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003869" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954825+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3ca5fee-1e8f-4d64-b63b-b771d2ef3cff">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77e4bab3-3aed-45bd-b8b0-12631b3d8609" testId="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c" testName="Test1000SmallPrimeNumbers" computerName="MHPC-WORKSTATIO" duration="00:00:00.0012359" startTime="2026-06-02T12:02:40.8573441+02:00" endTime="2026-06-02T12:02:40.8585800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77e4bab3-3aed-45bd-b8b0-12631b3d8609" />
+    <UnitTestResult executionId="40c8eb45-a554-4c2e-8b58-e1cb46212562" testId="81f29b60-b376-7ecb-3127-952594448024" testName="T052_RemoveObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003840" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954797+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40c8eb45-a554-4c2e-8b58-e1cb46212562">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e0ed5d0-de3e-440b-9fe1-da5792ed7711" testId="361fdaca-0793-e07e-95e9-64161bbf57e3" testName="T014_UpdateObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003800" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954756+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e0ed5d0-de3e-440b-9fe1-da5792ed7711">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="32ee2ba6-ef08-4dde-b5b3-e36d4375d53b" testId="5e749a33-b16c-67ed-d947-25b975f49fd5" testName="UUIDTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002110" startTime="2026-06-02T12:02:40.8613821+02:00" endTime="2026-06-02T12:02:40.8615930+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32ee2ba6-ef08-4dde-b5b3-e36d4375d53b" />
+    <UnitTestResult executionId="5e343b85-9fc4-4177-bcb9-e5106bc8a396" testId="25f1def4-2dc5-2d09-3cad-02fb16036ecd" testName="T101_CreatItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004380" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950654+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e343b85-9fc4-4177-bcb9-e5106bc8a396">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60cc0f22-c855-4751-89e5-8a76d68cf60a" testId="499e9057-4fb6-d102-85ba-2cf0b5387676" testName="UUIDShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001430" startTime="2026-06-02T12:02:39.0318361+02:00" endTime="2026-06-02T12:02:39.0319790+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60cc0f22-c855-4751-89e5-8a76d68cf60a" />
+    <UnitTestResult executionId="d3e37843-d0f6-4ae1-bba9-97982c72ade7" testId="6cfd9ead-8d99-f13a-439a-671fffa960f6" testName="locationXYRegionHandle" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004870" startTime="2026-06-02T12:02:40.8524046+02:00" endTime="2026-06-02T12:02:40.8528919+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3e37843-d0f6-4ae1-bba9-97982c72ade7" />
+    <UnitTestResult executionId="6349f1cb-bf0c-45f3-8116-e5b15d466460" testId="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d" testName="T013_DatabasePersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003790" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954747+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6349f1cb-bf0c-45f3-8116-e5b15d466460">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6927dbb5-5d41-44dd-92e0-edaefc99eb56" testId="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008670" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6927dbb5-5d41-44dd-92e0-edaefc99eb56">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91d8cd8d-0123-4f74-bd54-2b9e0e9db8f7" testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" testName="T400_EmptyLand" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005440" startTime="2026-06-02T12:02:40.8088947+02:00" endTime="2026-06-02T12:02:40.8094384+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91d8cd8d-0123-4f74-bd54-2b9e0e9db8f7">
+      <Output>
+        <StdOut>===&gt; In Test Method : T400_EmptyLand &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62f75668-d321-42d4-ac3b-ea8e922faa04" testId="f068516a-6e46-bc39-b4c5-b5c2e474ef25" testName="TestColors" computerName="MHPC-WORKSTATIO" duration="00:00:00.0009350" startTime="2026-06-02T12:02:39.0295912+02:00" endTime="2026-06-02T12:02:39.0305256+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62f75668-d321-42d4-ac3b-ea8e922faa04" />
+    <UnitTestResult executionId="86bd08f9-2ea6-4eae-88b2-fcc4bb6ee45a" testId="a0f13bf7-0ea3-2b35-193c-2debfa6668eb" testName="IntShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001260" startTime="2026-06-02T12:02:39.0290208+02:00" endTime="2026-06-02T12:02:39.0291465+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86bd08f9-2ea6-4eae-88b2-fcc4bb6ee45a" />
+    <UnitTestResult executionId="93ec5416-e89b-4078-ad0c-4e8186e4559e" testId="28d324f1-bfba-6215-d008-28c64d496ca1" testName="locationRegionHandleRegionHandle" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002770" startTime="2026-06-02T12:02:40.8521146+02:00" endTime="2026-06-02T12:02:40.8523912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93ec5416-e89b-4078-ad0c-4e8186e4559e" />
+    <UnitTestResult executionId="1f01ca53-81ad-40cc-a2e8-0ef80cd18133" testId="47c83c91-df22-d221-1e71-68386c74c54e" testName="AnimationOSDTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0007550" startTime="2026-06-02T12:02:40.8466874+02:00" endTime="2026-06-02T12:02:40.8474420+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f01ca53-81ad-40cc-a2e8-0ef80cd18133" />
+    <UnitTestResult executionId="d21eff4b-02ce-4f57-af4f-5cc2d5a87ce5" testId="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb" testName="T999_StillNull" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004400" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950682+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d21eff4b-02ce-4f57-af4f-5cc2d5a87ce5">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="965c3b06-7565-48f2-b1b1-ae2fa2e36293" testId="cf3c514c-7cb0-8eb1-03b3-53e879988c1c" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003610" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954559+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="965c3b06-7565-48f2-b1b1-ae2fa2e36293">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="012cfd61-3949-4ed0-b587-827c861fa344" testId="6fe6f8fc-4880-0ebb-0937-30c29636418b" testName="T012_EstateSettingsRandomStorage" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008680" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="012cfd61-3949-4ed0-b587-827c861fa344">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f19c0641-ed55-446e-a537-edef5361a28a" testId="09398b05-4baa-9258-8fef-14faa45a6744" testName="T302_FetchTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003880" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954832+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f19c0641-ed55-446e-a537-edef5361a28a">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83131dd8-f355-419f-a58a-2570eee14302" testId="a4acd630-ffce-0956-fcfc-6b4a83ef5036" testName="T100_DefaultRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003850" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954804+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83131dd8-f355-419f-a58a-2570eee14302">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f71c9f4e-b275-4ead-9d6c-49a4b79a0bde" testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" testName="T052_RemoveObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0067220" startTime="2026-06-02T12:02:39.7017303+02:00" endTime="2026-06-02T12:02:39.7084521+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f71c9f4e-b275-4ead-9d6c-49a4b79a0bde">
+      <Output>
+        <StdOut>===&gt; In Test Method : T052_RemoveObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9da25939-ca34-4a44-b93a-ac2e5f279601" testId="97c2ccff-bb27-4030-0e46-dd6f137afa2d" testName="T012_SceneParts" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003660" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954609+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9da25939-ca34-4a44-b93a-ac2e5f279601">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c962f580-55dd-403c-b504-df4335b585be" testId="72ed9f60-2570-c8ae-52df-10594cf0265b" testName="T300_NoTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0009990" startTime="2026-06-02T12:02:39.7239628+02:00" endTime="2026-06-02T12:02:39.7249611+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c962f580-55dd-403c-b504-df4335b585be">
+      <Output>
+        <StdOut>===&gt; In Test Method : T300_NoTerrain &lt;===&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d0c8240-959e-46a1-b8d7-2016d34331c3" testId="0be7308e-6f14-61f7-97b2-c45180fa8057" testName="T100_NoItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004370" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950646+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d0c8240-959e-46a1-b8d7-2016d34331c3">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3aca6cf2-28a5-4fad-ad9a-94697ccc425d" testId="599496d6-b812-62ed-1f0f-451526f6cb9c" testName="TestContainsReferences" computerName="MHPC-WORKSTATIO" duration="00:00:00.0016140" startTime="2026-06-02T12:02:40.8475223+02:00" endTime="2026-06-02T12:02:40.8491362+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aca6cf2-28a5-4fad-ad9a-94697ccc425d" />
+    <UnitTestResult executionId="9cee4ea1-aaad-4fda-b482-331ef2c2d75b" testId="767a14f4-3be3-6c93-205f-d04e030d60ed" testName="T011_FolderCreate" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004330" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950606+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cee4ea1-aaad-4fda-b482-331ef2c2d75b">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="16a43abd-7f2e-424d-8fe0-d57fc55cca58" testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" testName="T101_UpdateRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0066570" startTime="2026-06-02T12:02:39.7172702+02:00" endTime="2026-06-02T12:02:39.7239269+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16a43abd-7f2e-424d-8fe0-d57fc55cca58">
+      <Output>
+        <StdOut>===&gt; In Test Method : T101_UpdateRegionInfo &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d03d5543-062a-4124-b315-955e826e7da1" testId="adc67e64-9cdb-5799-0b28-f0e9b5683888" testName="TestLandDataDeserializeNoAccessLists" computerName="MHPC-WORKSTATIO" duration="00:00:00.0088390" startTime="2026-06-02T12:02:40.8096433+02:00" endTime="2026-06-02T12:02:40.8184827+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03d5543-062a-4124-b315-955e826e7da1">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestLandDataDeserializeNoAccessLists &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7ac611e-9085-4f87-b429-5e4eda664bd6" testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" testName="T303_UpdateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.5270980" startTime="2026-06-02T12:02:40.2817505+02:00" endTime="2026-06-02T12:02:40.8088471+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7ac611e-9085-4f87-b429-5e4eda664bd6">
+      <Output>
+        <StdOut>===&gt; In Test Method : T303_UpdateTerrain &lt;===&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5f2d3fb-c1b2-46f0-9f46-3475bc0b492c" testId="686f6711-8021-a8f3-3b3a-eaba536072b2" testName="T011_ObjectNames" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003650" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954601+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5f2d3fb-c1b2-46f0-9f46-3475bc0b492c">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15327491-c24c-48e4-8283-3f740c190be3" testId="6bd8cea5-da22-039f-b159-7758adaaece5" testName="T022_EstateSettingsBanList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008720" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15327491-c24c-48e4-8283-3f740c190be3">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="81160471-4de0-496d-a348-64310e481b46" testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0161159" startTime="2026-06-02T12:02:39.2264719+02:00" endTime="2026-06-02T12:02:39.2425884+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81160471-4de0-496d-a348-64310e481b46">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4945156c-46ae-4da8-88df-67924b902e21" testId="b08d191f-efe5-e296-c548-602238003849" testName="T020_EstateSettingsManagerList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0066000" startTime="2026-06-02T12:02:39.2549228+02:00" endTime="2026-06-02T12:02:39.2615225+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4945156c-46ae-4da8-88df-67924b902e21">
+      <Output>
+        <StdOut>===&gt; In Test Method : T020_EstateSettingsManagerList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91255893-7f3c-4f4f-8fa0-bd8ea4f9e4bd" testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" testName="T012_SceneParts" computerName="MHPC-WORKSTATIO" duration="00:00:00.0206230" startTime="2026-06-02T12:02:39.4835957+02:00" endTime="2026-06-02T12:02:39.5042183+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91255893-7f3c-4f4f-8fa0-bd8ea4f9e4bd">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_SceneParts &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6b8e20e-3a2d-477c-a46a-014a9564afea" testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0034740" startTime="2026-06-02T12:02:39.2426157+02:00" endTime="2026-06-02T12:02:39.2460888+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6b8e20e-3a2d-477c-a46a-014a9564afea">
+      <Output>
+        <StdOut>===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e839bc1c-1832-4226-8c64-f7315654a986" testId="309796e1-11f2-746c-5bc6-effd0550e04f" testName="AssetShouldNotMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005030" startTime="2026-06-02T12:02:39.0274383+02:00" endTime="2026-06-02T12:02:39.0279411+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e839bc1c-1832-4226-8c64-f7315654a986" />
+    <UnitTestResult executionId="742d6318-9874-4c95-97bf-73565326660d" testId="dd698695-d5e8-e46b-5d87-7458da5b795e" testName="AddAgentCircuitTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0012560" startTime="2026-06-02T12:02:40.8437775+02:00" endTime="2026-06-02T12:02:40.8450331+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="742d6318-9874-4c95-97bf-73565326660d" />
+    <UnitTestResult executionId="29061275-adf0-4bd3-936b-d3b150533864" testId="e57c63cb-639c-5bf4-0581-f13c0be293a1" testName="IntShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001900" startTime="2026-06-02T12:02:39.0288239+02:00" endTime="2026-06-02T12:02:39.0290134+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29061275-adf0-4bd3-936b-d3b150533864" />
+    <UnitTestResult executionId="df3937bd-1239-42f0-baec-1f681f7d7a70" testId="f9daee40-a27c-d2bf-fe31-2b54712ee428" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004270" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950549+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df3937bd-1239-42f0-baec-1f681f7d7a70">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da8c7ed2-b0ce-4342-9208-9453847b84b3" testId="7897646f-d590-a744-6f54-191c285b2d61" testName="T010_StoreReadVerifyAssets" computerName="MHPC-WORKSTATIO" duration="00:00:00.0624010" startTime="2026-06-02T12:02:38.9293275+02:00" endTime="2026-06-02T12:02:38.9917279+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da8c7ed2-b0ce-4342-9208-9453847b84b3">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20106cb2-a4de-471c-afc3-bb86f959de32" testId="f196d956-1550-703f-81f2-8253d5c88458" testName="T021_PrimInventoryBasic" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003830" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954783+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20106cb2-a4de-471c-afc3-bb86f959de32">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0da7a81-d921-485a-92aa-1ad0fc952207" testId="2be04153-54d3-c44c-48bd-3141beaf73e6" testName="UUIDShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0012920" startTime="2026-06-02T12:02:39.0305342+02:00" endTime="2026-06-02T12:02:39.0318261+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0da7a81-d921-485a-92aa-1ad0fc952207" />
+    <UnitTestResult executionId="0fd70db9-13ad-44f2-88b3-869be6e09cd4" testId="b1978015-37e3-42cf-cd41-d79356ee9616" testName="CultureSetCultureTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001540" startTime="2026-06-02T12:02:40.8553257+02:00" endTime="2026-06-02T12:02:40.8554797+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fd70db9-13ad-44f2-88b3-869be6e09cd4" />
+    <UnitTestResult executionId="f3807e93-eb35-47d0-9c80-016bf72fed90" testId="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3" testName="AssetShouldMatch" computerName="MHPC-WORKSTATIO" duration="00:00:00.0318270" startTime="2026-06-02T12:02:38.9955918+02:00" endTime="2026-06-02T12:02:39.0274184+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3807e93-eb35-47d0-9c80-016bf72fed90" />
+    <UnitTestResult executionId="4b595578-83c0-4758-9aed-8b7cfc945525" testId="82ea7284-bc8d-1494-677c-c44442db24d0" testName="RemoveAgentCircuitTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003650" startTime="2026-06-02T12:02:40.8457781+02:00" endTime="2026-06-02T12:02:40.8461424+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b595578-83c0-4758-9aed-8b7cfc945525" />
+    <UnitTestResult executionId="dd751bfa-7624-4b19-a27c-09d6268dafc7" testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0034990" startTime="2026-06-02T12:02:39.2513966+02:00" endTime="2026-06-02T12:02:39.2548943+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd751bfa-7624-4b19-a27c-09d6268dafc7">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dabef0f1-591f-4e6f-a78b-eb690a30f14f" testId="37e0fafa-48db-99b1-0267-034149e7f4e7" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0073310" startTime="2026-06-02T12:02:39.4402606+02:00" endTime="2026-06-02T12:02:39.4475915+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dabef0f1-591f-4e6f-a78b-eb690a30f14f">
+      <Output>
+        <StdOut>===&gt; In Test Method : T001_LoadEmpty &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22e1ea31-a02f-43dc-bbe8-f47788c3bb10" testId="5c5c6491-bd33-52a4-f553-cdb60575be3f" testName="ClearCacheTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0006510" startTime="2026-06-02T12:02:40.8507451+02:00" endTime="2026-06-02T12:02:40.8513959+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22e1ea31-a02f-43dc-bbe8-f47788c3bb10" />
+    <UnitTestResult executionId="702ee670-9904-4c13-b14d-5621e6a0aa26" testId="abe572dc-9cba-04e8-323e-9a72536da491" testName="ShouldFailToCompareListsThatAreDifferent" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001270" startTime="2026-06-02T12:02:39.0293550+02:00" endTime="2026-06-02T12:02:39.0294818+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="702ee670-9904-4c13-b14d-5621e6a0aa26" />
+    <UnitTestResult executionId="0e9cdbd8-179e-43fe-9921-183b9633538e" testId="fa306458-aa1a-bd13-3cce-3894b0c8f21c" testName="ChildAgentDataUpdate01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001050" startTime="2026-06-02T12:02:40.8552141+02:00" endTime="2026-06-02T12:02:40.8553189+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e9cdbd8-179e-43fe-9921-183b9633538e" />
+    <UnitTestResult executionId="ac3ac5c3-c6a0-466f-97ac-b950a4b56f3e" testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" testName="T021_EstateSettingsUserList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0131910" startTime="2026-06-02T12:02:39.2615496+02:00" endTime="2026-06-02T12:02:39.2747397+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac3ac5c3-c6a0-466f-97ac-b950a4b56f3e">
+      <Output>
+        <StdOut>===&gt; In Test Method : T021_EstateSettingsUserList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="920ad529-be78-4d3e-a69e-31d602b4b953" testId="a380e378-0806-bd0a-422c-145f7250636d" testName="ValidateLoginTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004210" startTime="2026-06-02T12:02:40.8461586+02:00" endTime="2026-06-02T12:02:40.8465799+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="920ad529-be78-4d3e-a69e-31d602b4b953" />
+    <UnitTestResult executionId="84536c6c-f4f1-41ec-845e-6a49d849d754" testId="efc82548-0025-2ae3-b845-7c3c157f002d" testName="T015_FolderHierarchy" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004360" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950638+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84536c6c-f4f1-41ec-845e-6a49d849d754">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="738bde11-7b9c-4785-8282-eb5e015e49b6" testId="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb" testName="ChangeAgentCircuitCodeTest" computerName="MHPC-WORKSTATIO" duration="00:00:00.0007100" startTime="2026-06-02T12:02:40.8450521+02:00" endTime="2026-06-02T12:02:40.8457621+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="738bde11-7b9c-4785-8282-eb5e015e49b6" />
+    <UnitTestResult executionId="f1870739-d3ff-4a2c-98ce-d79c38e7a119" testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" testName="NUnit3RunnerIsWorking" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000450" startTime="2026-06-02T12:02:40.8626097+02:00" endTime="2026-06-02T12:02:40.8626543+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1870739-d3ff-4a2c-98ce-d79c38e7a119" />
+    <UnitTestResult executionId="6baf945b-7334-4079-bfa2-6beae6449c60" testId="445fd443-72c6-196f-0e54-8f2c2183476c" testName="T012_FolderList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004340" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950617+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6baf945b-7334-4079-bfa2-6beae6449c60">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e4e1c42-669e-4d85-955b-2b95801f9d4b" testId="890a16fe-50aa-9b63-d087-fa57500a45d2" testName="AssetShouldNotMatch2" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001870" startTime="2026-06-02T12:02:39.0279539+02:00" endTime="2026-06-02T12:02:39.0281406+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e4e1c42-669e-4d85-955b-2b95801f9d4b" />
+    <UnitTestResult executionId="4317b6a9-3919-47f6-bc28-d4216ffd0f0b" testId="6db48d17-20b0-c78a-2049-391c705fef5f" testName="ShouldFailToCompareListsThatAreDifferentLengths" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000970" startTime="2026-06-02T12:02:39.0294882+02:00" endTime="2026-06-02T12:02:39.0295851+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4317b6a9-3919-47f6-bc28-d4216ffd0f0b" />
+    <UnitTestResult executionId="e6d12de9-d13a-4745-abcb-12696fc6404b" testId="042a96c9-9623-86b4-8531-0dc5a074627e" testName="T102_CompareItems" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004380" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950661+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6d12de9-d13a-4745-abcb-12696fc6404b">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c58dacb4-ec22-4906-8b31-7d7e21dcda0e" testId="85a5546d-e174-aa0e-2505-818a7458490d" testName="T010_FolderNonParent" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004320" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950595+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c58dacb4-ec22-4906-8b31-7d7e21dcda0e">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fc8d10a-7c11-4011-9424-be1198673289" testId="852239b7-624d-305c-e63e-8b4841d18200" testName="T020_CheckForWeirdCreatorID" computerName="MHPC-WORKSTATIO" duration="00:00:00.0078680" startTime="2026-06-02T12:02:39.1713630+02:00" endTime="2026-06-02T12:02:39.1792303+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fc8d10a-7c11-4011-9424-be1198673289">
+      <Output>
+        <StdOut>===&gt; In Test Method : T020_CheckForWeirdCreatorID &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13ccefdd-2fa0-4def-add7-ed5a6eed1048" testId="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830" testName="T303_UpdateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003880" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954839+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ccefdd-2fa0-4def-add7-ed5a6eed1048">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ae2a3fb-e19a-44f8-80c5-9c6139c7b373" testId="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c" testName="T015_LargeSceneObjects" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003810" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954765+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ae2a3fb-e19a-44f8-80c5-9c6139c7b373">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb2c4315-d4df-4413-bc7d-af034a28a1f8" testId="076da992-6b74-4880-0def-fee488592a5e" testName="T020_PrimInventoryEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000970" startTime="2026-06-02T12:02:39.7015400+02:00" endTime="2026-06-02T12:02:39.7016365+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb2c4315-d4df-4413-bc7d-af034a28a1f8" />
+    <UnitTestResult executionId="4662b1d3-48bd-4592-b47e-b45aca0cf598" testId="ab3253be-6237-d094-054b-e631c486bf5e" testName="T010_StoreSimpleObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003640" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954590+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4662b1d3-48bd-4592-b47e-b45aca0cf598">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ecb63fa-a537-4d98-b65b-c11885d9d56c" testId="03c0d539-4d8b-825c-c0c6-8a13a8d4696d" testName="TestRetreive" computerName="MHPC-WORKSTATIO" duration="00:00:00.0001640" startTime="2026-06-02T12:02:40.8518826+02:00" endTime="2026-06-02T12:02:40.8520463+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ecb63fa-a537-4d98-b65b-c11885d9d56c" />
+    <UnitTestResult executionId="5e946cfa-e6b9-4980-a5b8-678273b613ed" testId="c58ac1e3-419b-3462-82ce-cf7b3cc7283c" testName="TestGetPrime" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003980" startTime="2026-06-02T12:02:40.8585942+02:00" endTime="2026-06-02T12:02:40.8589924+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e946cfa-e6b9-4980-a5b8-678273b613ed" />
+    <UnitTestResult executionId="3449ff55-9a96-49bc-bdc6-23fd76e282d0" testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" testName="T011_ObjectNames" computerName="MHPC-WORKSTATIO" duration="00:00:00.0017360" startTime="2026-06-02T12:02:39.4818378+02:00" endTime="2026-06-02T12:02:39.4835739+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3449ff55-9a96-49bc-bdc6-23fd76e282d0">
+      <Output>
+        <StdOut>===&gt; In Test Method : T011_ObjectNames &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d88a3d50-9b1d-4f17-9607-7736555e52f4" testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" testName="T025_PrimInventoryPersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000230" startTime="2026-06-02T12:02:39.7017017+02:00" endTime="2026-06-02T12:02:39.7017248+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d88a3d50-9b1d-4f17-9607-7736555e52f4" />
+    <UnitTestResult executionId="61c773ba-a8af-49c0-adaa-10da074cf831" testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" testName="T022_EstateSettingsBanList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0222909" startTime="2026-06-02T12:02:39.2747691+02:00" endTime="2026-06-02T12:02:39.2970599+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61c773ba-a8af-49c0-adaa-10da074cf831">
+      <Output>
+        <StdOut>===&gt; In Test Method : T022_EstateSettingsBanList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43790279-6c6f-4e88-92a2-ec85e8df05c2" testId="f6e201dd-1996-9312-6851-498ac8e9d3ef" testName="T020_PrimInventoryEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003820" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954775+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43790279-6c6f-4e88-92a2-ec85e8df05c2">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f240cdbe-0875-42eb-b2d9-8e26edc5d359" testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" testName="T021_PrimInventoryBasic" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000410" startTime="2026-06-02T12:02:39.7016528+02:00" endTime="2026-06-02T12:02:39.7016935+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f240cdbe-0875-42eb-b2d9-8e26edc5d359" />
+    <UnitTestResult executionId="e95a80ce-061c-4b1f-b3eb-31a124271942" testId="cc1c41d0-768f-e315-7ccb-0eec48d3b923" testName="InventoryItemBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003610" startTime="2026-06-02T12:02:40.8566441+02:00" endTime="2026-06-02T12:02:40.8570048+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e95a80ce-061c-4b1f-b3eb-31a124271942" />
+    <UnitTestResult executionId="519ff598-eaea-4779-af3a-ec6821d7a771" testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" testName="T014_UpdateObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0136250" startTime="2026-06-02T12:02:39.5257706+02:00" endTime="2026-06-02T12:02:39.5393956+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="519ff598-eaea-4779-af3a-ec6821d7a771">
+      <Output>
+        <StdOut>===&gt; In Test Method : T014_UpdateObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef3b4ebd-fb8c-4c83-acc5-030c85850bd0" testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" testName="T015_LargeSceneObjects" computerName="MHPC-WORKSTATIO" duration="00:00:00.1620870" startTime="2026-06-02T12:02:39.5394232+02:00" endTime="2026-06-02T12:02:39.7015095+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef3b4ebd-fb8c-4c83-acc5-030c85850bd0">
+      <Output>
+        <StdOut>===&gt; In Test Method : T015_LargeSceneObjects &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7c47fc8-9bb7-4177-a9d0-64ceda6b5e72" testId="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97" testName="SLUtilTypeConvertTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0006489" startTime="2026-06-02T12:02:40.8607185+02:00" endTime="2026-06-02T12:02:40.8613672+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7c47fc8-9bb7-4177-a9d0-64ceda6b5e72" />
+    <UnitTestResult executionId="b872ae42-a8ed-458d-aa34-2f11c45704d1" testId="5a951db2-ec92-6fa1-ef6c-9c07858383b4" testName="HistoricalAgentCircuitDataOSDConversion" computerName="MHPC-WORKSTATIO" duration="00:00:00.0111100" startTime="2026-06-02T12:02:40.8224579+02:00" endTime="2026-06-02T12:02:40.8335672+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b872ae42-a8ed-458d-aa34-2f11c45704d1" />
+    <UnitTestResult executionId="a9e39be3-32dd-453d-be24-60f14cb9818c" testId="90c3e869-401f-5da0-e507-48801c4a1b07" testName="DontScramble" computerName="MHPC-WORKSTATIO" duration="00:00:00.0112820" startTime="2026-06-02T12:02:39.0326011+02:00" endTime="2026-06-02T12:02:39.0438826+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9e39be3-32dd-453d-be24-60f14cb9818c" />
+    <UnitTestResult executionId="2319ca2b-a77c-4e47-91ee-22f03e30ba25" testId="d4969930-e153-6031-fd45-e8f3faf49436" testName="TestAgentCircuitDataOSDConversion" computerName="MHPC-WORKSTATIO" duration="00:00:00.0100100" startTime="2026-06-02T12:02:40.8335897+02:00" endTime="2026-06-02T12:02:40.8435990+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2319ca2b-a77c-4e47-91ee-22f03e30ba25" />
+    <UnitTestResult executionId="6d82d36d-0c39-4663-b3fd-5dafd3af26d0" testId="cf623f0d-8db9-29f4-271b-a1d594a59aea" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008690" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945975+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d82d36d-0c39-4663-b3fd-5dafd3af26d0">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2502a18-69f1-4e2d-a33d-4417babf3a6e" testId="7dc437b0-df21-0f0e-0f6b-636b7abd849a" testName="IntShouldIgnore" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003620" startTime="2026-06-02T12:02:39.0284545+02:00" endTime="2026-06-02T12:02:39.0288162+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2502a18-69f1-4e2d-a33d-4417babf3a6e" />
+    <UnitTestResult executionId="079946e0-706f-4650-a946-955889f5b52c" testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" testName="T301_CreateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.5461420" startTime="2026-06-02T12:02:39.7249824+02:00" endTime="2026-06-02T12:02:40.2711230+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="079946e0-706f-4650-a946-955889f5b52c">
+      <Output>
+        <StdOut>===&gt; In Test Method : T301_CreateTerrain &lt;===&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55726d9f-ed85-40b1-af8f-35f09d81eafa" testId="044df121-0fda-1dc1-83b7-9cf764aef8f7" testName="InventoryFolderBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003100" startTime="2026-06-02T12:02:40.8563201+02:00" endTime="2026-06-02T12:02:40.8566299+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55726d9f-ed85-40b1-af8f-35f09d81eafa" />
+    <UnitTestResult executionId="d3b0637c-63a7-4ec0-a105-085d03d85a29" testId="00fc6096-67ab-79d2-c6ea-55e67892d813" testName="T104_RandomUpdateItem" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004400" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950675+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3b0637c-63a7-4ec0-a105-085d03d85a29">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="68b1c01a-4696-4ed2-a4b8-dfa6e8ecbfec" testId="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72" testName="T013_FolderHierarchy" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004350" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950624+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b1c01a-4696-4ed2-a4b8-dfa6e8ecbfec">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d730d2f-07cd-4189-89d5-4aa08d490bd4" testId="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6" testName="TestRegionSettingsDeserialize" computerName="MHPC-WORKSTATIO" duration="00:00:00.0026610" startTime="2026-06-02T12:02:40.8196774+02:00" endTime="2026-06-02T12:02:40.8223379+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d730d2f-07cd-4189-89d5-4aa08d490bd4">
+      <Output>
+        <StdOut>===&gt; In Test Method : TestRegionSettingsDeserialize &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="061aa32c-9936-4ba7-9d6b-3c8ad17129d2" testId="3760ab22-b347-53b1-4faa-003be093b83e" testName="ErrorsOutOnRecursive" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002980" startTime="2026-06-02T12:02:39.0281484+02:00" endTime="2026-06-02T12:02:39.0284467+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="061aa32c-9936-4ba7-9d6b-3c8ad17129d2" />
+    <UnitTestResult executionId="09b5dfa8-0512-4a6c-b51e-5a5cd9f49b80" testId="d3cb10a6-b759-7429-8c8e-9bf664aee45c" testName="RegionSettingsTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0002500" startTime="2026-06-02T12:02:40.8570257+02:00" endTime="2026-06-02T12:02:40.8572760+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09b5dfa8-0512-4a6c-b51e-5a5cd9f49b80" />
+    <UnitTestResult executionId="72c79145-5f83-4b7b-9846-6022d02c9092" testId="8b9a7bf2-d547-97fe-931b-d2ccafd824fa" testName="AsssetBaseConstructorTest01" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004210" startTime="2026-06-02T12:02:40.8547794+02:00" endTime="2026-06-02T12:02:40.8551999+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72c79145-5f83-4b7b-9846-6022d02c9092" />
+    <UnitTestResult executionId="981c69eb-8c18-4e0e-861f-ca38f6d59c0d" testId="e2fb3f17-704c-ee8a-f170-ad643a4033c1" testName="T014_MoveFolder" computerName="MHPC-WORKSTATIO" duration="00:00:00.0004350" startTime="2026-06-02T12:02:38.9946278+02:00" endTime="2026-06-02T12:02:38.9950631+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="981c69eb-8c18-4e0e-861f-ca38f6d59c0d">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1b0a449-45a9-4563-aa0b-09cbf2ab667b" testId="2e447bef-0afc-a6dd-2452-7a2d8c392ed2" testName="T101_UpdateRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0003860" startTime="2026-06-02T12:02:38.9950954+02:00" endTime="2026-06-02T12:02:38.9954811+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1b0a449-45a9-4563-aa0b-09cbf2ab667b">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2925d25d-12a9-4aaa-b3eb-8adc0b4057f2" testId="4e582587-0202-714b-190f-e62e992bf9c7" testName="T012_EstateSettingsRandomStorage" computerName="MHPC-WORKSTATIO" duration="00:00:00.0052560" startTime="2026-06-02T12:02:39.2461129+02:00" endTime="2026-06-02T12:02:39.2513681+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2925d25d-12a9-4aaa-b3eb-8adc0b4057f2">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_EstateSettingsRandomStorage &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0fcaa89-8fee-481a-8895-8a82b9f316cb" testId="f1d0ec42-910f-55fa-6320-f7209b19e16c" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008640" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0fcaa89-8fee-481a-8895-8a82b9f316cb">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55ba3380-9d00-48fb-96a0-dae442d7d414" testId="4e27ce00-70cd-8d0f-00fd-042054acf5f8" testName="T021_EstateSettingsUserList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008710" startTime="2026-06-02T12:02:38.9937280+02:00" endTime="2026-06-02T12:02:38.9945990+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55ba3380-9d00-48fb-96a0-dae442d7d414">
+      <Output>
+        <StdOut>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</StdOut>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b530e731-668f-4323-9156-57ac4088ecb9" testId="2e399be7-cc05-fd0d-fd3a-2528014d446d" testName="EstateSettingsMundateTests" computerName="MHPC-WORKSTATIO" duration="00:00:00.0008180" startTime="2026-06-02T12:02:40.8554865+02:00" endTime="2026-06-02T12:02:40.8563045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b530e731-668f-4323-9156-57ac4088ecb9" />
+    <UnitTestResult executionId="e47aa1b1-c3c8-46e9-bc37-e29520d369f1" testId="a17f52ed-98d5-6112-2340-5efca43df893" testName="CacheItemMundane" computerName="MHPC-WORKSTATIO" duration="00:00:00.0014920" startTime="2026-06-02T12:02:40.8492376+02:00" endTime="2026-06-02T12:02:40.8507290+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47aa1b1-c3c8-46e9-bc37-e29520d369f1" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestContainsReferences" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="599496d6-b812-62ed-1f0f-451526f6cb9c">
+      <Execution id="3aca6cf2-28a5-4fad-ad9a-94697ccc425d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AssetBaseTest" name="TestContainsReferences" />
+    </UnitTest>
+    <UnitTest name="T011_FolderCreate" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="767a14f4-3be3-6c93-205f-d04e030d60ed">
+      <Execution id="9cee4ea1-aaad-4fda-b482-331ef2c2d75b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T011_FolderCreate" />
+    </UnitTest>
+    <UnitTest name="T012_SceneParts" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="c5a53d24-a4d9-bcbf-126d-54fca0399c4b">
+      <Execution id="91255893-7f3c-4f4f-8fa0-bd8ea4f9e4bd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T012_SceneParts" />
+    </UnitTest>
+    <UnitTest name="TestRetreive" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="03c0d539-4d8b-825c-c0c6-8a13a8d4696d">
+      <Execution id="3ecb63fa-a537-4d98-b65b-c11885d9d56c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="TestRetreive" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cf623f0d-8db9-29f4-271b-a1d594a59aea">
+      <Execution id="6d82d36d-0c39-4663-b3fd-5dafd3af26d0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="T021_PrimInventoryBasic" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f196d956-1550-703f-81f2-8253d5c88458">
+      <Execution id="20106cb2-a4de-471c-afc3-bb86f959de32" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T021_PrimInventoryBasic" />
+    </UnitTest>
+    <UnitTest name="T013_FolderHierarchy" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72">
+      <Execution id="68b1c01a-4696-4ed2-a4b8-dfa6e8ecbfec" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T013_FolderHierarchy" />
+    </UnitTest>
+    <UnitTest name="T010_StoreReadVerifyAssets" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="775c2346-dfda-ea7c-b9ab-66e58b282a29">
+      <Execution id="d489a916-080a-414a-91a0-2a3d61cea1e1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T010_StoreReadVerifyAssets" />
+    </UnitTest>
+    <UnitTest name="DontScramble" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="90c3e869-401f-5da0-e507-48801c4a1b07">
+      <Execution id="a9e39be3-32dd-453d-be24-60f14cb9818c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyScramblerTests" name="DontScramble" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1">
+      <Execution id="6927dbb5-5d41-44dd-92e0-edaefc99eb56" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="UUIDTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5e749a33-b16c-67ed-d947-25b975f49fd5">
+      <Execution id="32ee2ba6-ef08-4dde-b5b3-e36d4375d53b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="UUIDTests" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsBanList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6bd8cea5-da22-039f-b159-7758adaaece5">
+      <Execution id="15327491-c24c-48e4-8283-3f740c190be3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T022_EstateSettingsBanList" />
+    </UnitTest>
+    <UnitTest name="FakeParcelIDTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="84e85aef-1e37-c74c-48f8-9b714f4f8912">
+      <Execution id="f303af23-200a-4a3a-8da0-1b2d4ac3d2fe" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="FakeParcelIDTests" />
+    </UnitTest>
+    <UnitTest name="T021_EstateSettingsUserList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="4e27ce00-70cd-8d0f-00fd-042054acf5f8">
+      <Execution id="55ba3380-9d00-48fb-96a0-dae442d7d414" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T021_EstateSettingsUserList" />
+    </UnitTest>
+    <UnitTest name="AssetShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3">
+      <Execution id="f3807e93-eb35-47d0-9c80-016bf72fed90" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldMatch" />
+    </UnitTest>
+    <UnitTest name="T301_CreateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e">
+      <Execution id="079946e0-706f-4650-a946-955889f5b52c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T301_CreateTerrain" />
+    </UnitTest>
+    <UnitTest name="T104_RandomUpdateItem" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="00fc6096-67ab-79d2-c6ea-55e67892d813">
+      <Execution id="d3b0637c-63a7-4ec0-a105-085d03d85a29" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T104_RandomUpdateItem" />
+    </UnitTest>
+    <UnitTest name="T021_PrimInventoryBasic" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a">
+      <Execution id="f240cdbe-0875-42eb-b2d9-8e26edc5d359" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T021_PrimInventoryBasic" />
+    </UnitTest>
+    <UnitTest name="TestRegionSettingsDeserialize" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6">
+      <Execution id="9d730d2f-07cd-4189-89d5-4aa08d490bd4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.RegionSettingsSerializerTests" name="TestRegionSettingsDeserialize" />
+    </UnitTest>
+    <UnitTest name="ErrorsOutOnRecursive" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3760ab22-b347-53b1-4faa-003be093b83e">
+      <Execution id="061aa32c-9936-4ba7-9d6b-3c8ad17129d2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ErrorsOutOnRecursive" />
+    </UnitTest>
+    <UnitTest name="T303_UpdateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830">
+      <Execution id="13ccefdd-2fa0-4def-add7-ed5a6eed1048" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T303_UpdateTerrain" />
+    </UnitTest>
+    <UnitTest name="IntShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a0f13bf7-0ea3-2b35-193c-2debfa6668eb">
+      <Execution id="86bd08f9-2ea6-4eae-88b2-fcc4bb6ee45a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="T100_NoItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0be7308e-6f14-61f7-97b2-c45180fa8057">
+      <Execution id="7d0c8240-959e-46a1-b8d7-2016d34331c3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T100_NoItems" />
+    </UnitTest>
+    <UnitTest name="T025_PrimInventoryPersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d">
+      <Execution id="d88a3d50-9b1d-4f17-9607-7736555e52f4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T025_PrimInventoryPersistency" />
+    </UnitTest>
+    <UnitTest name="AssetShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="309796e1-11f2-746c-5bc6-effd0550e04f">
+      <Execution id="e839bc1c-1832-4226-8c64-f7315654a986" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="TestScramble" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="009dbe34-88f9-b0fd-cbfd-16976c8950e4">
+      <Execution id="00910e3b-b539-439e-83e1-06ffdff6ecee" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyScramblerTests" name="TestScramble" />
+    </UnitTest>
+    <UnitTest name="T400_EmptyLand" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6d877b38-ff89-3c2e-d6bf-4f524738cc6c">
+      <Execution id="0c981af1-ad23-4f5b-94b8-9a850060b40d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T400_EmptyLand" />
+    </UnitTest>
+    <UnitTest name="TestLandDataDeserializeNoAccessLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="adc67e64-9cdb-5799-0b28-f0e9b5683888">
+      <Execution id="d03d5543-062a-4124-b315-955e826e7da1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.LandDataSerializerTest" name="TestLandDataDeserializeNoAccessLists" />
+    </UnitTest>
+    <UnitTest name="T020_CheckForWeirdCreatorID" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="852239b7-624d-305c-e63e-8b4841d18200">
+      <Execution id="4fc8d10a-7c11-4011-9424-be1198673289" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T020_CheckForWeirdCreatorID" />
+    </UnitTest>
+    <UnitTest name="TestColors" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f068516a-6e46-bc39-b4c5-b5c2e474ef25">
+      <Execution id="62f75668-d321-42d4-ac3b-ea8e922faa04" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="TestColors" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsRandomStorage" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6fe6f8fc-4880-0ebb-0937-30c29636418b">
+      <Execution id="012cfd61-3949-4ed0-b587-827c861fa344" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T012_EstateSettingsRandomStorage" />
+    </UnitTest>
+    <UnitTest name="locationRegionHandleRegionHandle" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="28d324f1-bfba-6215-d008-28c64d496ca1">
+      <Execution id="93ec5416-e89b-4078-ad0c-4e8186e4559e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.LocationTest" name="locationRegionHandleRegionHandle" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="483a1bfd-72db-5475-1f9c-e42ff5322c97">
+      <Execution id="c6b8e20e-3a2d-477c-a46a-014a9564afea" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T101_UpdateRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2e447bef-0afc-a6dd-2452-7a2d8c392ed2">
+      <Execution id="a1b0a449-45a9-4563-aa0b-09cbf2ab667b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T101_UpdateRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6584b63e-0a2b-f726-8ffc-f608faa84ab9">
+      <Execution id="be283af9-771a-4b7d-b619-666cc21b064a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T301_CreateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f05779d8-2ba9-ad62-c34e-74faea653ec4">
+      <Execution id="b3ca5fee-1e8f-4d64-b63b-b771d2ef3cff" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T301_CreateTerrain" />
+    </UnitTest>
+    <UnitTest name="GetHashGuidTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="8ef90458-4232-8a53-3a54-1c746414bcba">
+      <Execution id="2e2c7123-f479-428f-a5d4-103b214325e9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="GetHashGuidTests" />
+    </UnitTest>
+    <UnitTest name="AgentPositionTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="548cba8c-1666-f71b-87c0-cb437d1387e9">
+      <Execution id="a400c67f-ad3a-42b0-9e76-b02dfefcc119" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AgentPositionTest01" />
+    </UnitTest>
+    <UnitTest name="T020_EstateSettingsManagerList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="51aa2931-b79d-5980-4c97-4b096eb0cbc9">
+      <Execution id="2ad34234-2a6d-4772-95b5-d7f352c78af9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T020_EstateSettingsManagerList" />
+    </UnitTest>
+    <UnitTest name="T014_MoveFolder" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e2fb3f17-704c-ee8a-f170-ad643a4033c1">
+      <Execution id="981c69eb-8c18-4e0e-861f-ca38f6d59c0d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T014_MoveFolder" />
+    </UnitTest>
+    <UnitTest name="NUnit3RunnerIsWorking" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e9d29922-23c8-b619-4492-0c3fe7c1fb4d">
+      <Execution id="f1870739-d3ff-4a2c-98ce-d79c38e7a119" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Tests.NUnitCompatibilitySmokeTests" name="NUnit3RunnerIsWorking" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsBanList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0">
+      <Execution id="61c773ba-a8af-49c0-adaa-10da074cf831" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsBanList" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsGroupList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3fd170c8-bbaf-480c-81b8-b43411be4886">
+      <Execution id="9027e424-2172-43af-b9ea-dcf0840d9728" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsGroupList" />
+    </UnitTest>
+    <UnitTest name="T103_UpdateItem" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5">
+      <Execution id="541dc742-788f-4936-bfa2-8b078f64240b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T103_UpdateItem" />
+    </UnitTest>
+    <UnitTest name="UUIDShouldNotMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="499e9057-4fb6-d102-85ba-2cf0b5387676">
+      <Execution id="60cc0f22-c855-4751-89e5-8a76d68cf60a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="UUIDShouldNotMatch" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsRandomStorage" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="4e582587-0202-714b-190f-e62e992bf9c7">
+      <Execution id="2925d25d-12a9-4aaa-b3eb-8adc0b4057f2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsRandomStorage" />
+    </UnitTest>
+    <UnitTest name="ChangeAgentCircuitCodeTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb">
+      <Execution id="738bde11-7b9c-4785-8282-eb5e015e49b6" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="ChangeAgentCircuitCodeTest" />
+    </UnitTest>
+    <UnitTest name="T302_FetchTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="09398b05-4baa-9258-8fef-14faa45a6744">
+      <Execution id="f19c0641-ed55-446e-a537-edef5361a28a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T302_FetchTerrain" />
+    </UnitTest>
+    <UnitTest name="T020_PrimInventoryEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="076da992-6b74-4880-0def-fee488592a5e">
+      <Execution id="cb2c4315-d4df-4413-bc7d-af034a28a1f8" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T020_PrimInventoryEmpty" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21">
+      <Execution id="dd751bfa-7624-4b19-a27c-09d6268dafc7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="CacheItemMundane" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a17f52ed-98d5-6112-2340-5efca43df893">
+      <Execution id="e47aa1b1-c3c8-46e9-bc37-e29520d369f1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="CacheItemMundane" />
+    </UnitTest>
+    <UnitTest name="T021_EstateSettingsUserList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="aa37c719-d88d-f7d4-eb22-03d32f91a053">
+      <Execution id="ac3ac5c3-c6a0-466f-97ac-b950a4b56f3e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T021_EstateSettingsUserList" />
+    </UnitTest>
+    <UnitTest name="CultureSetCultureTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b1978015-37e3-42cf-cd41-d79356ee9616">
+      <Execution id="0fd70db9-13ad-44f2-88b3-869be6e09cd4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="CultureSetCultureTest01" />
+    </UnitTest>
+    <UnitTest name="T300_NoTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="72ed9f60-2570-c8ae-52df-10594cf0265b">
+      <Execution id="c962f580-55dd-403c-b504-df4335b585be" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T300_NoTerrain" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="37e0fafa-48db-99b1-0267-034149e7f4e7">
+      <Execution id="dabef0f1-591f-4e6f-a78b-eb690a30f14f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="ClearCacheTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5c5c6491-bd33-52a4-f553-cdb60575be3f">
+      <Execution id="22e1ea31-a02f-43dc-bbe8-f47788c3bb10" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="ClearCacheTest" />
+    </UnitTest>
+    <UnitTest name="VectorOperationTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e561f19f-e65f-a6b1-5525-d621ae6bca59">
+      <Execution id="689bb0ed-d60e-4afe-b557-24789dbf25b0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="VectorOperationTests" />
+    </UnitTest>
+    <UnitTest name="AddAgentCircuitTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="dd698695-d5e8-e46b-5d87-7458da5b795e">
+      <Execution id="742d6318-9874-4c95-97bf-73565326660d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="AddAgentCircuitTest" />
+    </UnitTest>
+    <UnitTest name="InventoryFolderBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="044df121-0fda-1dc1-83b7-9cf764aef8f7">
+      <Execution id="55726d9f-ed85-40b1-af8f-35f09d81eafa" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="InventoryFolderBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="RemoveAgentCircuitTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="82ea7284-bc8d-1494-677c-c44442db24d0">
+      <Execution id="4b595578-83c0-4758-9aed-8b7cfc945525" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="RemoveAgentCircuitTest" />
+    </UnitTest>
+    <UnitTest name="T011_ObjectNames" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="686f6711-8021-a8f3-3b3a-eaba536072b2">
+      <Execution id="f5f2d3fb-c1b2-46f0-9f46-3475bc0b492c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T011_ObjectNames" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b82710e2-e5c7-c29c-5b1d-43a7f5858006">
+      <Execution id="ccf3343c-7550-4d38-8a09-feab41641df3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T025_PrimInventoryPersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b">
+      <Execution id="3c96bd1d-b34c-41b0-8d0a-7bda7b9416af" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T025_PrimInventoryPersistency" />
+    </UnitTest>
+    <UnitTest name="TestGetPrime" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="c58ac1e3-419b-3462-82ce-cf7b3cc7283c">
+      <Execution id="5e946cfa-e6b9-4980-a5b8-678273b613ed" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.PrimeNumberHelperTests" name="TestGetPrime" />
+    </UnitTest>
+    <UnitTest name="T052_RemoveObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="81f29b60-b376-7ecb-3127-952594448024">
+      <Execution id="40c8eb45-a554-4c2e-8b58-e1cb46212562" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T052_RemoveObject" />
+    </UnitTest>
+    <UnitTest name="T015_LargeSceneObjects" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ad7fcc2c-1160-8a86-1b90-2fe399f6b562">
+      <Execution id="ef3b4ebd-fb8c-4c83-acc5-030c85850bd0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T015_LargeSceneObjects" />
+    </UnitTest>
+    <UnitTest name="T013_DatabasePersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d">
+      <Execution id="6349f1cb-bf0c-45f3-8116-e5b15d466460" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T013_DatabasePersistency" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8">
+      <Execution id="81160471-4de0-496d-a348-64310e481b46" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+    <UnitTest name="TestAgentCircuitDataOSDConversion" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d4969930-e153-6031-fd45-e8f3faf49436">
+      <Execution id="2319ca2b-a77c-4e47-91ee-22f03e30ba25" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitDataTest" name="TestAgentCircuitDataOSDConversion" />
+    </UnitTest>
+    <UnitTest name="T012_FolderList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="445fd443-72c6-196f-0e54-8f2c2183476c">
+      <Execution id="6baf945b-7334-4079-bfa2-6beae6449c60" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T012_FolderList" />
+    </UnitTest>
+    <UnitTest name="T014_UpdateObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2c06fe12-7f43-f3c4-497b-f5020660b0b4">
+      <Execution id="519ff598-eaea-4779-af3a-ec6821d7a771" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T014_UpdateObject" />
+    </UnitTest>
+    <UnitTest name="ShouldFailToCompareListsThatAreDifferent" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="abe572dc-9cba-04e8-323e-9a72536da491">
+      <Execution id="702ee670-9904-4c13-b14d-5621e6a0aa26" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldFailToCompareListsThatAreDifferent" />
+    </UnitTest>
+    <UnitTest name="ExpireItemManually" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f8ba269a-c7a7-db85-4521-7a458ca43493">
+      <Execution id="eb67b1d2-25f4-4607-8516-cdff12f523ad" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="ExpireItemManually" />
+    </UnitTest>
+    <UnitTest name="T100_DefaultRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="250c4f1e-803c-d75a-2ac3-d16d65e97d12">
+      <Execution id="68c213a6-a0d6-46c9-b827-73de6a925254" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T100_DefaultRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T052_RemoveObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e34c9835-dafc-486c-0892-8bc9c68fb20e">
+      <Execution id="f71c9f4e-b275-4ead-9d6c-49a4b79a0bde" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T052_RemoveObject" />
+    </UnitTest>
+    <UnitTest name="T302_FetchTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7">
+      <Execution id="e78da6cb-78e5-4c20-9f74-be5c2d4bea32" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T302_FetchTerrain" />
+    </UnitTest>
+    <UnitTest name="T013_DatabasePersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="098181c7-a000-6052-cfff-e9cd8f00af0e">
+      <Execution id="1cfbb79a-eabd-4250-8f5f-43a382f49db1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T013_DatabasePersistency" />
+    </UnitTest>
+    <UnitTest name="ShouldFailToCompareListsThatAreDifferentLengths" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6db48d17-20b0-c78a-2049-391c705fef5f">
+      <Execution id="4317b6a9-3919-47f6-bc28-d4216ffd0f0b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldFailToCompareListsThatAreDifferentLengths" />
+    </UnitTest>
+    <UnitTest name="UUIDShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2be04153-54d3-c44c-48bd-3141beaf73e6">
+      <Execution id="d0da7a81-d921-485a-92aa-1ad0fc952207" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="UUIDShouldMatch" />
+    </UnitTest>
+    <UnitTest name="TestLandDataDeserializeWithAccessLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="32189929-1bd3-69f1-c05e-251604dca7db">
+      <Execution id="8544cddc-5be0-4eb9-ae43-d837fc5bc929" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Serialization.Tests.LandDataSerializerTest" name="TestLandDataDeserializeWithAccessLists" />
+    </UnitTest>
+    <UnitTest name="T100_DefaultRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a4acd630-ffce-0956-fcfc-6b4a83ef5036">
+      <Execution id="83131dd8-f355-419f-a58a-2570eee14302" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T100_DefaultRegionInfo" />
+    </UnitTest>
+    <UnitTest name="EstateSettingsMundateTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2e399be7-cc05-fd0d-fd3a-2528014d446d">
+      <Execution id="b530e731-668f-4323-9156-57ac4088ecb9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="EstateSettingsMundateTests" />
+    </UnitTest>
+    <UnitTest name="AnimationOSDTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="47c83c91-df22-d221-1e71-68386c74c54e">
+      <Execution id="1f01ca53-81ad-40cc-a2e8-0ef80cd18133" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AnimationTests" name="AnimationOSDTest" />
+    </UnitTest>
+    <UnitTest name="ShouldCompareLists" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5c117b56-1506-1bd1-f044-876710cad1ee">
+      <Execution id="9e3bc71d-3525-4d3b-86c8-a9b8693f7ca8" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="ShouldCompareLists" />
+    </UnitTest>
+    <UnitTest name="T020_CheckForWeirdCreatorID" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="9c499120-4a7c-8778-2db1-31dad9a8332f">
+      <Execution id="797b2e57-1c2f-461b-bfb0-26b7b2913305" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T020_CheckForWeirdCreatorID" />
+    </UnitTest>
+    <UnitTest name="AssetShouldNotMatch2" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="890a16fe-50aa-9b63-d087-fa57500a45d2">
+      <Execution id="8e4e1c42-669e-4d85-955b-2b95801f9d4b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="AssetShouldNotMatch2" />
+    </UnitTest>
+    <UnitTest name="IntShouldIgnore" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7dc437b0-df21-0f0e-0f6b-636b7abd849a">
+      <Execution id="c2502a18-69f1-4e2d-a33d-4417babf3a6e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldIgnore" />
+    </UnitTest>
+    <UnitTest name="T102_CompareItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="042a96c9-9623-86b4-8531-0dc5a074627e">
+      <Execution id="e6d12de9-d13a-4745-abcb-12696fc6404b" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T102_CompareItems" />
+    </UnitTest>
+    <UnitTest name="SLUtilTypeConvertTests" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97">
+      <Execution id="d7c47fc8-9bb7-4177-a9d0-64ceda6b5e72" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.UtilTests" name="SLUtilTypeConvertTests" />
+    </UnitTest>
+    <UnitTest name="T014_UpdateObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="361fdaca-0793-e07e-95e9-64161bbf57e3">
+      <Execution id="1e0ed5d0-de3e-440b-9fe1-da5792ed7711" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T014_UpdateObject" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f1d0ec42-910f-55fa-6320-f7209b19e16c">
+      <Execution id="b0fcaa89-8fee-481a-8895-8a82b9f316cb" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T010_StoreReadVerifyAssets" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7897646f-d590-a744-6f54-191c285b2d61">
+      <Execution id="da8c7ed2-b0ce-4342-9208-9453847b84b3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlAssetTests" name="T010_StoreReadVerifyAssets" />
+    </UnitTest>
+    <UnitTest name="T300_NoTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747">
+      <Execution id="b0c025f2-c423-42f1-a9df-1e853fe034c9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T300_NoTerrain" />
+    </UnitTest>
+    <UnitTest name="T010_StoreSimpleObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="73f169de-c533-6078-d217-b67aa78d82e7">
+      <Execution id="43ff0eec-97d2-4b14-a020-e8280b033a81" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T010_StoreSimpleObject" />
+    </UnitTest>
+    <UnitTest name="T400_EmptyLand" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741">
+      <Execution id="91d8cd8d-0123-4f74-bd54-2b9e0e9db8f7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T400_EmptyLand" />
+    </UnitTest>
+    <UnitTest name="T101_UpdateRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e">
+      <Execution id="16a43abd-7f2e-424d-8fe0-d57fc55cca58" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T101_UpdateRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T012_SceneParts" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="97c2ccff-bb27-4030-0e46-dd6f137afa2d">
+      <Execution id="9da25939-ca34-4a44-b93a-ac2e5f279601" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T012_SceneParts" />
+    </UnitTest>
+    <UnitTest name="InventoryItemBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cc1c41d0-768f-e315-7ccb-0eec48d3b923">
+      <Execution id="e95a80ce-061c-4b1f-b3eb-31a124271942" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="InventoryItemBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="T010_FolderNonParent" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="85a5546d-e174-aa0e-2505-818a7458490d">
+      <Execution id="c58dacb4-ec22-4906-8b31-7d7e21dcda0e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T010_FolderNonParent" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsGroupList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f96120d2-bf6b-5fe7-3945-fb5b6791ab15">
+      <Execution id="b74dca62-5d3f-4aa8-a7f2-85103c0e218d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlEstateTests" name="T022_EstateSettingsGroupList" />
+    </UnitTest>
+    <UnitTest name="ValidateLoginTest" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="a380e378-0806-bd0a-422c-145f7250636d">
+      <Execution id="920ad529-be78-4d3e-a69e-31d602b4b953" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitManagerTests" name="ValidateLoginTest" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f9daee40-a27c-d2bf-fe31-2b54712ee428">
+      <Execution id="df3937bd-1239-42f0-baec-1f681f7d7a70" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="HistoricalAgentCircuitDataOSDConversion" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="5a951db2-ec92-6fa1-ef6c-9c07858383b4">
+      <Execution id="b872ae42-a8ed-458d-aa34-2f11c45704d1" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.AgentCircuitDataTest" name="HistoricalAgentCircuitDataOSDConversion" />
+    </UnitTest>
+    <UnitTest name="T010_StoreSimpleObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ab3253be-6237-d094-054b-e631c486bf5e">
+      <Execution id="4662b1d3-48bd-4592-b47e-b45aca0cf598" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T010_StoreSimpleObject" />
+    </UnitTest>
+    <UnitTest name="T020_EstateSettingsManagerList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b08d191f-efe5-e296-c548-602238003849">
+      <Execution id="4945156c-46ae-4da8-88df-67924b902e21" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T020_EstateSettingsManagerList" />
+    </UnitTest>
+    <UnitTest name="Test1000SmallPrimeNumbers" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c">
+      <Execution id="77e4bab3-3aed-45bd-b8b0-12631b3d8609" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.PrimeNumberHelperTests" name="Test1000SmallPrimeNumbers" />
+    </UnitTest>
+    <UnitTest name="ChildAgentDataUpdate01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="fa306458-aa1a-bd13-3cce-3894b0c8f21c">
+      <Execution id="0e9cdbd8-179e-43fe-9921-183b9633538e" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="ChildAgentDataUpdate01" />
+    </UnitTest>
+    <UnitTest name="T011_ObjectNames" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="676f7830-204a-0fd2-0bac-e8db19a57d4d">
+      <Execution id="3449ff55-9a96-49bc-bdc6-23fd76e282d0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T011_ObjectNames" />
+    </UnitTest>
+    <UnitTest name="AsssetBaseConstructorTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="8b9a7bf2-d547-97fe-931b-d2ccafd824fa">
+      <Execution id="72c79145-5f83-4b7b-9846-6022d02c9092" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AsssetBaseConstructorTest01" />
+    </UnitTest>
+    <UnitTest name="TestNotInCache" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="59b8a834-106d-cb19-7662-df730c728815">
+      <Execution id="b8cf0d7c-3998-4000-874e-ca1252a5cb56" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.CacheTests" name="TestNotInCache" />
+    </UnitTest>
+    <UnitTest name="T101_CreatItems" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="25f1def4-2dc5-2d09-3cad-02fb16036ecd">
+      <Execution id="5e343b85-9fc4-4177-bcb9-e5106bc8a396" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T101_CreatItems" />
+    </UnitTest>
+    <UnitTest name="T999_StillNull" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb">
+      <Execution id="d21eff4b-02ce-4f57-af4f-5cc2d5a87ce5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T999_StillNull" />
+    </UnitTest>
+    <UnitTest name="IntShouldMatch" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e57c63cb-639c-5bf4-0581-f13c0be293a1">
+      <Execution id="29061275-adf0-4bd3-936b-d3b150533864" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.PropertyCompareConstraintTest" name="IntShouldMatch" />
+    </UnitTest>
+    <UnitTest name="T020_PrimInventoryEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="f6e201dd-1996-9312-6851-498ac8e9d3ef">
+      <Execution id="43790279-6c6f-4e88-92a2-ec85e8df05c2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T020_PrimInventoryEmpty" />
+    </UnitTest>
+    <UnitTest name="T015_FolderHierarchy" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="efc82548-0025-2ae3-b845-7c3c157f002d">
+      <Execution id="84536c6c-f4f1-41ec-845e-6a49d849d754" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlInventoryTests" name="T015_FolderHierarchy" />
+    </UnitTest>
+    <UnitTest name="T303_UpdateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3b2ea24f-e1c9-ca33-decc-6122c44d9e45">
+      <Execution id="a7ac611e-9085-4f87-b429-5e4eda664bd6" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T303_UpdateTerrain" />
+    </UnitTest>
+    <UnitTest name="locationXYRegionHandle" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="6cfd9ead-8d99-f13a-439a-671fffa960f6">
+      <Execution id="d3e37843-d0f6-4ae1-bba9-97982c72ade7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.LocationTest" name="locationXYRegionHandle" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="cf3c514c-7cb0-8eb1-03b3-53e879988c1c">
+      <Execution id="965c3b06-7565-48f2-b1b1-ae2fa2e36293" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="RegionSettingsTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d3cb10a6-b759-7429-8c8e-9bf664aee45c">
+      <Execution id="09b5dfa8-0512-4a6c-b51e-5a5cd9f49b80" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="RegionSettingsTest01" />
+    </UnitTest>
+    <UnitTest name="AssetMetaDataNonNullContentTypeTest01" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="011dba1b-eeee-7ba3-aed6-657436df6c33">
+      <Execution id="4e8e084c-9d59-42d0-afee-68f5aa45d096" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Framework.Tests.MundaneFrameworkTests" name="AssetMetaDataNonNullContentTypeTest01" />
+    </UnitTest>
+    <UnitTest name="T015_LargeSceneObjects" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c">
+      <Execution id="7ae2a3fb-e19a-44f8-80c5-9c6139c7b373" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.MySqlRegionTests" name="T015_LargeSceneObjects" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="011dba1b-eeee-7ba3-aed6-657436df6c33" executionId="4e8e084c-9d59-42d0-afee-68f5aa45d096" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59b8a834-106d-cb19-7662-df730c728815" executionId="b8cf0d7c-3998-4000-874e-ca1252a5cb56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49a5b606-41d4-f6a9-5ebd-3fcbe18cd747" executionId="b0c025f2-c423-42f1-a9df-1e853fe034c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ef90458-4232-8a53-3a54-1c746414bcba" executionId="2e2c7123-f479-428f-a5d4-103b214325e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c499120-4a7c-8778-2db1-31dad9a8332f" executionId="797b2e57-1c2f-461b-bfb0-26b7b2913305" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="009dbe34-88f9-b0fd-cbfd-16976c8950e4" executionId="00910e3b-b539-439e-83e1-06ffdff6ecee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="548cba8c-1666-f71b-87c0-cb437d1387e9" executionId="a400c67f-ad3a-42b0-9e76-b02dfefcc119" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6584b63e-0a2b-f726-8ffc-f608faa84ab9" executionId="be283af9-771a-4b7d-b619-666cc21b064a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8ba269a-c7a7-db85-4521-7a458ca43493" executionId="eb67b1d2-25f4-4607-8516-cdff12f523ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f169de-c533-6078-d217-b67aa78d82e7" executionId="43ff0eec-97d2-4b14-a020-e8280b033a81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c117b56-1506-1bd1-f044-876710cad1ee" executionId="9e3bc71d-3525-4d3b-86c8-a9b8693f7ca8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d877b38-ff89-3c2e-d6bf-4f524738cc6c" executionId="0c981af1-ad23-4f5b-94b8-9a850060b40d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32189929-1bd3-69f1-c05e-251604dca7db" executionId="8544cddc-5be0-4eb9-ae43-d837fc5bc929" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e561f19f-e65f-a6b1-5525-d621ae6bca59" executionId="689bb0ed-d60e-4afe-b557-24789dbf25b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fd170c8-bbaf-480c-81b8-b43411be4886" executionId="9027e424-2172-43af-b9ea-dcf0840d9728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="098181c7-a000-6052-cfff-e9cd8f00af0e" executionId="1cfbb79a-eabd-4250-8f5f-43a382f49db1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51aa2931-b79d-5980-4c97-4b096eb0cbc9" executionId="2ad34234-2a6d-4772-95b5-d7f352c78af9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" executionId="ccf3343c-7550-4d38-8a09-feab41641df3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" executionId="68c213a6-a0d6-46c9-b827-73de6a925254" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f96120d2-bf6b-5fe7-3945-fb5b6791ab15" executionId="b74dca62-5d3f-4aa8-a7f2-85103c0e218d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f5a1b5d-26a8-07a7-ed1a-765a85101e2b" executionId="3c96bd1d-b34c-41b0-8d0a-7bda7b9416af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" executionId="d489a916-080a-414a-91a0-2a3d61cea1e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e85aef-1e37-c74c-48f8-9b714f4f8912" executionId="f303af23-200a-4a3a-8da0-1b2d4ac3d2fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7cc1f9d-fa89-ee42-6d69-90b264c2d2f5" executionId="541dc742-788f-4936-bfa2-8b078f64240b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" executionId="e78da6cb-78e5-4c20-9f74-be5c2d4bea32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f05779d8-2ba9-ad62-c34e-74faea653ec4" executionId="b3ca5fee-1e8f-4d64-b63b-b771d2ef3cff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3fa1aff-3c04-a5b3-1187-9c4190dddc9c" executionId="77e4bab3-3aed-45bd-b8b0-12631b3d8609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81f29b60-b376-7ecb-3127-952594448024" executionId="40c8eb45-a554-4c2e-8b58-e1cb46212562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="361fdaca-0793-e07e-95e9-64161bbf57e3" executionId="1e0ed5d0-de3e-440b-9fe1-da5792ed7711" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e749a33-b16c-67ed-d947-25b975f49fd5" executionId="32ee2ba6-ef08-4dde-b5b3-e36d4375d53b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25f1def4-2dc5-2d09-3cad-02fb16036ecd" executionId="5e343b85-9fc4-4177-bcb9-e5106bc8a396" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="499e9057-4fb6-d102-85ba-2cf0b5387676" executionId="60cc0f22-c855-4751-89e5-8a76d68cf60a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cfd9ead-8d99-f13a-439a-671fffa960f6" executionId="d3e37843-d0f6-4ae1-bba9-97982c72ade7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6e25ea8-b004-9e41-2a0d-feac7c4d0d6d" executionId="6349f1cb-bf0c-45f3-8116-e5b15d466460" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc48e179-a7a9-5cdc-1b12-c068c8b8dcd1" executionId="6927dbb5-5d41-44dd-92e0-edaefc99eb56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" executionId="91d8cd8d-0123-4f74-bd54-2b9e0e9db8f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f068516a-6e46-bc39-b4c5-b5c2e474ef25" executionId="62f75668-d321-42d4-ac3b-ea8e922faa04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0f13bf7-0ea3-2b35-193c-2debfa6668eb" executionId="86bd08f9-2ea6-4eae-88b2-fcc4bb6ee45a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28d324f1-bfba-6215-d008-28c64d496ca1" executionId="93ec5416-e89b-4078-ad0c-4e8186e4559e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c83c91-df22-d221-1e71-68386c74c54e" executionId="1f01ca53-81ad-40cc-a2e8-0ef80cd18133" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33d65cfe-9437-a0eb-10d5-e3b26f9eafdb" executionId="d21eff4b-02ce-4f57-af4f-5cc2d5a87ce5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf3c514c-7cb0-8eb1-03b3-53e879988c1c" executionId="965c3b06-7565-48f2-b1b1-ae2fa2e36293" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fe6f8fc-4880-0ebb-0937-30c29636418b" executionId="012cfd61-3949-4ed0-b587-827c861fa344" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09398b05-4baa-9258-8fef-14faa45a6744" executionId="f19c0641-ed55-446e-a537-edef5361a28a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4acd630-ffce-0956-fcfc-6b4a83ef5036" executionId="83131dd8-f355-419f-a58a-2570eee14302" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" executionId="f71c9f4e-b275-4ead-9d6c-49a4b79a0bde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97c2ccff-bb27-4030-0e46-dd6f137afa2d" executionId="9da25939-ca34-4a44-b93a-ac2e5f279601" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ed9f60-2570-c8ae-52df-10594cf0265b" executionId="c962f580-55dd-403c-b504-df4335b585be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0be7308e-6f14-61f7-97b2-c45180fa8057" executionId="7d0c8240-959e-46a1-b8d7-2016d34331c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="599496d6-b812-62ed-1f0f-451526f6cb9c" executionId="3aca6cf2-28a5-4fad-ad9a-94697ccc425d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="767a14f4-3be3-6c93-205f-d04e030d60ed" executionId="9cee4ea1-aaad-4fda-b482-331ef2c2d75b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" executionId="16a43abd-7f2e-424d-8fe0-d57fc55cca58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adc67e64-9cdb-5799-0b28-f0e9b5683888" executionId="d03d5543-062a-4124-b315-955e826e7da1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" executionId="a7ac611e-9085-4f87-b429-5e4eda664bd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="686f6711-8021-a8f3-3b3a-eaba536072b2" executionId="f5f2d3fb-c1b2-46f0-9f46-3475bc0b492c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bd8cea5-da22-039f-b159-7758adaaece5" executionId="15327491-c24c-48e4-8283-3f740c190be3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" executionId="81160471-4de0-496d-a348-64310e481b46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b08d191f-efe5-e296-c548-602238003849" executionId="4945156c-46ae-4da8-88df-67924b902e21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" executionId="91255893-7f3c-4f4f-8fa0-bd8ea4f9e4bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" executionId="c6b8e20e-3a2d-477c-a46a-014a9564afea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="309796e1-11f2-746c-5bc6-effd0550e04f" executionId="e839bc1c-1832-4226-8c64-f7315654a986" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd698695-d5e8-e46b-5d87-7458da5b795e" executionId="742d6318-9874-4c95-97bf-73565326660d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57c63cb-639c-5bf4-0581-f13c0be293a1" executionId="29061275-adf0-4bd3-936b-d3b150533864" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9daee40-a27c-d2bf-fe31-2b54712ee428" executionId="df3937bd-1239-42f0-baec-1f681f7d7a70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7897646f-d590-a744-6f54-191c285b2d61" executionId="da8c7ed2-b0ce-4342-9208-9453847b84b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f196d956-1550-703f-81f2-8253d5c88458" executionId="20106cb2-a4de-471c-afc3-bb86f959de32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2be04153-54d3-c44c-48bd-3141beaf73e6" executionId="d0da7a81-d921-485a-92aa-1ad0fc952207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1978015-37e3-42cf-cd41-d79356ee9616" executionId="0fd70db9-13ad-44f2-88b3-869be6e09cd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b42ff80-4da1-45e0-25cc-0c9a2f33f6e3" executionId="f3807e93-eb35-47d0-9c80-016bf72fed90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82ea7284-bc8d-1494-677c-c44442db24d0" executionId="4b595578-83c0-4758-9aed-8b7cfc945525" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" executionId="dd751bfa-7624-4b19-a27c-09d6268dafc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37e0fafa-48db-99b1-0267-034149e7f4e7" executionId="dabef0f1-591f-4e6f-a78b-eb690a30f14f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c5c6491-bd33-52a4-f553-cdb60575be3f" executionId="22e1ea31-a02f-43dc-bbe8-f47788c3bb10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abe572dc-9cba-04e8-323e-9a72536da491" executionId="702ee670-9904-4c13-b14d-5621e6a0aa26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa306458-aa1a-bd13-3cce-3894b0c8f21c" executionId="0e9cdbd8-179e-43fe-9921-183b9633538e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" executionId="ac3ac5c3-c6a0-466f-97ac-b950a4b56f3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a380e378-0806-bd0a-422c-145f7250636d" executionId="920ad529-be78-4d3e-a69e-31d602b4b953" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc82548-0025-2ae3-b845-7c3c157f002d" executionId="84536c6c-f4f1-41ec-845e-6a49d849d754" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54ba8a1-f4f7-6374-8f4e-6c09130ab8bb" executionId="738bde11-7b9c-4785-8282-eb5e015e49b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" executionId="f1870739-d3ff-4a2c-98ce-d79c38e7a119" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445fd443-72c6-196f-0e54-8f2c2183476c" executionId="6baf945b-7334-4079-bfa2-6beae6449c60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="890a16fe-50aa-9b63-d087-fa57500a45d2" executionId="8e4e1c42-669e-4d85-955b-2b95801f9d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6db48d17-20b0-c78a-2049-391c705fef5f" executionId="4317b6a9-3919-47f6-bc28-d4216ffd0f0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="042a96c9-9623-86b4-8531-0dc5a074627e" executionId="e6d12de9-d13a-4745-abcb-12696fc6404b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85a5546d-e174-aa0e-2505-818a7458490d" executionId="c58dacb4-ec22-4906-8b31-7d7e21dcda0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="852239b7-624d-305c-e63e-8b4841d18200" executionId="4fc8d10a-7c11-4011-9424-be1198673289" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a1bbc5f-c692-b5ee-0cc8-55bd0d122830" executionId="13ccefdd-2fa0-4def-add7-ed5a6eed1048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b32abe1-0fd6-30c8-4a19-b9c1228d4d1c" executionId="7ae2a3fb-e19a-44f8-80c5-9c6139c7b373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076da992-6b74-4880-0def-fee488592a5e" executionId="cb2c4315-d4df-4413-bc7d-af034a28a1f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab3253be-6237-d094-054b-e631c486bf5e" executionId="4662b1d3-48bd-4592-b47e-b45aca0cf598" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03c0d539-4d8b-825c-c0c6-8a13a8d4696d" executionId="3ecb63fa-a537-4d98-b65b-c11885d9d56c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c58ac1e3-419b-3462-82ce-cf7b3cc7283c" executionId="5e946cfa-e6b9-4980-a5b8-678273b613ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" executionId="3449ff55-9a96-49bc-bdc6-23fd76e282d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" executionId="d88a3d50-9b1d-4f17-9607-7736555e52f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" executionId="61c773ba-a8af-49c0-adaa-10da074cf831" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6e201dd-1996-9312-6851-498ac8e9d3ef" executionId="43790279-6c6f-4e88-92a2-ec85e8df05c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" executionId="f240cdbe-0875-42eb-b2d9-8e26edc5d359" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc1c41d0-768f-e315-7ccb-0eec48d3b923" executionId="e95a80ce-061c-4b1f-b3eb-31a124271942" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" executionId="519ff598-eaea-4779-af3a-ec6821d7a771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" executionId="ef3b4ebd-fb8c-4c83-acc5-030c85850bd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a4cc4a-2b43-8c08-b4a0-d28d46118e97" executionId="d7c47fc8-9bb7-4177-a9d0-64ceda6b5e72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a951db2-ec92-6fa1-ef6c-9c07858383b4" executionId="b872ae42-a8ed-458d-aa34-2f11c45704d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c3e869-401f-5da0-e507-48801c4a1b07" executionId="a9e39be3-32dd-453d-be24-60f14cb9818c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4969930-e153-6031-fd45-e8f3faf49436" executionId="2319ca2b-a77c-4e47-91ee-22f03e30ba25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf623f0d-8db9-29f4-271b-a1d594a59aea" executionId="6d82d36d-0c39-4663-b3fd-5dafd3af26d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dc437b0-df21-0f0e-0f6b-636b7abd849a" executionId="c2502a18-69f1-4e2d-a33d-4417babf3a6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" executionId="079946e0-706f-4650-a946-955889f5b52c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="044df121-0fda-1dc1-83b7-9cf764aef8f7" executionId="55726d9f-ed85-40b1-af8f-35f09d81eafa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00fc6096-67ab-79d2-c6ea-55e67892d813" executionId="d3b0637c-63a7-4ec0-a105-085d03d85a29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a28094e0-f4c0-e2e9-9d03-b4ef423ceb72" executionId="68b1c01a-4696-4ed2-a4b8-dfa6e8ecbfec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed5aa7c1-484e-be3a-c723-3cf5763ac9a6" executionId="9d730d2f-07cd-4189-89d5-4aa08d490bd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3760ab22-b347-53b1-4faa-003be093b83e" executionId="061aa32c-9936-4ba7-9d6b-3c8ad17129d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3cb10a6-b759-7429-8c8e-9bf664aee45c" executionId="09b5dfa8-0512-4a6c-b51e-5a5cd9f49b80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b9a7bf2-d547-97fe-931b-d2ccafd824fa" executionId="72c79145-5f83-4b7b-9846-6022d02c9092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2fb3f17-704c-ee8a-f170-ad643a4033c1" executionId="981c69eb-8c18-4e0e-861f-ca38f6d59c0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e447bef-0afc-a6dd-2452-7a2d8c392ed2" executionId="a1b0a449-45a9-4563-aa0b-09cbf2ab667b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e582587-0202-714b-190f-e62e992bf9c7" executionId="2925d25d-12a9-4aaa-b3eb-8adc0b4057f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1d0ec42-910f-55fa-6320-f7209b19e16c" executionId="b0fcaa89-8fee-481a-8895-8a82b9f316cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e27ce00-70cd-8d0f-00fd-042054acf5f8" executionId="55ba3380-9d00-48fb-96a0-dae442d7d414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e399be7-cc05-fd0d-fd3a-2528014d446d" executionId="b530e731-668f-4323-9156-57ac4088ecb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a17f52ed-98d5-6112-2340-5efca43df893" executionId="e47aa1b1-c3c8-46e9-bc37-e29520d369f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="121" executed="79" passed="79" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running selected tests in D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 121 of 121 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+T001_LoadEmpty: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T010_StoreReadVerifyAssets: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T020_CheckForWeirdCreatorID: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T010_EstateSettingsSimpleStorage_MinimumParameterSet: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T011_EstateSettingsSimpleStorage_MaximumParameterSet: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T012_EstateSettingsRandomStorage: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T012_EstateSettingsSimpleStorage_AccurateParameterSet: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T020_EstateSettingsManagerList: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T021_EstateSettingsUserList: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T022_EstateSettingsBanList: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_StoreReadVerifyAssets" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_CheckForWeirdCreatorID" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_EstateSettingsSimpleStorage_MinimumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_EstateSettingsSimpleStorage_MaximumParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsRandomStorage" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_EstateSettingsSimpleStorage_AccurateParameterSet" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_EstateSettingsManagerList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_EstateSettingsUserList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T022_EstateSettingsBanList" wurde im Testlauf übersprungen.&#xD;
+T022_EstateSettingsGroupList: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T001_LoadEmpty: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T010_FolderNonParent: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T011_FolderCreate: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T012_FolderList: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T013_FolderHierarchy: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T014_MoveFolder: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T015_FolderHierarchy: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T100_NoItems: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T101_CreatItems: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+Der Test "T022_EstateSettingsGroupList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_FolderNonParent" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_FolderCreate" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_FolderList" wurde im Testlauf übersprungen.&#xD;
+Der Test "T013_FolderHierarchy" wurde im Testlauf übersprungen.&#xD;
+Der Test "T014_MoveFolder" wurde im Testlauf übersprungen.&#xD;
+Der Test "T015_FolderHierarchy" wurde im Testlauf übersprungen.&#xD;
+Der Test "T100_NoItems" wurde im Testlauf übersprungen.&#xD;
+Der Test "T101_CreatItems" wurde im Testlauf übersprungen.&#xD;
+T102_CompareItems: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T103_UpdateItem: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T104_RandomUpdateItem: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T999_StillNull: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T001_LoadEmpty: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T010_StoreSimpleObject: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T011_ObjectNames: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T012_SceneParts: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T013_DatabasePersistency: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T014_UpdateObject: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+Der Test "T102_CompareItems" wurde im Testlauf übersprungen.&#xD;
+Der Test "T103_UpdateItem" wurde im Testlauf übersprungen.&#xD;
+Der Test "T104_RandomUpdateItem" wurde im Testlauf übersprungen.&#xD;
+Der Test "T999_StillNull" wurde im Testlauf übersprungen.&#xD;
+Der Test "T001_LoadEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T010_StoreSimpleObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T011_ObjectNames" wurde im Testlauf übersprungen.&#xD;
+Der Test "T012_SceneParts" wurde im Testlauf übersprungen.&#xD;
+Der Test "T013_DatabasePersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T014_UpdateObject" wurde im Testlauf übersprungen.&#xD;
+T015_LargeSceneObjects: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T020_PrimInventoryEmpty: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T021_PrimInventoryBasic: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T025_PrimInventoryPersistency: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T052_RemoveObject: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T100_DefaultRegionInfo: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T101_UpdateRegionInfo: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T300_NoTerrain: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T301_CreateTerrain: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T302_FetchTerrain: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+Der Test "T015_LargeSceneObjects" wurde im Testlauf übersprungen.&#xD;
+Der Test "T020_PrimInventoryEmpty" wurde im Testlauf übersprungen.&#xD;
+Der Test "T021_PrimInventoryBasic" wurde im Testlauf übersprungen.&#xD;
+Der Test "T025_PrimInventoryPersistency" wurde im Testlauf übersprungen.&#xD;
+Der Test "T052_RemoveObject" wurde im Testlauf übersprungen.&#xD;
+Der Test "T100_DefaultRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T101_UpdateRegionInfo" wurde im Testlauf übersprungen.&#xD;
+Der Test "T300_NoTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T301_CreateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T302_FetchTerrain" wurde im Testlauf übersprungen.&#xD;
+T303_UpdateTerrain: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+T400_EmptyLand: OneTimeSetUp: Connection string for MySqlConnection is not defined, ignoring tests&#xD;
+Der Test "T303_UpdateTerrain" wurde im Testlauf übersprungen.&#xD;
+Der Test "T400_EmptyLand" wurde im Testlauf übersprungen.&#xD;
+&#xD;
+===&gt; In Test Method : T001_LoadEmpty &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_StoreReadVerifyAssets &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T020_CheckForWeirdCreatorID &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_EstateSettingsRandomStorage &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T020_EstateSettingsManagerList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T021_EstateSettingsUserList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T022_EstateSettingsBanList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T022_EstateSettingsGroupList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T001_LoadEmpty &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_StoreSimpleObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T011_ObjectNames &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_SceneParts &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T013_DatabasePersistency &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T014_UpdateObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T015_LargeSceneObjects &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T052_RemoveObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T100_DefaultRegionInfo &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T101_UpdateRegionInfo &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T300_NoTerrain &lt;===&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:39,724 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T301_CreateTerrain &lt;===&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:39,742 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,259 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,262 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,268 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,269 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 12:02:40,271 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T302_FetchTerrain &lt;===&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,278 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,279 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,280 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T303_UpdateTerrain &lt;===&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,295 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,805 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 12:02:40,807 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T400_EmptyLand &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : TestLandDataDeserializeNoAccessLists &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : TestLandDataDeserializeWithAccessLists &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : TestRegionSettingsDeserialize &lt;===&#xD;
+&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MHPC-WORKSTATIO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.info"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

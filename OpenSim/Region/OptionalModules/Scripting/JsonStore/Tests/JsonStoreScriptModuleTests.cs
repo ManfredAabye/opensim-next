@@ -54,14 +54,14 @@ namespace OpenSim.Region.OptionalModules.Scripting.JsonStore.Tests
         private ScriptModuleCommsModule m_smcm;
         private JsonStoreScriptModule m_jssm;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void FixtureInit()
         {
             // Don't allow tests to be bamboozled by asynchronous events.  Execute everything on the same thread.
             Util.FireAndForgetMethod = FireAndForgetMethod.RegressionTest;
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TearDown()
         {
             // We must set this back afterwards, otherwise later tests will fail since they're expecting multiple
@@ -898,3 +898,4 @@ namespace OpenSim.Region.OptionalModules.Scripting.JsonStore.Tests
         public object DummyTestMethod(object o1, object o2, object o3, object o4, object o5) { return null; }
     }
 }
+

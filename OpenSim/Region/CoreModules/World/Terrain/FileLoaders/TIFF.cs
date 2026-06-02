@@ -30,6 +30,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using OpenSim.Framework;
 using OpenSim.Region.Framework.Interfaces;
 using OpenSim.Region.Framework.Scenes;
 
@@ -682,7 +683,7 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
 
             // Read TIFF header
             byte[] tiffHeader = new byte[8];
-            fs.Read(tiffHeader, 0, 8);
+            Util.ReadStream(fs, tiffHeader);
 
             if (tiffHeader[0] != 0x49 || tiffHeader[1] != 0x49 || tiffHeader[2] != 0x2A || tiffHeader[3] != 0x00)
                 throw new Exception("Not a valid little-endian TIFF file");
@@ -693,7 +694,7 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
 
             // Read the number of IFD entries
             byte[] numEntriesBytes = new byte[2];
-            fs.Read(numEntriesBytes, 0, 2);
+            Util.ReadStream(fs, numEntriesBytes);
             ushort numEntries = BitConverter.ToUInt16(numEntriesBytes, 0);
 
             uint imageWidth = 0, imageHeight = 0, stripOffset = 0;
@@ -703,7 +704,7 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
             for (int i = 0; i < numEntries; i++)
             {
                 byte[] entry = new byte[12];
-                fs.Read(entry, 0, 12);
+                Util.ReadStream(fs, entry);
 
                 ushort tag = BitConverter.ToUInt16(entry, 0);
                 ushort type = BitConverter.ToUInt16(entry, 2);
@@ -749,7 +750,7 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
                     for (int x = 0; x < imageWidth; x++)
                     {
                         byte[] pixelBytes = new byte[4];
-                        fs.Read(pixelBytes, 0, 4);
+                        Util.ReadStream(fs, pixelBytes);
                         float pixelValue = BitConverter.ToSingle(pixelBytes, 0);
                         map[x, y] = InverseNormalize(pixelValue) - 256;
                     }
@@ -851,15 +852,15 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
 
         protected static int GetColorDepth(Stream stream)
         {
-            byte[] buffer = new byte[8];
+            byte[] shortBuffer = new byte[2];
 
             // Read byte order mark (first 2 bytes)
-            stream.Read(buffer, 0, 2);
-            bool isLittleEndian = buffer[0] == 'I' && buffer[1] == 'I';
+            Util.ReadStream(stream, shortBuffer);
+            bool isLittleEndian = shortBuffer[0] == 'I' && shortBuffer[1] == 'I';
 
             // Read TIFF magic number (next 2 bytes)
-            stream.Read(buffer, 0, 2);
-            ushort magicNumber = BitConverter.ToUInt16(isLittleEndian ? buffer : buffer.Reverse().ToArray(), 0);
+            Util.ReadStream(stream, shortBuffer);
+            ushort magicNumber = BitConverter.ToUInt16(isLittleEndian ? shortBuffer : shortBuffer.Reverse().ToArray(), 0);
             if (magicNumber != 42)
             {
                 Console.WriteLine("Not a valid TIFF file.");
@@ -868,22 +869,23 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
             }
 
             // Read offset to first IFD (next 4 bytes)
-            stream.Read(buffer, 0, 4);
-            uint ifdOffset = BitConverter.ToUInt32(isLittleEndian ? buffer : buffer.Reverse().ToArray(), 0);
+            byte[] intBuffer = new byte[4];
+            Util.ReadStream(stream, intBuffer);
+            uint ifdOffset = BitConverter.ToUInt32(isLittleEndian ? intBuffer : intBuffer.Reverse().ToArray(), 0);
 
             // Move to the first IFD
             stream.Seek(ifdOffset, SeekOrigin.Begin);
 
             // Read number of directory entries (next 2 bytes)
-            stream.Read(buffer, 0, 2);
-            ushort numEntries = BitConverter.ToUInt16(isLittleEndian ? buffer : buffer.Reverse().ToArray(), 0);
+            Util.ReadStream(stream, shortBuffer);
+            ushort numEntries = BitConverter.ToUInt16(isLittleEndian ? shortBuffer : shortBuffer.Reverse().ToArray(), 0);
 
-            buffer = new byte[12]; // Allocate buffer for IFD entries
+            byte[] buffer = new byte[12];
 
             for (int i = 0; i < numEntries; i++)
             {
                 // Read each IFD entry (12 bytes each)
-                stream.Read(buffer, 0, 12);
+                Util.ReadStream(stream, buffer);
 
                 // Extract the tag ID
                 ushort tagId = BitConverter.ToUInt16(isLittleEndian ? buffer : buffer.Take(2).Reverse().ToArray(), 0);
@@ -934,8 +936,9 @@ namespace OpenSim.Region.CoreModules.World.Terrain.FileLoaders
                         List<int> bits = new List<int>();
                         for (int j = 0; j < count; j++)
                         {
-                            stream.Read(buffer, 0, 2);
-                            ushort bitsPerSample = BitConverter.ToUInt16(isLittleEndian ? buffer : buffer.Take(2).Reverse().ToArray(), 0);
+                            byte[] channelBuffer = new byte[2];
+                            Util.ReadStream(stream, channelBuffer);
+                            ushort bitsPerSample = BitConverter.ToUInt16(isLittleEndian ? channelBuffer : channelBuffer.Reverse().ToArray(), 0);
                             Console.WriteLine($"Color depth: {bitsPerSample} bits per sample (channel {j + 1})");
                             bits.Add(bitsPerSample);
                         }

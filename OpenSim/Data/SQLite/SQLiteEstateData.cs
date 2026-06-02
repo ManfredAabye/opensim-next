@@ -208,16 +208,24 @@ namespace OpenSim.Data.SQLite
 
                 foreach (string name in FieldList)
                 {
-                    if (m_FieldMap[name].GetValue(es) is bool)
+                    object value = m_FieldMap[name].GetValue(es);
+
+                    if (value is bool)
                     {
-                        if ((bool)m_FieldMap[name].GetValue(es))
+                        if ((bool)value)
                             cmd.Parameters.AddWithValue(":"+name, "1");
                         else
                             cmd.Parameters.AddWithValue(":"+name, "0");
                     }
+                    else if (value is UUID)
+                    {
+                        cmd.Parameters.AddWithValue(":" + name, value.ToString());
+                    }
                     else
                     {
-                        cmd.Parameters.AddWithValue(":"+name, m_FieldMap[name].GetValue(es).ToString());
+                        // Keep numeric types as numeric parameters to avoid locale-dependent
+                        // string conversions (e.g. decimal comma causing truncation in SQLite).
+                        cmd.Parameters.AddWithValue(":" + name, value);
                     }
                 }
 
@@ -242,16 +250,24 @@ namespace OpenSim.Data.SQLite
 
                 foreach (string name in FieldList)
                 {
-                    if (m_FieldMap[name].GetValue(es) is bool)
+                    object value = m_FieldMap[name].GetValue(es);
+
+                    if (value is bool)
                     {
-                        if ((bool)m_FieldMap[name].GetValue(es))
+                        if ((bool)value)
                             cmd.Parameters.AddWithValue(":"+name, "1");
                         else
                             cmd.Parameters.AddWithValue(":"+name, "0");
                     }
+                    else if (value is UUID)
+                    {
+                        cmd.Parameters.AddWithValue(":" + name, value.ToString());
+                    }
                     else
                     {
-                        cmd.Parameters.AddWithValue(":"+name, m_FieldMap[name].GetValue(es).ToString());
+                        // Keep numeric types as numeric parameters to avoid locale-dependent
+                        // string conversions (e.g. decimal comma causing truncation in SQLite).
+                        cmd.Parameters.AddWithValue(":" + name, value);
                     }
                 }
 

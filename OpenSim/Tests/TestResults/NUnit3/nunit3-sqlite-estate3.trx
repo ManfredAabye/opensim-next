@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="13e507ef-4f47-49b6-9b40-b9248a1154c4" name="zainh@MHPC-WORKSTATIO 2026-06-02 11:52:33" runUser="MHPC-WORKSTATIO\zainh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-02T11:52:33.1522568+02:00" queuing="2026-06-02T11:52:33.1522572+02:00" start="2026-06-02T11:51:39.2266029+02:00" finish="2026-06-02T11:52:33.1587386+02:00" />
+  <TestSettings name="default" id="9bc5e0bc-d2ba-4ad7-91c1-f98e1f657430">
+    <Deployment runDeploymentRoot="zainh_MHPC-WORKSTATIO_2026-06-02_11_52_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e9d0a14c-4681-450a-ad8f-e909d0143c76" testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0033890" startTime="2026-06-02T11:52:30.4280779+02:00" endTime="2026-06-02T11:52:30.4314670+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9d0a14c-4681-450a-ad8f-e909d0143c76">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b4de015-f888-47d0-9642-bcf9e2766af9" testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0281140" startTime="2026-06-02T11:52:30.3948707+02:00" endTime="2026-06-02T11:52:30.4229394+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b4de015-f888-47d0-9642-bcf9e2766af9">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3bd7181-c309-4b45-8227-140ff5ac383f" testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0039670" startTime="2026-06-02T11:52:30.4240738+02:00" endTime="2026-06-02T11:52:30.4280403+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3bd7181-c309-4b45-8227-140ff5ac383f">
+      <Output>
+        <StdOut>===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21">
+      <Execution id="e9d0a14c-4681-450a-ad8f-e909d0143c76" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="483a1bfd-72db-5475-1f9c-e42ff5322c97">
+      <Execution id="b3bd7181-c309-4b45-8227-140ff5ac383f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8">
+      <Execution id="6b4de015-f888-47d0-9642-bcf9e2766af9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" executionId="e9d0a14c-4681-450a-ad8f-e909d0143c76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" executionId="6b4de015-f888-47d0-9642-bcf9e2766af9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" executionId="b3bd7181-c309-4b45-8227-140ff5ac383f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running selected tests in D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 3 of 3 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+&#xD;
+===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===&#xD;
+&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MHPC-WORKSTATIO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.info"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

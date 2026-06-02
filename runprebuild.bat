@@ -2,7 +2,15 @@
 
 copy bin\System.Drawing.Common.dll.win bin\System.Drawing.Common.dll
 
-dotnet bin\prebuild.dll /target vs2022 /targetframework net8_0 /excludedir = "obj | bin" /file prebuild.xml
+echo Building Prebuild generator...
+dotnet build Prebuild\src\Prebuild.csproj -c Release || goto :done
+
+copy /Y Prebuild\src\bin\Release\net10.0\prebuild.dll bin\prebuild.dll >NUL
+copy /Y Prebuild\src\bin\Release\net10.0\prebuild.runtimeconfig.json bin\prebuild.runtimeconfig.json >NUL
+copy /Y Prebuild\src\bin\Release\net10.0\prebuild.deps.json bin\prebuild.deps.json >NUL
+
+dotnet bin\prebuild.dll /target vs2022 /targetframework net10_0 /excludedir = "obj | bin" /file prebuild.xml
+if errorlevel 1 goto :done
 
     @echo Creating compile.bat
 rem To compile in release mode

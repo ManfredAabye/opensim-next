@@ -58,6 +58,11 @@ namespace OpenSim.Tests.Common
         public List<ImagePacketPacket> SentImagePacketPackets { get; private set; }
         public List<ImageNotInDatabasePacket> SentImageNotInDatabasePackets { get; private set; }
 
+        public float FOV { get; set; }
+        public int viewHeight { get; set; }
+        public int viewWidth { get; set; }
+        public ViewerFlags ViewerFlags { get; set; }
+
         // Test client specific events - for use by tests to implement some IClientAPI behaviour.
         public event Action<RegionInfo, Vector3, Vector3> OnReceivedMoveAgentIntoRegion;
         public event Action<ulong, IPEndPoint> OnTestClientInformClientOfNeighbour;
@@ -1187,6 +1192,10 @@ namespace OpenSim.Tests.Common
         {
         }
 
+        public void SendScriptTeleportRequest(string objName, string simName, Vector3 pos, int teleStyle)
+        {
+        }
+
         public void SendDirPlacesReply(UUID queryID, DirPlacesReplyData[] data)
         {
         }
@@ -1331,6 +1340,10 @@ namespace OpenSim.Tests.Common
         }
 
         public void SendPickInfoReply(UUID pickID,UUID creatorID, bool topPick, UUID parcelID, string name, string desc, UUID snapshotID, string user, string originalName, string simName, Vector3 posGlobal, int sortOrder, bool enabled)
+        {
+        }
+
+        public void SendPickInfoReply(UUID pickID, UUID creatorID, bool topPick, UUID parcelID, string name, string desc, UUID snapshotID, string user, string originalName, string simName, Vector3d posGlobal, int sortOrder, bool enabled)
         {
         }
 

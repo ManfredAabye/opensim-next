@@ -61,7 +61,7 @@ namespace OpenSim.Region.Framework.Scenes.Tests
 //        public AgentCircuitData acd1;
 //        public TestClient testclient;
 
-//        [TestFixtureSetUp]
+//        [OneTimeSetUp]
 //        public void Init()
 //        {
 ////            TestHelpers.InMethod();
@@ -289,3 +289,4 @@ namespace OpenSim.Region.Framework.Scenes.Tests
         }
     }
 }
+

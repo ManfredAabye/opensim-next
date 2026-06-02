@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="398f2395-7216-4488-9abc-1bd057227f36" name="zainh@MHPC-WORKSTATIO 2026-06-02 12:01:42" runUser="MHPC-WORKSTATIO\zainh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-02T12:01:42.5138742+02:00" queuing="2026-06-02T12:01:42.5138873+02:00" start="2026-06-02T12:01:41.7682618+02:00" finish="2026-06-02T12:01:42.5180814+02:00" />
+  <TestSettings name="default" id="1164cc72-772b-455c-9134-282536192c70">
+    <Deployment runDeploymentRoot="zainh_MHPC-WORKSTATIO_2026-06-02_12_01_42" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="dc1568aa-9ec5-4df2-8116-db896fc8bdfb" testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" testName="NUnit3RunnerIsWorking" computerName="MHPC-WORKSTATIO" duration="00:00:00.0019410" startTime="2026-06-02T12:01:42.3867944+02:00" endTime="2026-06-02T12:01:42.3886957+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc1568aa-9ec5-4df2-8116-db896fc8bdfb" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="NUnit3RunnerIsWorking" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net8.0\opensim.nunit3.tests.dll" id="e9d29922-23c8-b619-4492-0c3fe7c1fb4d">
+      <Execution id="dc1568aa-9ec5-4df2-8116-db896fc8bdfb" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net8.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Tests.NUnitCompatibilitySmokeTests" name="NUnit3RunnerIsWorking" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e9d29922-23c8-b619-4492-0c3fe7c1fb4d" executionId="dc1568aa-9ec5-4df2-8116-db896fc8bdfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net8.0\OpenSim.NUnit3.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MHPC-WORKSTATIO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.info"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

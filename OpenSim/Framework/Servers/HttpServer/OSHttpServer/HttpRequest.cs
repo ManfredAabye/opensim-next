@@ -235,7 +235,20 @@ namespace OSHttpServer
             }
 
             var buffer = new byte[m_body.Length];
-            m_body.Read(buffer, 0, (int)m_body.Length);
+            if (buffer.Length > 0)
+            {
+                long originalPosition = 0;
+                if (m_body.CanSeek)
+                {
+                    originalPosition = m_body.Position;
+                    m_body.Seek(0, SeekOrigin.Begin);
+                }
+
+                Util.ReadStream(m_body, buffer);
+
+                if (m_body.CanSeek)
+                    m_body.Seek(originalPosition, SeekOrigin.Begin);
+            }
             request.Body = new MemoryStream();
             request.Body.Write(buffer, 0, buffer.Length);
             request.Body.Seek(0, SeekOrigin.Begin);

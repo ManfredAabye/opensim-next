@@ -68,14 +68,14 @@ namespace OpenSim.Region.CoreModules.Avatar.Attachments.Tests
         // Used to test whether the operations have fired the attach event.  Must be reset after each test.
         private int m_numberOfAttachEventsFired;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void FixtureInit()
         {
             // Don't allow tests to be bamboozled by asynchronous events.  Execute everything on the same thread.
             Util.FireAndForgetMethod = FireAndForgetMethod.None;
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TearDown()
         {
             // We must set this back afterwards, otherwise later tests will fail since they're expecting multiple
@@ -1028,3 +1028,4 @@ namespace OpenSim.Region.CoreModules.Avatar.Attachments.Tests
     }
 */
 }
+

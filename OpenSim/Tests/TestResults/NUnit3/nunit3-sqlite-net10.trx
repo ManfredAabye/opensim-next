@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2bdb4ae9-42bc-4d83-94ad-bc3db84b945c" name="zainh@MHPC-WORKSTATIO 2026-06-02 11:53:33" runUser="MHPC-WORKSTATIO\zainh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-02T11:53:33.8260156+02:00" queuing="2026-06-02T11:53:33.8260161+02:00" start="2026-06-02T11:52:42.9391118+02:00" finish="2026-06-02T11:53:38.1569163+02:00" />
+  <TestSettings name="default" id="a14f6e31-5f72-437a-ba64-00253fc7a146">
+    <Deployment runDeploymentRoot="zainh_MHPC-WORKSTATIO_2026-06-02_11_53_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="89abbbcb-678a-494d-9f2b-d1a36093a5a7" testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" testName="T014_UpdateObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0122560" startTime="2026-06-02T11:53:34.0224736+02:00" endTime="2026-06-02T11:53:34.0347295+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89abbbcb-678a-494d-9f2b-d1a36093a5a7">
+      <Output>
+        <StdOut>===&gt; In Test Method : T014_UpdateObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aedcbbe5-30c0-45d9-ab67-0c5a9282c6a4" testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" testName="T021_PrimInventoryBasic" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000230" startTime="2026-06-02T11:53:34.1801923+02:00" endTime="2026-06-02T11:53:34.1802151+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aedcbbe5-30c0-45d9-ab67-0c5a9282c6a4" />
+    <UnitTestResult executionId="7ef7b3df-fbbc-40ce-8b5c-f9464defe974" testId="72ed9f60-2570-c8ae-52df-10594cf0265b" testName="T300_NoTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0066720" startTime="2026-06-02T11:53:34.2066462+02:00" endTime="2026-06-02T11:53:34.2133172+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ef7b3df-fbbc-40ce-8b5c-f9464defe974">
+      <Output>
+        <StdOut>===&gt; In Test Method : T300_NoTerrain &lt;===&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca6e9b31-39f7-4aeb-b5a4-ebe7d663fab2" testId="076da992-6b74-4880-0def-fee488592a5e" testName="T020_PrimInventoryEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000590" startTime="2026-06-02T11:53:34.1801272+02:00" endTime="2026-06-02T11:53:34.1801861+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca6e9b31-39f7-4aeb-b5a4-ebe7d663fab2" />
+    <UnitTestResult executionId="72923574-47f2-4815-b524-c0d74ccaf1ce" testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" testName="T011_EstateSettingsSimpleStorage_MaximumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0042420" startTime="2026-06-02T11:53:33.7468151+02:00" endTime="2026-06-02T11:53:33.7510570+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72923574-47f2-4815-b524-c0d74ccaf1ce">
+      <Output>
+        <StdOut>===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55c78e45-469c-4bbc-9d7b-6f6108113847" testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0054200" startTime="2026-06-02T11:53:33.6132556+02:00" endTime="2026-06-02T11:53:33.6186106+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55c78e45-469c-4bbc-9d7b-6f6108113847">
+      <Output>
+        <StdOut>===&gt; In Test Method : T001_LoadEmpty &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da03ba30-1b0c-4cd2-b704-666989175bb5" testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" testName="T400_EmptyLand" computerName="MHPC-WORKSTATIO" duration="00:00:00.0005410" startTime="2026-06-02T11:53:35.2911091+02:00" endTime="2026-06-02T11:53:35.2916502+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da03ba30-1b0c-4cd2-b704-666989175bb5">
+      <Output>
+        <StdOut>===&gt; In Test Method : T400_EmptyLand &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3978335-bf0f-4773-9a1f-828436eebde9" testId="b08d191f-efe5-e296-c548-602238003849" testName="T020_EstateSettingsManagerList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0063160" startTime="2026-06-02T11:53:33.7635884+02:00" endTime="2026-06-02T11:53:33.7699037+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3978335-bf0f-4773-9a1f-828436eebde9">
+      <Output>
+        <StdOut>===&gt; In Test Method : T020_EstateSettingsManagerList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2f44303-3fe8-4b8d-9b89-e1ea2b5911bd" testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" testName="T302_FetchTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.0069970" startTime="2026-06-02T11:53:34.7567650+02:00" endTime="2026-06-02T11:53:34.7637620+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2f44303-3fe8-4b8d-9b89-e1ea2b5911bd">
+      <Output>
+        <StdOut>===&gt; In Test Method : T302_FetchTerrain &lt;===&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a021935e-16fe-4e66-aef8-829b58891cdd" testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" testName="T052_RemoveObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0063560" startTime="2026-06-02T11:53:34.1802445+02:00" endTime="2026-06-02T11:53:34.1866001+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a021935e-16fe-4e66-aef8-829b58891cdd">
+      <Output>
+        <StdOut>===&gt; In Test Method : T052_RemoveObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56bf5c5e-4362-43a6-8883-d8b7dd72c2c7" testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" testName="T011_ObjectNames" computerName="MHPC-WORKSTATIO" duration="00:00:00.0019530" startTime="2026-06-02T11:53:33.9802201+02:00" endTime="2026-06-02T11:53:33.9821735+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56bf5c5e-4362-43a6-8883-d8b7dd72c2c7">
+      <Output>
+        <StdOut>===&gt; In Test Method : T011_ObjectNames &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33478a0d-2cde-4992-8c08-edf046636885" testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" testName="T022_EstateSettingsBanList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0209449" startTime="2026-06-02T11:53:33.7832774+02:00" endTime="2026-06-02T11:53:33.8042219+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33478a0d-2cde-4992-8c08-edf046636885">
+      <Output>
+        <StdOut>===&gt; In Test Method : T022_EstateSettingsBanList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="35ac7af2-fed9-4eb4-8856-8e6b39db9224" testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" testName="T012_EstateSettingsSimpleStorage_AccurateParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0033460" startTime="2026-06-02T11:53:33.7602178+02:00" endTime="2026-06-02T11:53:33.7635633+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35ac7af2-fed9-4eb4-8856-8e6b39db9224">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0cd2dc73-5005-48fc-a0ad-d89dafc6a08d" testId="098181c7-a000-6052-cfff-e9cd8f00af0e" testName="T013_DatabasePersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0207520" startTime="2026-06-02T11:53:34.0016910+02:00" endTime="2026-06-02T11:53:34.0224433+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cd2dc73-5005-48fc-a0ad-d89dafc6a08d">
+      <Output>
+        <StdOut>===&gt; In Test Method : T013_DatabasePersistency &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38c0adf9-457f-473e-b21c-7ef9d0e3f19c" testId="4e582587-0202-714b-190f-e62e992bf9c7" testName="T012_EstateSettingsRandomStorage" computerName="MHPC-WORKSTATIO" duration="00:00:00.0091060" startTime="2026-06-02T11:53:33.7510824+02:00" endTime="2026-06-02T11:53:33.7601884+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38c0adf9-457f-473e-b21c-7ef9d0e3f19c">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_EstateSettingsRandomStorage &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b947f6f2-eb54-416b-9ef8-452e43848b66" testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" testName="T010_StoreReadVerifyAssets" computerName="MHPC-WORKSTATIO" duration="00:00:00.0531260" startTime="2026-06-02T11:53:33.6196372+02:00" endTime="2026-06-02T11:53:33.6727631+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b947f6f2-eb54-416b-9ef8-452e43848b66">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_StoreReadVerifyAssets &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="436e2830-7a8a-42bd-b7de-08190f392fba" testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" testName="T012_SceneParts" computerName="MHPC-WORKSTATIO" duration="00:00:00.0194670" startTime="2026-06-02T11:53:33.9821931+02:00" endTime="2026-06-02T11:53:34.0016600+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="436e2830-7a8a-42bd-b7de-08190f392fba">
+      <Output>
+        <StdOut>===&gt; In Test Method : T012_SceneParts &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e0567c1-c976-4c88-836c-c0e7a2183afb" testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" testName="T025_PrimInventoryPersistency" computerName="MHPC-WORKSTATIO" duration="00:00:00.0000190" startTime="2026-06-02T11:53:34.1802207+02:00" endTime="2026-06-02T11:53:34.1802399+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e0567c1-c976-4c88-836c-c0e7a2183afb" />
+    <UnitTestResult executionId="a4b65680-84b3-4e04-9591-c1414b5f8f5f" testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" testName="T021_EstateSettingsUserList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0133160" startTime="2026-06-02T11:53:33.7699328+02:00" endTime="2026-06-02T11:53:33.7832479+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4b65680-84b3-4e04-9591-c1414b5f8f5f">
+      <Output>
+        <StdOut>===&gt; In Test Method : T021_EstateSettingsUserList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8dcfef78-096c-497a-bf31-07449e606a9a" testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" testName="T301_CreateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.5433670" startTime="2026-06-02T11:53:34.2133473+02:00" endTime="2026-06-02T11:53:34.7567132+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dcfef78-096c-497a-bf31-07449e606a9a">
+      <Output>
+        <StdOut>===&gt; In Test Method : T301_CreateTerrain &lt;===&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b405be03-cdf9-4018-a178-63835c72e0f4" testId="73f169de-c533-6078-d217-b67aa78d82e7" testName="T010_StoreSimpleObject" computerName="MHPC-WORKSTATIO" duration="00:00:00.0336570" startTime="2026-06-02T11:53:33.9465317+02:00" endTime="2026-06-02T11:53:33.9801882+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b405be03-cdf9-4018-a178-63835c72e0f4">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_StoreSimpleObject &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e411c412-f56f-47a1-846a-c5e06a02e6e0" testId="3fd170c8-bbaf-480c-81b8-b43411be4886" testName="T022_EstateSettingsGroupList" computerName="MHPC-WORKSTATIO" duration="00:00:00.0284800" startTime="2026-06-02T11:53:33.8042504+02:00" endTime="2026-06-02T11:53:33.8327298+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e411c412-f56f-47a1-846a-c5e06a02e6e0">
+      <Output>
+        <StdOut>===&gt; In Test Method : T022_EstateSettingsGroupList &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4e84251-76b9-4338-8bbf-06d935bdc432" testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" testName="T015_LargeSceneObjects" computerName="MHPC-WORKSTATIO" duration="00:00:00.1453370" startTime="2026-06-02T11:53:34.0347593+02:00" endTime="2026-06-02T11:53:34.1800966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4e84251-76b9-4338-8bbf-06d935bdc432">
+      <Output>
+        <StdOut>===&gt; In Test Method : T015_LargeSceneObjects &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="771e655e-df28-49e6-a796-b60ecf9f78cb" testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" testName="T303_UpdateTerrain" computerName="MHPC-WORKSTATIO" duration="00:00:00.5272900" startTime="2026-06-02T11:53:34.7637836+02:00" endTime="2026-06-02T11:53:35.2910728+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="771e655e-df28-49e6-a796-b60ecf9f78cb">
+      <Output>
+        <StdOut>===&gt; In Test Method : T303_UpdateTerrain &lt;===&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1153be60-681a-4a30-b92c-020380ddf6f3" testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" testName="T101_UpdateRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0085040" startTime="2026-06-02T11:53:34.1980990+02:00" endTime="2026-06-02T11:53:34.2066018+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1153be60-681a-4a30-b92c-020380ddf6f3">
+      <Output>
+        <StdOut>===&gt; In Test Method : T101_UpdateRegionInfo &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20e72773-ec79-4037-a4ac-bf3e681af20c" testId="852239b7-624d-305c-e63e-8b4841d18200" testName="T020_CheckForWeirdCreatorID" computerName="MHPC-WORKSTATIO" duration="00:00:00.0074110" startTime="2026-06-02T11:53:33.6727983+02:00" endTime="2026-06-02T11:53:33.6802083+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20e72773-ec79-4037-a4ac-bf3e681af20c">
+      <Output>
+        <StdOut>===&gt; In Test Method : T020_CheckForWeirdCreatorID &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d1ce20f-ca22-406f-8caa-64300f7605d6" testId="37e0fafa-48db-99b1-0267-034149e7f4e7" testName="T001_LoadEmpty" computerName="MHPC-WORKSTATIO" duration="00:00:00.0072310" startTime="2026-06-02T11:53:33.9392796+02:00" endTime="2026-06-02T11:53:33.9465106+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d1ce20f-ca22-406f-8caa-64300f7605d6">
+      <Output>
+        <StdOut>===&gt; In Test Method : T001_LoadEmpty &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="99c1daf1-5ad1-4fb2-9046-c1c8a9e712e4" testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" testName="T100_DefaultRegionInfo" computerName="MHPC-WORKSTATIO" duration="00:00:00.0114420" startTime="2026-06-02T11:53:34.1866280+02:00" endTime="2026-06-02T11:53:34.1980690+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99c1daf1-5ad1-4fb2-9046-c1c8a9e712e4">
+      <Output>
+        <StdOut>===&gt; In Test Method : T100_DefaultRegionInfo &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8196f79-c759-43b5-99ea-227198f1fc56" testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" testName="T010_EstateSettingsSimpleStorage_MinimumParameterSet" computerName="MHPC-WORKSTATIO" duration="00:00:00.0173410" startTime="2026-06-02T11:53:33.7294406+02:00" endTime="2026-06-02T11:53:33.7467812+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8196f79-c759-43b5-99ea-227198f1fc56">
+      <Output>
+        <StdOut>===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="37e0fafa-48db-99b1-0267-034149e7f4e7">
+      <Execution id="9d1ce20f-ca22-406f-8caa-64300f7605d6" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T020_PrimInventoryEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="076da992-6b74-4880-0def-fee488592a5e">
+      <Execution id="ca6e9b31-39f7-4aeb-b5a4-ebe7d663fab2" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T020_PrimInventoryEmpty" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsRandomStorage" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="4e582587-0202-714b-190f-e62e992bf9c7">
+      <Execution id="38c0adf9-457f-473e-b21c-7ef9d0e3f19c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsRandomStorage" />
+    </UnitTest>
+    <UnitTest name="T302_FetchTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7">
+      <Execution id="d2f44303-3fe8-4b8d-9b89-e1ea2b5911bd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T302_FetchTerrain" />
+    </UnitTest>
+    <UnitTest name="T101_UpdateRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e">
+      <Execution id="1153be60-681a-4a30-b92c-020380ddf6f3" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T101_UpdateRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T300_NoTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="72ed9f60-2570-c8ae-52df-10594cf0265b">
+      <Execution id="7ef7b3df-fbbc-40ce-8b5c-f9464defe974" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T300_NoTerrain" />
+    </UnitTest>
+    <UnitTest name="T025_PrimInventoryPersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d">
+      <Execution id="0e0567c1-c976-4c88-836c-c0e7a2183afb" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T025_PrimInventoryPersistency" />
+    </UnitTest>
+    <UnitTest name="T020_EstateSettingsManagerList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b08d191f-efe5-e296-c548-602238003849">
+      <Execution id="a3978335-bf0f-4773-9a1f-828436eebde9" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T020_EstateSettingsManagerList" />
+    </UnitTest>
+    <UnitTest name="T010_StoreSimpleObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="73f169de-c533-6078-d217-b67aa78d82e7">
+      <Execution id="b405be03-cdf9-4018-a178-63835c72e0f4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T010_StoreSimpleObject" />
+    </UnitTest>
+    <UnitTest name="T303_UpdateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3b2ea24f-e1c9-ca33-decc-6122c44d9e45">
+      <Execution id="771e655e-df28-49e6-a796-b60ecf9f78cb" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T303_UpdateTerrain" />
+    </UnitTest>
+    <UnitTest name="T012_SceneParts" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="c5a53d24-a4d9-bcbf-126d-54fca0399c4b">
+      <Execution id="436e2830-7a8a-42bd-b7de-08190f392fba" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T012_SceneParts" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsBanList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0">
+      <Execution id="33478a0d-2cde-4992-8c08-edf046636885" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsBanList" />
+    </UnitTest>
+    <UnitTest name="T010_StoreReadVerifyAssets" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="775c2346-dfda-ea7c-b9ab-66e58b282a29">
+      <Execution id="b947f6f2-eb54-416b-9ef8-452e43848b66" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T010_StoreReadVerifyAssets" />
+    </UnitTest>
+    <UnitTest name="T001_LoadEmpty" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="b82710e2-e5c7-c29c-5b1d-43a7f5858006">
+      <Execution id="55c78e45-469c-4bbc-9d7b-6f6108113847" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T001_LoadEmpty" />
+    </UnitTest>
+    <UnitTest name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="483a1bfd-72db-5475-1f9c-e42ff5322c97">
+      <Execution id="72923574-47f2-4815-b524-c0d74ccaf1ce" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T011_EstateSettingsSimpleStorage_MaximumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21">
+      <Execution id="35ac7af2-fed9-4eb4-8856-8e6b39db9224" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T012_EstateSettingsSimpleStorage_AccurateParameterSet" />
+    </UnitTest>
+    <UnitTest name="T021_EstateSettingsUserList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="aa37c719-d88d-f7d4-eb22-03d32f91a053">
+      <Execution id="a4b65680-84b3-4e04-9591-c1414b5f8f5f" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T021_EstateSettingsUserList" />
+    </UnitTest>
+    <UnitTest name="T013_DatabasePersistency" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="098181c7-a000-6052-cfff-e9cd8f00af0e">
+      <Execution id="0cd2dc73-5005-48fc-a0ad-d89dafc6a08d" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T013_DatabasePersistency" />
+    </UnitTest>
+    <UnitTest name="T301_CreateTerrain" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e">
+      <Execution id="8dcfef78-096c-497a-bf31-07449e606a9a" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T301_CreateTerrain" />
+    </UnitTest>
+    <UnitTest name="T014_UpdateObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="2c06fe12-7f43-f3c4-497b-f5020660b0b4">
+      <Execution id="89abbbcb-678a-494d-9f2b-d1a36093a5a7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T014_UpdateObject" />
+    </UnitTest>
+    <UnitTest name="T021_PrimInventoryBasic" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a">
+      <Execution id="aedcbbe5-30c0-45d9-ab67-0c5a9282c6a4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T021_PrimInventoryBasic" />
+    </UnitTest>
+    <UnitTest name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8">
+      <Execution id="c8196f79-c759-43b5-99ea-227198f1fc56" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T010_EstateSettingsSimpleStorage_MinimumParameterSet" />
+    </UnitTest>
+    <UnitTest name="T022_EstateSettingsGroupList" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="3fd170c8-bbaf-480c-81b8-b43411be4886">
+      <Execution id="e411c412-f56f-47a1-846a-c5e06a02e6e0" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteEstateTests" name="T022_EstateSettingsGroupList" />
+    </UnitTest>
+    <UnitTest name="T052_RemoveObject" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="e34c9835-dafc-486c-0892-8bc9c68fb20e">
+      <Execution id="a021935e-16fe-4e66-aef8-829b58891cdd" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T052_RemoveObject" />
+    </UnitTest>
+    <UnitTest name="T100_DefaultRegionInfo" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="250c4f1e-803c-d75a-2ac3-d16d65e97d12">
+      <Execution id="99c1daf1-5ad1-4fb2-9046-c1c8a9e712e4" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T100_DefaultRegionInfo" />
+    </UnitTest>
+    <UnitTest name="T015_LargeSceneObjects" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="ad7fcc2c-1160-8a86-1b90-2fe399f6b562">
+      <Execution id="f4e84251-76b9-4338-8bbf-06d935bdc432" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T015_LargeSceneObjects" />
+    </UnitTest>
+    <UnitTest name="T400_EmptyLand" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741">
+      <Execution id="da03ba30-1b0c-4cd2-b704-666989175bb5" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T400_EmptyLand" />
+    </UnitTest>
+    <UnitTest name="T020_CheckForWeirdCreatorID" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="852239b7-624d-305c-e63e-8b4841d18200">
+      <Execution id="20e72773-ec79-4037-a4ac-bf3e681af20c" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteAssetTests" name="T020_CheckForWeirdCreatorID" />
+    </UnitTest>
+    <UnitTest name="T011_ObjectNames" storage="d:\opensim-next\opensim\opensim\tests\bin\release\net10.0\opensim.nunit3.tests.dll" id="676f7830-204a-0fd2-0bac-e8db19a57d4d">
+      <Execution id="56bf5c5e-4362-43a6-8883-d8b7dd72c2c7" />
+      <TestMethod codeBase="D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpenSim.Data.Tests.SQLiteRegionTests" name="T011_ObjectNames" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2c06fe12-7f43-f3c4-497b-f5020660b0b4" executionId="89abbbcb-678a-494d-9f2b-d1a36093a5a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae80421b-15fb-1e4a-83fa-89e5e44dbf1a" executionId="aedcbbe5-30c0-45d9-ab67-0c5a9282c6a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ed9f60-2570-c8ae-52df-10594cf0265b" executionId="7ef7b3df-fbbc-40ce-8b5c-f9464defe974" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076da992-6b74-4880-0def-fee488592a5e" executionId="ca6e9b31-39f7-4aeb-b5a4-ebe7d663fab2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="483a1bfd-72db-5475-1f9c-e42ff5322c97" executionId="72923574-47f2-4815-b524-c0d74ccaf1ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b82710e2-e5c7-c29c-5b1d-43a7f5858006" executionId="55c78e45-469c-4bbc-9d7b-6f6108113847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bcb260c-21ec-dd7f-dbb9-99f6cf59a741" executionId="da03ba30-1b0c-4cd2-b704-666989175bb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b08d191f-efe5-e296-c548-602238003849" executionId="a3978335-bf0f-4773-9a1f-828436eebde9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="244bf2c7-fae0-1b90-ef6f-0b7f807c52f7" executionId="d2f44303-3fe8-4b8d-9b89-e1ea2b5911bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e34c9835-dafc-486c-0892-8bc9c68fb20e" executionId="a021935e-16fe-4e66-aef8-829b58891cdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="676f7830-204a-0fd2-0bac-e8db19a57d4d" executionId="56bf5c5e-4362-43a6-8883-d8b7dd72c2c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98fdd4f5-2c21-9c9b-1d18-05beaeca19d0" executionId="33478a0d-2cde-4992-8c08-edf046636885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f7e9d43-04b2-a125-a0f2-a1ea9f21dc21" executionId="35ac7af2-fed9-4eb4-8856-8e6b39db9224" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="098181c7-a000-6052-cfff-e9cd8f00af0e" executionId="0cd2dc73-5005-48fc-a0ad-d89dafc6a08d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e582587-0202-714b-190f-e62e992bf9c7" executionId="38c0adf9-457f-473e-b21c-7ef9d0e3f19c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="775c2346-dfda-ea7c-b9ab-66e58b282a29" executionId="b947f6f2-eb54-416b-9ef8-452e43848b66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5a53d24-a4d9-bcbf-126d-54fca0399c4b" executionId="436e2830-7a8a-42bd-b7de-08190f392fba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8909fe4-ed8e-83f0-9824-40b6e38c3a3d" executionId="0e0567c1-c976-4c88-836c-c0e7a2183afb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa37c719-d88d-f7d4-eb22-03d32f91a053" executionId="a4b65680-84b3-4e04-9591-c1414b5f8f5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cfe2a29-3ab1-1846-38c2-4e6a9087cb2e" executionId="8dcfef78-096c-497a-bf31-07449e606a9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f169de-c533-6078-d217-b67aa78d82e7" executionId="b405be03-cdf9-4018-a178-63835c72e0f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fd170c8-bbaf-480c-81b8-b43411be4886" executionId="e411c412-f56f-47a1-846a-c5e06a02e6e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7fcc2c-1160-8a86-1b90-2fe399f6b562" executionId="f4e84251-76b9-4338-8bbf-06d935bdc432" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b2ea24f-e1c9-ca33-decc-6122c44d9e45" executionId="771e655e-df28-49e6-a796-b60ecf9f78cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3b0c3f2-7f7c-70ff-3ad5-0689f4fea37e" executionId="1153be60-681a-4a30-b92c-020380ddf6f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="852239b7-624d-305c-e63e-8b4841d18200" executionId="20e72773-ec79-4037-a4ac-bf3e681af20c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37e0fafa-48db-99b1-0267-034149e7f4e7" executionId="9d1ce20f-ca22-406f-8caa-64300f7605d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250c4f1e-803c-d75a-2ac3-d16d65e97d12" executionId="99c1daf1-5ad1-4fb2-9046-c1c8a9e712e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3990f5a2-6fd0-48d4-6e8e-e8e41b0969d8" executionId="c8196f79-c759-43b5-99ea-227198f1fc56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running selected tests in D:\opensim-next\opensim\OpenSim\Tests\bin\Release\net10.0\OpenSim.NUnit3.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 29 of 29 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+&#xD;
+===&gt; In Test Method : T001_LoadEmpty &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_StoreReadVerifyAssets &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T020_CheckForWeirdCreatorID &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_EstateSettingsSimpleStorage_MinimumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T011_EstateSettingsSimpleStorage_MaximumParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_EstateSettingsRandomStorage &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_EstateSettingsSimpleStorage_AccurateParameterSet &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T020_EstateSettingsManagerList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T021_EstateSettingsUserList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T022_EstateSettingsBanList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T022_EstateSettingsGroupList &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T001_LoadEmpty &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T010_StoreSimpleObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T011_ObjectNames &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T012_SceneParts &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T013_DatabasePersistency &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T014_UpdateObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T015_LargeSceneObjects &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T052_RemoveObject &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T100_DefaultRegionInfo &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T101_UpdateRegionInfo &lt;===&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T300_NoTerrain &lt;===&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,212 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,213 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T301_CreateTerrain &lt;===&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,233 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,742 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,748 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,754 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+2026-06-02 11:53:34,756 [NonParallelWorker] WARN  OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: No terrain found for region&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T302_FetchTerrain &lt;===&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,760 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:34,762 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T303_UpdateTerrain &lt;===&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip 1311 bytes&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:34,777 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [REGION DB SQLITE] Storing terrain format 23&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,287 [NonParallelWorker] INFO  OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] VD2Gzip 1311 bytes input&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] V2DGzip. Heightmap size=&lt;256,256&gt;. Region size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Framework.TerrainData [(null)] - [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=&lt;256,256&gt;&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+2026-06-02 11:53:35,289 [NonParallelWorker] DEBUG OpenSim.Data.SQLite.SQLiteSimulationData [(null)] - [SQLITE REGION DB]: Loaded terrain revision r23&#xD;
+&#xD;
+&#xD;
+===&gt; In Test Method : T400_EmptyLand &lt;===&#xD;
+&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MHPC-WORKSTATIO" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.cobertura.xml"></A>
+          </UriAttachment>
+          <UriAttachment>
+            <A href="MHPC-WORKSTATIO\coverage.info"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

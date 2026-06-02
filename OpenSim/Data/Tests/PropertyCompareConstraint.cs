@@ -62,9 +62,15 @@ namespace OpenSim.Data.Tests
             _expected = expected;
         }
 
-        public override bool Matches(object actual)
+        public override ConstraintResult ApplyTo<TActual>(TActual actual)
         {
-            return ObjectCompare(_expected, actual, new Stack<string>());
+            bool success = ObjectCompare(_expected, actual, new Stack<string>());
+            return new ConstraintResult(this, actual, success);
+        }
+
+        public bool Matches(object actual)
+        {
+            return ApplyTo(actual).IsSuccess;
         }
 
         private bool ObjectCompare(object expected, object actual, Stack<string> propertyNames)
@@ -217,16 +223,13 @@ namespace OpenSim.Data.Tests
             return true;
         }
 
-        public override void WriteDescriptionTo(MessageWriter writer)
+        public override string Description
         {
-            writer.WriteExpectedValue(failingExpected);
-        }
-
-        public override void WriteActualValueTo(MessageWriter writer)
-        {
-            writer.WriteActualValue(failingActual);
-            writer.WriteLine();
-            writer.Write("  On Property: " + failingPropertyName);
+            get
+            {
+                return string.Format("Expected {0}, actual {1}, property {2}",
+                    failingExpected, failingActual, failingPropertyName);
+            }
         }
 
         //These notes assume the lambda: (x=>x.Parent.Value)

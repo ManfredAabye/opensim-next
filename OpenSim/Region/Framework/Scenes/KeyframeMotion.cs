@@ -571,7 +571,10 @@ namespace OpenSim.Region.Framework.Scenes
                     if (k.Rotation.HasValue)
                     {
                         if (direction == -1)
-                            k.Rotation = Quaternion.Conjugate(k.Rotation.Value);
+                        {
+                            Quaternion currentRotation = k.Rotation.Value;
+                            k.Rotation = Quaternion.Conjugate(in currentRotation);
+                        }
                         k.Rotation = rot * k.Rotation.Value;
                     }
                     else
